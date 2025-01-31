@@ -15,7 +15,7 @@ public class TokenService
     /// <summary>
     /// The time set for access token expiry after it has been issued.
     /// </summary>
-    public const int AccessTokenExpiryTimeInSeconds = 3600;
+    public const int AccessTokenExpiryTimeInSeconds = 1209600;
     /// <summary>
     /// Generate a new token for a user.
     /// </summary>
