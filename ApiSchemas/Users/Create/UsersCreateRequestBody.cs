@@ -1,5 +1,8 @@
 namespace NookpostBackend.ApiSchemas.Users.Create;
 
+/// <summary>
+/// The request body of a user create request
+/// </summary>
 public class UsersCreateRequestBody
 {
     /// <summary>
