@@ -110,29 +110,22 @@ public class Settings
     /// </summary>
     private static Settings ReadSettings()
     {
-        Settings? settingsObject;
-        if (System.IO.File.Exists("settings.json"))
+        if (!System.IO.File.Exists("settings.json")) { return new(); }
+
+        using (System.IO.StreamReader streamReader = new System.IO.StreamReader("settings.json"))
         {
-            using (System.IO.StreamReader streamReader = new System.IO.StreamReader("settings.json"))
+            try
             {
-                try
-                {
-                    string fileContent = streamReader.ReadToEnd();
-                    settingsObject = JsonConvert.DeserializeObject<Settings>(fileContent);
-                    if (settingsObject is null) return new();
-                    return isSettingsIntegrityOk(settingsObject) ? new() : settingsObject;
-                }
-                catch (Newtonsoft.Json.JsonException)
-                {
-                    settingsObject = new();
-                }
+                string fileContent = streamReader.ReadToEnd();
+                Settings? settingsObject = JsonConvert.DeserializeObject<Settings>(fileContent);
+                if (settingsObject is null) return new();
+                return isSettingsIntegrityOk(settingsObject) ? new() : settingsObject;
+            }
+            catch (Newtonsoft.Json.JsonException)
+            {
+                return new();
             }
         }
-        else
-        {
-            settingsObject = new();
-        }
-        return settingsObject;
     }
 
     /// <summary>
