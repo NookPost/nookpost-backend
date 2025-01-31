@@ -92,7 +92,7 @@ public static class Program
         app.UseAuthorization();
 
         // Initialize the endpoints with the proper mappings
-        ApiEndpoints.Authentication.EndpointSetup.Setup(app);
+        ApiEndpoints.EndpointSetup.Setup(app);
 
         app.Run();
 
