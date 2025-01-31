@@ -4,7 +4,7 @@ namespace NookpostBackend.ApiSchemas.Users.Create;
 /// <summary>
 /// Represents a token object in the response to a user create request
 /// </summary>
-public class UsersCreateResponseBody 
+public class UsersCreateResponseBody
 {
     /// <summary>
     /// The token that can be used for authentication.

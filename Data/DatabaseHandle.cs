@@ -31,7 +31,7 @@ public class DatabaseHandle : DbContext
     {
         if (Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") == "Development")
         {
-                System.Console.WriteLine("Dev Environment");
+            System.Console.WriteLine("Dev Environment");
             modelBuilder.Seed();
         }
     }
