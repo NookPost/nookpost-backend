@@ -25,9 +25,9 @@ public class Settings
     /// Constructor used for JSON loading, takes all parameters and creates a new settings object.
     /// </summary>
     [JsonConstructor]
-    public Settings(byte[] _jwtIssuerSigingKey, string _serverUserPasswordPepper)
+    public Settings(byte[] _jwtIssuerSigningKey, string _serverUserPasswordPepper)
     {
-        this._jwtIssuerSigingKey = _jwtIssuerSigingKey;
+        this._jwtIssuerSigningKey = _jwtIssuerSigningKey;
         this._serverUserPasswordPepper = _serverUserPasswordPepper;
         _instance = this;
     }
@@ -37,7 +37,7 @@ public class Settings
     /// </summary>
     public Settings()
     {
-        _jwtIssuerSigingKey = Cryptography.Generators.NewRandomByteArray(JwtSigingKeyLength);
+        _jwtIssuerSigningKey = Cryptography.Generators.NewRandomByteArray(JwtSigningKeyLength);
         _serverUserPasswordPepper = Cryptography.Generators.NewRandomString(ServerUserPasswordPepperLength);
         _instance = this;
     }
@@ -54,7 +54,7 @@ public class Settings
     /// <summary>
     /// The set length for the JWT signing key.
     /// </summary>
-    public const int JwtSigingKeyLength = 256;
+    public const int JwtSigningKeyLength = 256;
     /// <summary>
     /// The length of the pepper applied to user passwords.
     /// </summary>
@@ -72,13 +72,13 @@ public class Settings
     /// <summary>
     /// The key used for signing json web tokens.
     /// </summary>
-    public static byte[] JwtIssuerSigningKey { get => _instance._jwtIssuerSigingKey; private set => _instance._jwtIssuerSigingKey = value; }
+    public static byte[] JwtIssuerSigningKey { get => _instance._jwtIssuerSigningKey; private set => _instance._jwtIssuerSigningKey = value; }
     /// <summary>
     /// The background property for the jwt signing key.
     /// Should not be directly accessed!
     /// Use <c cref="JwtIssuerSigningKey">Settings.JwtIssuerSigningKey</c> instead!
     /// </summary>
-    public byte[] _jwtIssuerSigingKey { get; private set; }
+    public byte[] _jwtIssuerSigningKey { get; private set; }
 
     /// <summary>
     /// The pepper applied to user passwords universally on this server.
@@ -150,8 +150,8 @@ public class Settings
     private static bool isSettingsIntegrityOk(Settings settings)
     {
         return !(
-            settings._jwtIssuerSigingKey != null &&
-            settings._jwtIssuerSigingKey.Length == JwtSigingKeyLength &&
+            settings._jwtIssuerSigningKey != null &&
+            settings._jwtIssuerSigningKey.Length == JwtSigningKeyLength &&
             settings._serverUserPasswordPepper != null &&
             settings._serverUserPasswordPepper.Length == ServerUserPasswordPepperLength
             );
