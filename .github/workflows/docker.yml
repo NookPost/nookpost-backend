@@ -23,12 +23,12 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ghcr.io/LightJack05/nookpost-backend
+          images: ghcr.io/NookPost/nookpost-backend
           tags: |
             type=raw,value=latest,
             type=sha
           labels: |
-            org.opencontainers.image.source=https://github.com/LightJack05/nookpost-backend
+            org.opencontainers.image.source=https://github.com/NookPost/nookpost-backend
 
       - name: Login to GitHub Container Registry
         uses: docker/login-action@v3
