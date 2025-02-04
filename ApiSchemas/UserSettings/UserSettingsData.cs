@@ -1,5 +1,8 @@
 namespace NookpostBackend.ApiSchemas.UserSettings;
 
+/// <summary>
+/// Represents user settings objects
+/// </summary>
 class UserSettingsData
 {
     /// <summary>
