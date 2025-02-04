@@ -24,4 +24,28 @@ public class User
     /// The salt applied to the users's password.
     /// </summary>
     public string? PasswordSalt { get; set; }
+    /// <summary>
+    /// User display name
+    /// </summary>
+    public string? DisplayName { get; set; }
+    /// <summary>
+    /// User Tagline/Status
+    /// </summary>
+    public string? TagLine { get; set; }
+    /// <summary>
+    /// User Bio
+    /// </summary>
+    public string? Bio { get; set; }
+    /// <summary>
+    /// Profile picture of the user encoded as b64
+    /// </summary>
+    public string? ProfilePictureBase64 { get; set; }
+    /// <summary>
+    /// Email of the user
+    /// </summary>
+    public string? Email {get; set;}
+    /// <summary>
+    /// Contains settings for the user
+    /// </summary>
+    public UserSettings? UserSettings { get; set; }
 }
