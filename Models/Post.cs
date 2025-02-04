@@ -28,6 +28,12 @@ public class Post
     /// Category of the post
     /// </summary>
     public Category? Category { get; set; }
+    /// <summary>
+    /// Unix timestamp the object was created on
+    /// </summary>
     public long? CreatedOn { get; set; }
+    /// <summary>
+    /// Unix timestamp the object was modified on
+    /// </summary>
     public long? ModifiedOn { get; set; }
 }
