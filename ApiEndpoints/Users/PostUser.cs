@@ -12,7 +12,7 @@ public class PostUser
     public static Microsoft.AspNetCore.Http.HttpResults.Results<
             Ok<ApiSchemas.Users.CreateUser.UsersCreateResponseBody>,
             Conflict,
-            BadRequest> HandleRequest(NookpostBackend.ApiSchemas.Users.CreateUser.UsersCreateRequestBody requestBody, NookpostBackend.Data.DatabaseHandle databaseHandle, NookpostBackend.Authentication.TokenService tokenService)
+            BadRequest> HandleRequest(NookpostBackend.ApiSchemas.Users.CreateUser.UsersCreateRequestBody requestBody, ClaimsPrincipal user,NookpostBackend.Data.DatabaseHandle databaseHandle, NookpostBackend.Authentication.TokenService tokenService)
     {
         databaseHandle.Database.EnsureCreated();
         if (String.IsNullOrEmpty(requestBody.Password) || String.IsNullOrEmpty(requestBody.Username))
