@@ -1,0 +1,20 @@
+namespace NookpostBackend.ApiSchemas.Posts;
+
+/// <summary>
+/// Represents a post created by a user
+/// </summary>
+public class PostData
+{
+    /// <summary>
+    /// Title of the post
+    /// </summary>
+    public string? Title { get; set; }
+    /// <summary>
+    /// Body/content of the post
+    /// </summary>
+    public string? Body { get; set; }
+    /// <summary>
+    /// Category of the post
+    /// </summary>
+    public string? CategoryName { get; set; }
+}
