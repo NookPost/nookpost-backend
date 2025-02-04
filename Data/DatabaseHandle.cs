@@ -15,6 +15,19 @@ public class DatabaseHandle : DbContext
     /// A table to save UserSecrets
     /// </summary>
     public DbSet<User> Users { get; set; }
+    /// <summary>
+    /// Set of UserSettings
+    /// </summary>
+    public DbSet<UserSettings> UserSettings { get; set; }
+    /// <summary>
+    /// Set of categories avaiable.
+    /// </summary>
+    public DbSet<Category> Categories { get; set; }
+    /// <summary>
+    /// Set of Posts
+    /// </summary>
+    public DbSet<Post> Posts { get; set; }
+
 
     /// <summary>
     /// Set the DBPath to the ./database.db
