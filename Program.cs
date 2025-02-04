@@ -73,6 +73,7 @@ public static class Program
                         ValidateAudience = false
                     };
                 });
+        builder.Services.AddCors();
 
         builder.Services.AddAuthorization(options =>
         {
@@ -86,6 +87,10 @@ public static class Program
         {
             app.UseSwagger();
             app.UseSwaggerUI();
+            app.UseCors(builder =>
+            {
+                builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
+            });
         }
 
         app.UseAuthentication();
