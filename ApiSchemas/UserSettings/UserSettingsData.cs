@@ -3,7 +3,7 @@ namespace NookpostBackend.ApiSchemas.UserSettings;
 /// <summary>
 /// Represents user settings objects
 /// </summary>
-class UserSettingsData
+sealed class UserSettingsData
 {
     /// <summary>
     /// Whether to use dark mode for the user
