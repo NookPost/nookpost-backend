@@ -10,7 +10,7 @@ static class DeleteUser
     /// </summary>
     public static Microsoft.AspNetCore.Http.HttpResults.Results<
             Ok,
-            BadRequest> HandleRequest(string? username, ClaimsPrincipal user,NookpostBackend.Data.DatabaseHandle databaseHandle)
+            BadRequest> HandleRequest(string? username, ClaimsPrincipal user, NookpostBackend.Data.DatabaseHandle databaseHandle)
     {
         throw new NotImplementedException();
     }

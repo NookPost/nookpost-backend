@@ -7,8 +7,8 @@ static class DeletePost
     /// </summary>
     public static Microsoft.AspNetCore.Http.HttpResults.Results<
             Ok,
-        NotFound,
-            BadRequest> HandleRequest(string? uuid,ClaimsPrincipal user, NookpostBackend.Data.DatabaseHandle databaseHandle)
+            NotFound,
+            BadRequest> HandleRequest(string? uuid, ClaimsPrincipal user, NookpostBackend.Data.DatabaseHandle databaseHandle)
     {
         throw new NotImplementedException();
     }

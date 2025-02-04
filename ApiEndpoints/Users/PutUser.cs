@@ -10,7 +10,7 @@ static class PutUser
     /// </summary>
     public static Microsoft.AspNetCore.Http.HttpResults.Results<
             Ok,
-            BadRequest> HandleRequest(NookpostBackend.ApiSchemas.Users.PutUser.UserPutRequestBody requestBody,ClaimsPrincipal user, NookpostBackend.Data.DatabaseHandle databaseHandle)
+            BadRequest> HandleRequest(NookpostBackend.ApiSchemas.Users.PutUser.UserPutRequestBody requestBody, ClaimsPrincipal user, NookpostBackend.Data.DatabaseHandle databaseHandle)
     {
         throw new NotImplementedException();
     }
