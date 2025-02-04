@@ -43,7 +43,7 @@ public class User
     /// <summary>
     /// Email of the user
     /// </summary>
-    public string? Email {get; set;}
+    public string? Email { get; set; }
     /// <summary>
     /// Contains settings for the user
     /// </summary>
