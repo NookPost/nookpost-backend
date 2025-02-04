@@ -14,5 +14,6 @@ public static class EndpointSetup
         Authentication.EndpointSetup.Setup(app);
         Users.EndpointSetup.Setup(app);
         Posts.EndpointSetup.Setup(app);
+        UserSettings.EndpointSetup.Setup(app);
     }
 }
