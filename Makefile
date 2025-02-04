@@ -144,5 +144,5 @@ preflight-compilation: clean-silent
 	@if dotnet build | grep -q "Build succeeded."; then echo "[PREFLIGHT-COMPILATION - PASS] ✅ Project compiles successfully."; else echo "[PREFLIGHT-COMPILATION - FAIL] ❌ The project did not compile successfully! Please try building it again and make sure your changes are working!"; exit 1; fi 
 preflight-warnings: clean-silent
 	@echo "[PREFLIGHT-WARNINGS - INFO] 💬 Checking if there are any Warnings during compile-time..."
-	@if dotnet build /WarnAsError | grep -q "Build succeeded."; then echo "[PREFLIGHT-WARNINGS - PASS] ✅ Project does not produce any warnings."; else echo "[PREFLIGHT-WARNINGS - WARN] ❓ The project produces compiler warnings. Please review the warnings using 'make clean' and 'make build' before opening a pull request!"; fi 
+	@if dotnet build /WarnAsError | grep -q "Build succeeded."; then echo "[PREFLIGHT-WARNINGS - PASS] ✅ Project does not produce any warnings."; else echo "[PREFLIGHT-WARNINGS - WARN] ❓ The project produces compiler warnings. Please review the warnings using 'make clean' and 'make build' before opening a pull request!"; exit 1; fi 
 
