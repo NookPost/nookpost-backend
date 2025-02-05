@@ -4,15 +4,15 @@ namespace NookpostBackend.ApiEndpoints.Users;
 /// <summary>
 /// Handles the user create endpoint.
 /// </summary>
-public class Create
+public class PostUser
 {
     /// <summary>
-    /// Creates a new user.u
+    /// Creates a new user
     /// </summary>
     public static Microsoft.AspNetCore.Http.HttpResults.Results<
-            Ok<ApiSchemas.Users.Create.UsersCreateResponseBody>,
+            Ok<ApiSchemas.Users.PostUser.UsersPostResponseBody>,
             Conflict,
-            BadRequest> PostCreate(NookpostBackend.ApiSchemas.Users.Create.UsersCreateRequestBody requestBody, NookpostBackend.Data.DatabaseHandle databaseHandle, NookpostBackend.Authentication.TokenService tokenService)
+            BadRequest> HandleRequest(NookpostBackend.ApiSchemas.Users.PostUser.UsersPostRequestBody requestBody, ClaimsPrincipal user, NookpostBackend.Data.DatabaseHandle databaseHandle, NookpostBackend.Authentication.TokenService tokenService)
     {
         databaseHandle.Database.EnsureCreated();
         if (String.IsNullOrEmpty(requestBody.Password) || String.IsNullOrEmpty(requestBody.Username))
@@ -34,7 +34,7 @@ public class Create
         databaseHandle.Users.Add(newUser);
         databaseHandle.SaveChanges();
 
-        return TypedResults.Ok(new ApiSchemas.Users.Create.UsersCreateResponseBody()
+        return TypedResults.Ok(new ApiSchemas.Users.PostUser.UsersPostResponseBody()
         {
             Token = tokenService.GenerateNewToken(newUser),
             ExpiryTimestamp = (long)DateTime.UtcNow.Subtract(DateTime.UnixEpoch).TotalSeconds + NookpostBackend.Authentication.TokenService.AccessTokenExpiryTimeInSeconds

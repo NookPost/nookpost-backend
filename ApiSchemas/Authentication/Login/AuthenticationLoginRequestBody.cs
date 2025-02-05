@@ -3,7 +3,7 @@ namespace NookpostBackend.ApiSchemas.Authentication.Login;
 /// <summary>
 /// The body of a login request.
 /// </summary>
-public class AuthenticationLoginRequestBody
+public sealed class AuthenticationLoginRequestBody
 {
     /// <summary>
     /// The name of the user to log in.

@@ -4,7 +4,7 @@ namespace NookpostBackend.ApiSchemas.Authentication.Login;
 /// <summary>
 /// Represents a token object in the response to a Login request
 /// </summary>
-public class AuthenticationLoginResponseBody
+public sealed class AuthenticationLoginResponseBody
 {
     /// <summary>
     /// The token that can be used for authentication.

@@ -11,6 +11,9 @@ public static class EndpointSetup
     /// </summary>
     public static void Setup(WebApplication app)
     {
-        app.MapPost("/users/create", Create.PostCreate).WithTags("Users");
+        app.MapGet("/users", GetUser.HandleRequest).WithTags("Users").WithOpenApi();
+        app.MapPost("/users", PostUser.HandleRequest).WithTags("Users").WithOpenApi();
+        app.MapPut("/users", PutUser.HandleRequest).WithTags("Users").WithOpenApi().RequireAuthorization("user");
+        app.MapDelete("/users", DeleteUser.HandleRequest).WithTags("Users").WithOpenApi().RequireAuthorization("user");
     }
 }
