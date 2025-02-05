@@ -10,7 +10,7 @@ static class GetUser
     /// </summary>
     public static Microsoft.AspNetCore.Http.HttpResults.Results<
             Ok<NookpostBackend.ApiSchemas.Users.GetUser.UsersGetResponseBody>,
-            BadRequest> HandleRequest(string? username, NookpostBackend.Data.DatabaseHandle databaseHandle)
+            BadRequest> HandleRequest(string username, NookpostBackend.Data.DatabaseHandle databaseHandle)
     {
         throw new NotImplementedException();
     }

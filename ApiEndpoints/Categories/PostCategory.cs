@@ -11,6 +11,7 @@ static class PostCategory
     public static Microsoft.AspNetCore.Http.HttpResults.Results<
             Ok<NookpostBackend.ApiSchemas.Categories.PostCategory.PostCategoryResponseBody>,
             NotFound,
+            Conflict,
             BadRequest> HandleRequest(NookpostBackend.ApiSchemas.Categories.CategoryData requestBody, ClaimsPrincipal user, NookpostBackend.Data.DatabaseHandle databaseHandle)
     {
         throw new NotImplementedException();

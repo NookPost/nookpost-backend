@@ -11,7 +11,7 @@ static class DeleteCategory
     public static Microsoft.AspNetCore.Http.HttpResults.Results<
             Ok,
             NotFound,
-            BadRequest> HandleRequest(string? uuid, ClaimsPrincipal user, NookpostBackend.Data.DatabaseHandle databaseHandle)
+            BadRequest> HandleRequest(string uuid, ClaimsPrincipal user, NookpostBackend.Data.DatabaseHandle databaseHandle)
     {
         throw new NotImplementedException();
     }

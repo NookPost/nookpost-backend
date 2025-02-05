@@ -10,7 +10,6 @@ static class GetAllCategories
     /// </summary>
     public static Microsoft.AspNetCore.Http.HttpResults.Results<
             Ok<NookpostBackend.ApiSchemas.Categories.GetAllCategories.GetAllCategoriesResponseBody>,
-            NotFound,
             BadRequest> HandleRequest(ClaimsPrincipal user, NookpostBackend.Data.DatabaseHandle databaseHandle)
     {
         throw new NotImplementedException();

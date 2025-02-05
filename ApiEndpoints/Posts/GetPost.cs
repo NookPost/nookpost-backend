@@ -8,7 +8,7 @@ static class GetPost
     public static Microsoft.AspNetCore.Http.HttpResults.Results<
             Ok<NookpostBackend.ApiSchemas.Posts.GetPost.GetPostResponseBody>,
             NotFound,
-            BadRequest> HandleRequest(string? uuid, NookpostBackend.Data.DatabaseHandle databaseHandle)
+            BadRequest> HandleRequest(string uuid, NookpostBackend.Data.DatabaseHandle databaseHandle)
     {
         throw new NotImplementedException();
     }
