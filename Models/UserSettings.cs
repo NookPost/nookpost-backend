@@ -11,7 +11,7 @@ public class UserSettings
     /// UUID of the settings object
     /// </summary>
     [Key]
-    public string? Uuid { get; set; }
+    public string? Uuid { get; set; } = Guid.NewGuid().ToString();
     /// <summary>
     /// Whether to use dark mode for the user
     /// </summary>

@@ -45,7 +45,7 @@ public class User
     /// </summary>
     public string? Email { get; set; }
     /// <summary>
-    /// Contains settings for the user
+    /// Foregin Key for EF database seeding
     /// </summary>
-    public UserSettings UserSettings { get; set; } = new();
+    public string? UserSettingsUuid { get; set; }
 }
