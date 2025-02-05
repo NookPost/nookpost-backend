@@ -20,7 +20,7 @@ static class GetUserSettings
            new NookpostBackend.ApiSchemas.UserSettings.UserSettingsData()
            {
                UseDarkMode = userFromDb.UserSettings.UseDarkMode,
-               DisplayEmailOnProfile = userFromDb.UserSettings.UseDarkMode
+               DisplayEmailOnProfile = userFromDb.UserSettings.DisplayEmailOnProfile
            });
     }
 }
