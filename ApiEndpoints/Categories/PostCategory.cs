@@ -9,7 +9,7 @@ static class PostCategory
     /// Creates a category 
     /// </summary>
     public static Microsoft.AspNetCore.Http.HttpResults.Results<
-            Ok,
+            Ok<NookpostBackend.ApiSchemas.Categories.PostCategory.PostCategoryResponseBody>,
             NotFound,
             BadRequest> HandleRequest(NookpostBackend.ApiSchemas.Categories.CategoryData requestBody, ClaimsPrincipal user, NookpostBackend.Data.DatabaseHandle databaseHandle)
     {
