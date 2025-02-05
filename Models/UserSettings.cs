@@ -19,6 +19,6 @@ public class UserSettings
     /// <summary>
     /// Whether to display the user's email on the profile page
     /// </summary>
-    public bool? DisplayEmailOnProfile { get; set; }
+    public bool DisplayEmailOnProfile { get; set; }
 
 }
