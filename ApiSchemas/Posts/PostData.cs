@@ -14,7 +14,7 @@ public class PostData
     /// </summary>
     public string? Body { get; set; }
     /// <summary>
-    /// Category of the post
+    /// UUID of the category of the post
     /// </summary>
-    public string? CategoryName { get; set; }
+    public string? CategoryUuid { get; set; }
 }

@@ -7,7 +7,7 @@ static class GetPostFiltered
     /// </summary>
     public static Microsoft.AspNetCore.Http.HttpResults.Results<
             Ok<NookpostBackend.ApiSchemas.Posts.GetPost.GetPostResponseBody>,
-            BadRequest> HandleRequest(string? uuid, string? category, int? page, int? maxCount, NookpostBackend.Data.DatabaseHandle databaseHandle)
+            BadRequest> HandleRequest(string? uuid, string? categoryUuid, int? page, int? maxCount, NookpostBackend.Data.DatabaseHandle databaseHandle)
     {
         throw new NotImplementedException();
     }
