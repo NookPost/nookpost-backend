@@ -9,4 +9,8 @@ public sealed class GetPostResponseBody : NookpostBackend.ApiSchemas.Posts.PostD
     /// The UUID of the post.
     /// </summary>
     public string? Uuid { get; set; }
+    /// <summary>
+    /// The username of the author
+    /// </summary>
+    public string? AuthorUsername { get; set; }
 }
