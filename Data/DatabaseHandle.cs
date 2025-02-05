@@ -1,6 +1,5 @@
 using NookpostBackend.Models;
 using Microsoft.EntityFrameworkCore;
-using NookpostBackend.Development;
 
 namespace NookpostBackend.Data;
 
@@ -42,10 +41,11 @@ public class DatabaseHandle : DbContext
     /// </summary>
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.Seed();
         if (Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") == "Development")
         {
             System.Console.WriteLine("Dev Environment");
-            modelBuilder.Seed();
+            modelBuilder.SeedTestData();
         }
     }
 }
