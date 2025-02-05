@@ -31,7 +31,8 @@ public static class ModelBuilderExtensions
                 Uuid = "110b9079-a902-4e6c-9544-15a7ce7e01dc",
                 Username = "Test123",
                 PasswordSalt = passwordSalt,
-                PasswordHash = Cryptography.PasswordHashing.HashPassword("Test123", passwordSalt)
+                PasswordHash = Cryptography.PasswordHashing.HashPassword("Test123", passwordSalt),
+                UserSettings = new()
             });
     }
 
