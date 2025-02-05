@@ -47,5 +47,5 @@ public class User
     /// <summary>
     /// Contains settings for the user
     /// </summary>
-    public UserSettings? UserSettings { get; set; }
+    public UserSettings UserSettings { get; set; } = new();
 }
