@@ -32,7 +32,9 @@ jobs:
           images: ghcr.io/NookPost/nookpost-backend
           tags: |
             type=raw,value=latest,
-            type=sha
+            type=sha,
+            type=raw,value=${{ steps.tag_version.outputs.new_tag }}
+
           labels: |
             org.opencontainers.image.source=https://github.com/NookPost/nookpost-backend
 
@@ -55,7 +57,7 @@ jobs:
           context: .
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: ${{ steps.tag_version.outputs.new_tag }}
+          tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
