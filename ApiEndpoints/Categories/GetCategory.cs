@@ -1,5 +1,8 @@
 namespace NookpostBackend.ApiEndpoints.Categories;
 
+/// <summary>
+/// Handles getting a category
+/// </summary>
 static class GetCategory
 {
     /// <summary>

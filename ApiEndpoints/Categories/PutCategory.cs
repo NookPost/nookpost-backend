@@ -1,5 +1,8 @@
 namespace NookpostBackend.ApiEndpoints.Categories;
 
+/// <summary>
+/// Handles modifing a category
+/// </summary>
 static class PutCategory
 {
     /// <summary>

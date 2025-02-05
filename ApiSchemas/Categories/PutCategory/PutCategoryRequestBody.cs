@@ -1,6 +1,9 @@
 namespace NookpostBackend.ApiSchemas.Categories.PutCategory;
 
-class PutCategoryRequestBody : NookpostBackend.ApiSchemas.Categories.CategoryData
+/// <summary>
+/// The body of a PUT request to category
+/// </summary>
+sealed class PutCategoryRequestBody : NookpostBackend.ApiSchemas.Categories.CategoryData
 {
     /// <summary>
     /// UUID of the category object

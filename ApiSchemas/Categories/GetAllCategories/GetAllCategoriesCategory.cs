@@ -1,6 +1,6 @@
 namespace NookpostBackend.ApiSchemas.Categories.GetAllCategories;
 
-class GetAllCategoriesCategory : NookpostBackend.ApiSchemas.Categories.CategoryData
+sealed class GetAllCategoriesCategory : NookpostBackend.ApiSchemas.Categories.CategoryData
 {
     /// <summary>
     /// UUID of the category object

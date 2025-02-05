@@ -1,5 +1,8 @@
 namespace NookpostBackend.ApiEndpoints.Categories;
 
+/// <summary>
+/// Handles deleting a category
+/// </summary>
 static class DeleteCategory
 {
     /// <summary>
