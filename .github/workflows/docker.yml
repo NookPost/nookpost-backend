@@ -31,8 +31,8 @@ jobs:
         with:
           images: ghcr.io/NookPost/nookpost-backend
           tags: |
-            type=raw,value=latest,
-            type=sha,
+            type=raw,value=latest
+            type=sha
             type=raw,value=${{ steps.tag_version.outputs.new_tag }}
 
           labels: |
