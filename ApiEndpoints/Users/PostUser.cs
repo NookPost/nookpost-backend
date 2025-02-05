@@ -10,9 +10,9 @@ public class PostUser
     /// Creates a new user
     /// </summary>
     public static Microsoft.AspNetCore.Http.HttpResults.Results<
-            Ok<ApiSchemas.Users.CreateUser.UsersCreateResponseBody>,
+            Ok<ApiSchemas.Users.PostUser.UsersPostResponseBody>,
             Conflict,
-            BadRequest> HandleRequest(NookpostBackend.ApiSchemas.Users.CreateUser.UsersCreateRequestBody requestBody, ClaimsPrincipal user, NookpostBackend.Data.DatabaseHandle databaseHandle, NookpostBackend.Authentication.TokenService tokenService)
+            BadRequest> HandleRequest(NookpostBackend.ApiSchemas.Users.PostUser.UsersPostRequestBody requestBody, ClaimsPrincipal user, NookpostBackend.Data.DatabaseHandle databaseHandle, NookpostBackend.Authentication.TokenService tokenService)
     {
         databaseHandle.Database.EnsureCreated();
         if (String.IsNullOrEmpty(requestBody.Password) || String.IsNullOrEmpty(requestBody.Username))
@@ -34,7 +34,7 @@ public class PostUser
         databaseHandle.Users.Add(newUser);
         databaseHandle.SaveChanges();
 
-        return TypedResults.Ok(new ApiSchemas.Users.CreateUser.UsersCreateResponseBody()
+        return TypedResults.Ok(new ApiSchemas.Users.PostUser.UsersPostResponseBody()
         {
             Token = tokenService.GenerateNewToken(newUser),
             ExpiryTimestamp = (long)DateTime.UtcNow.Subtract(DateTime.UnixEpoch).TotalSeconds + NookpostBackend.Authentication.TokenService.AccessTokenExpiryTimeInSeconds

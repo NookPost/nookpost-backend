@@ -1,9 +1,9 @@
-namespace NookpostBackend.ApiSchemas.Users.CreateUser;
+namespace NookpostBackend.ApiSchemas.Users.PostUser;
 
 /// <summary>
 /// The request body of a user create request
 /// </summary>
-public sealed class UsersCreateRequestBody : NookpostBackend.ApiSchemas.Users.UserData
+public sealed class UsersPostRequestBody : NookpostBackend.ApiSchemas.Users.UserData
 {
     /// <summary>
     /// The users password

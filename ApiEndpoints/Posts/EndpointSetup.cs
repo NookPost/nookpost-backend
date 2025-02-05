@@ -15,5 +15,6 @@ public static class EndpointSetup
         app.MapPost("/posts", PostPost.HandleRequest).WithTags("Posts").WithOpenApi().RequireAuthorization("user");
         app.MapPut("/posts", PutPost.HandleRequest).WithTags("Posts").WithOpenApi().RequireAuthorization("user");
         app.MapDelete("/posts", DeletePost.HandleRequest).WithTags("Posts").WithOpenApi().RequireAuthorization("user");
+        app.MapGet("/posts/filter", GetPostFiltered.HandleRequest).WithTags("Posts").WithOpenApi();
     }
 }
