@@ -19,6 +19,12 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
 
+      - name: Bump version and push tag
+        id: tag_version
+        uses: mathieudutour/github-tag-action@v6.2
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Set Docker metadata
         id: meta
         uses: docker/metadata-action@v5
@@ -49,7 +55,7 @@ jobs:
           context: .
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: ${{ steps.meta.outputs.tags }}
+          tags: ${{ steps.tag_version.outputs.new_tag }}
           labels: ${{ steps.meta.outputs.labels }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
