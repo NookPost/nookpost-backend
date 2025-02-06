@@ -24,15 +24,22 @@ public static class ModelBuilderExtensions
 
     private static void SeedUsers(this ModelBuilder modelBuilder)
     {
+        Models.UserSettings userSettings = new();
+        userSettings.Uuid = "4663d82b-fd14-4e6c-8e94-2e5c821f7e16";
+
+        modelBuilder.Entity<NookpostBackend.Models.UserSettings>().HasData(userSettings);
+
         string passwordSalt = Cryptography.Generators.NewRandomString(Configuration.Settings.UserPasswordSaltLength);
-        modelBuilder.Entity<NookpostBackend.Models.User>().HasData(
-            new Models.User()
-            {
-                Uuid = "110b9079-a902-4e6c-9544-15a7ce7e01dc",
-                Username = "Test123",
-                PasswordSalt = passwordSalt,
-                PasswordHash = Cryptography.PasswordHashing.HashPassword("Test123", passwordSalt)
-            });
+        Models.User user = new Models.User()
+        {
+            Uuid = "110b9079-a902-4e6c-9544-15a7ce7e01dc",
+            Username = "Test123",
+            PasswordSalt = passwordSalt,
+            PasswordHash = Cryptography.PasswordHashing.HashPassword("Test123", passwordSalt),
+            UserSettingsUuid = userSettings.Uuid
+        };
+
+        modelBuilder.Entity<NookpostBackend.Models.User>().HasData(user);
     }
 
     private static void SeedCategories(this ModelBuilder modelBuilder)

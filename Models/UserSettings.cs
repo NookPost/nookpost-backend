@@ -11,7 +11,7 @@ public class UserSettings
     /// UUID of the settings object
     /// </summary>
     [Key]
-    public string? Uuid { get; set; }
+    public string? Uuid { get; set; } = Guid.NewGuid().ToString();
     /// <summary>
     /// Whether to use dark mode for the user
     /// </summary>
@@ -19,6 +19,6 @@ public class UserSettings
     /// <summary>
     /// Whether to display the user's email on the profile page
     /// </summary>
-    public bool? DisplayEmailOnProfile { get; set; }
+    public bool DisplayEmailOnProfile { get; set; }
 
 }

@@ -23,11 +23,11 @@ public class Post
     /// <summary>
     /// Author of the post
     /// </summary>
-    public User? Author { get; set; }
+    public string? AuthorUuid { get; set; }
     /// <summary>
     /// Category of the post
     /// </summary>
-    public Category? Category { get; set; }
+    public string? CategoryUuid { get; set; }
     /// <summary>
     /// Unix timestamp the object was created on
     /// </summary>
