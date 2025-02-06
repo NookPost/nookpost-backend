@@ -8,6 +8,7 @@ static class PutUserMe
     /// <summary>
     /// Modifies a user
     /// </summary>
+    /// <remarks>Null values are ignored.</remarks>
     public static Microsoft.AspNetCore.Http.HttpResults.Results<
             Ok,
             UnauthorizedHttpResult,
