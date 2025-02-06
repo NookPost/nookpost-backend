@@ -22,8 +22,10 @@ static class GetPostFiltered
                     ((uuid == null) || p.Uuid == uuid)
                 ).OrderByDescending(p => p.CreatedOn);
 
+        int returnedCount = filteredPosts.Count();
         if ((!(page is null)) && (!(pageItemCount is null)))
         {
+            returnedCount = (int)Math.Ceiling(returnedCount / (float)pageItemCount);
             int start = (int)(pageItemCount * page);
             filteredPosts = filteredPosts.Skip(start).Take((int)pageItemCount);
         }
@@ -46,7 +48,8 @@ static class GetPostFiltered
 
         return TypedResults.Ok(new NookpostBackend.ApiSchemas.Posts.GetPostFiltered.GetPostFilteredResponseBody()
         {
-            Posts = returnedObjects
+            Posts = returnedObjects,
+            TotalNumberOfPages = returnedCount
         });
     }
 }

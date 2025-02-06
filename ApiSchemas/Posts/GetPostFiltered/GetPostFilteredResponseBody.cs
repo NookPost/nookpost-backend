@@ -9,4 +9,9 @@ public sealed class GetPostFilteredResponseBody
     /// The posts remaining after the filter operation
     /// </summary>
     public List<GetPostFilteredPost>? Posts { get; set; }
+    /// <summary>
+    /// The total number of pages there are.
+    /// </summary>
+    /// <remarks>The number of returned posts if no pagination is used.</remarks>
+    public int TotalNumberOfPages { get; set; }
 }
