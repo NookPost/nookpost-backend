@@ -1,7 +1,4 @@
 var searchData=
 [
-  ['d_0',['D',['../de/d26/classD.html',1,'']]],
-  ['databasehandle_1',['DatabaseHandle',['../d6/dce/classNookpostBackend_1_1Data_1_1DatabaseHandle.html',1,'NookpostBackend::Data']]],
-  ['deletepost_2',['DeletePost',['../d8/dcc/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1DeletePost.html',1,'NookpostBackend::ApiEndpoints::Posts']]],
-  ['deleteuserme_3',['DeleteUserMe',['../db/d18/classNookpostBackend_1_1ApiEndpoints_1_1Users_1_1DeleteUserMe.html',1,'NookpostBackend::ApiEndpoints::Users']]]
+  ['endpointsetup_0',['EndpointSetup',['../da/dec/classNookpostBackend_1_1ApiEndpoints_1_1Authentication_1_1EndpointSetup.html',1,'NookpostBackend.ApiEndpoints.Authentication.EndpointSetup'],['../d9/de7/classNookpostBackend_1_1ApiEndpoints_1_1Categories_1_1EndpointSetup.html',1,'NookpostBackend.ApiEndpoints.Categories.EndpointSetup'],['../db/d6a/classNookpostBackend_1_1ApiEndpoints_1_1EndpointSetup.html',1,'NookpostBackend.ApiEndpoints.EndpointSetup'],['../dd/d3d/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1EndpointSetup.html',1,'NookpostBackend.ApiEndpoints.Posts.EndpointSetup'],['../d3/dd0/classNookpostBackend_1_1ApiEndpoints_1_1Users_1_1EndpointSetup.html',1,'NookpostBackend.ApiEndpoints.Users.EndpointSetup'],['../d2/d5d/classNookpostBackend_1_1ApiEndpoints_1_1UserSettings_1_1EndpointSetup.html',1,'NookpostBackend.ApiEndpoints.UserSettings.EndpointSetup']]]
 ];

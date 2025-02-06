@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['generatenewtoken_0',['GenerateNewToken',['../d5/d58/classNookpostBackend_1_1Authentication_1_1TokenService.html#a65109d948673d8c2d02cf23a067c69e6',1,'NookpostBackend::Authentication::TokenService']]],
-  ['glob_5ffunc_1',['glob_func',['../d3/d03/memgrp_8cpp.html#a36cb413747454fcdba9dd7b8f972fcf3',1,'memgrp.cpp']]]
+  ['newrandombytearray_0',['NewRandomByteArray',['../d5/d04/classNookpostBackend_1_1Cryptography_1_1Generators.html#a6e4b7238e9af19bf3d098d9c1c27e07a',1,'NookpostBackend::Cryptography::Generators']]],
+  ['newrandomstring_1',['NewRandomString',['../d5/d04/classNookpostBackend_1_1Cryptography_1_1Generators.html#a3472fe1c61d5f1bc60d0af99a253be6b',1,'NookpostBackend::Cryptography::Generators']]]
 ];

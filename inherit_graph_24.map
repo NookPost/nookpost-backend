@@ -1,3 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$d8/dcc/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1DeletePost.html" title=" " alt="" coords="5,5,237,45"/>
+<area shape="rect" id="Node000000" href="$d0/db2/classNookpostBackend_1_1ApiSchemas_1_1Categories_1_1CategoryData.html" title=" " alt="" coords="5,53,232,93"/>
+<area shape="rect" id="Node000001" href="$dc/d55/classNookpostBackend_1_1ApiSchemas_1_1Categories_1_1GetAllCategories_1_1GetAllCategoriesCategory.html" title=" " alt="" coords="293,5,526,60"/>
+<area shape="poly" id="edge2_Node000000_Node000001" title=" " alt="" coords="245,53,292,46,293,51,246,58"/>
+<area shape="rect" id="Node000002" href="$d7/ded/classNookpostBackend_1_1ApiSchemas_1_1Categories_1_1PutCategory_1_1PutCategoryRequestBody.html" title="The body of a PUT request to category." alt="" coords="280,84,539,139"/>
+<area shape="poly" id="edge3_Node000000_Node000002" title=" " alt="" coords="246,87,280,91,280,97,245,92"/>
 </map>

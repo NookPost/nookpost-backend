@@ -11,10 +11,10 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="da/d57/classNookpostBackend_1_1ApiEndpoints_1_1Categories_1_1GetAllCategories.html" target="_top" xlink:title="Handles getting all categories.">
+<g id="a_Node000000"><a xlink:href="df/db7/classNookpostBackend_1_1ApiEndpoints_1_1UserSettings_1_1PutUserSettings.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="174,-30 0,-30 0,0 174,0 174,-30"/>
 <text text-anchor="start" x="8" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">NookpostBackend.ApiEndpoints.</text>
-<text text-anchor="middle" x="87" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">Categories.GetAllCategories</text>
+<text text-anchor="middle" x="87" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">UserSettings.PutUserSettings</text>
 </a>
 </g>
 </g>

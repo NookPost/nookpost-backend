@@ -1,9 +1,0 @@
-<map id="Vehicle" name="Vehicle">
-<area shape="rect" id="Node000001" title=" " alt="" coords="32,168,223,283"/>
-<area shape="rect" id="Node000003" href="$dd/d92/structCar.html" title=" " alt="" coords="5,331,116,396"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="96,296,79,332,74,329,91,294"/>
-<area shape="rect" id="Node000004" href="$d7/d01/structTruck.html" title=" " alt="" coords="140,331,251,396"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="164,294,182,329,177,332,159,296"/>
-<area shape="rect" id="Node000002" href="$de/de7/structObject.html" title=" " alt="" coords="37,5,218,120"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="130,134,130,168,125,168,125,134"/>
-</map>

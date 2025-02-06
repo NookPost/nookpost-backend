@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['login_2ecs_0',['Login.cs',['../d1/d66/Login_8cs.html',1,'']]]
+  ['settings_2ecs_0',['Settings.cs',['../d5/d60/Settings_8cs.html',1,'']]]
 ];

@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['javadoc_5ftest_0',['Javadoc_Test',['../d8/da6/classJavadoc__Test.html#a17313327932ae97596b0a455ba8342cc',1,'Javadoc_Test']]],
-  ['javadocbanner_1',['javadocBanner',['../d3/da2/javadoc-banner_8h.html#a62d4ceb96f5b5b75450244869482de68',1,'javadoc-banner.h']]]
+  ['readsettings_0',['ReadSettings',['../df/d2d/classNookpostBackend_1_1Configuration_1_1Settings.html#a2967c1094bca506bc8e78ddf4ce8fc87',1,'NookpostBackend::Configuration::Settings']]]
 ];
