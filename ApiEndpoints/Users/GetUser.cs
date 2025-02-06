@@ -31,7 +31,7 @@ static class GetUser
             ProfilePictureBase64 = userFromDb.ProfilePictureBase64,
             Email = userSettings.DisplayEmailOnProfile ? userFromDb.Email ?? "" : ""
         });
-        
+
 
     }
 
