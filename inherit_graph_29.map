@@ -1,3 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$dd/df8/classNookpostBackend_1_1ApiSchemas_1_1Users_1_1PostUser_1_1UsersPostResponseBody.html" title="Represents a token object in the response to a user create request." alt="" coords="5,5,291,45"/>
+<area shape="rect" id="Node000000" href="$d4/d64/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1PostData.html" title="Represents a post created by a user." alt="" coords="5,37,232,77"/>
+<area shape="rect" id="Node000001" href="$d6/db5/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1GetPost_1_1GetPostResponseBody.html" title="Response to a post get request." alt="" coords="280,5,543,45"/>
+<area shape="poly" id="edge4_Node000000_Node000001" title=" " alt="" coords="245,41,280,37,280,42,246,46"/>
+<area shape="rect" id="Node000002" href="$d1/d89/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1PutPost_1_1PutPostRequestBody.html" title="Response to a post get request." alt="" coords="287,69,536,109"/>
+<area shape="poly" id="edge5_Node000000_Node000002" title=" " alt="" coords="246,69,287,73,286,78,245,74"/>
 </map>

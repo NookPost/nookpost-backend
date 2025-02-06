@@ -3,6 +3,7 @@ var annotated_dup =
     [ "NookpostBackend", "dc/de6/namespaceNookpostBackend.html", [
       [ "ApiEndpoints", "d1/dcd/namespaceNookpostBackend_1_1ApiEndpoints.html", [
         [ "Authentication", "d5/d66/namespaceNookpostBackend_1_1ApiEndpoints_1_1Authentication.html", [
+          [ "ChangePassword", "de/dbb/classNookpostBackend_1_1ApiEndpoints_1_1Authentication_1_1ChangePassword.html", "de/dbb/classNookpostBackend_1_1ApiEndpoints_1_1Authentication_1_1ChangePassword" ],
           [ "EndpointSetup", "da/dec/classNookpostBackend_1_1ApiEndpoints_1_1Authentication_1_1EndpointSetup.html", "da/dec/classNookpostBackend_1_1ApiEndpoints_1_1Authentication_1_1EndpointSetup" ],
           [ "Login", "d0/d93/classNookpostBackend_1_1ApiEndpoints_1_1Authentication_1_1Login.html", "d0/d93/classNookpostBackend_1_1ApiEndpoints_1_1Authentication_1_1Login" ]
         ] ],
@@ -36,6 +37,9 @@ var annotated_dup =
       ] ],
       [ "ApiSchemas", "d8/dd0/namespaceNookpostBackend_1_1ApiSchemas.html", [
         [ "Authentication", "d4/d7b/namespaceNookpostBackend_1_1ApiSchemas_1_1Authentication.html", [
+          [ "ChangePassword", "de/dcc/namespaceNookpostBackend_1_1ApiSchemas_1_1Authentication_1_1ChangePassword.html", [
+            [ "PutChangePasswordRequestBody", "d9/d9d/classNookpostBackend_1_1ApiSchemas_1_1Authentication_1_1ChangePassword_1_1PutChangePasswordRequestBody.html", "d9/d9d/classNookpostBackend_1_1ApiSchemas_1_1Authentication_1_1ChangePassword_1_1PutChangePasswordRequestBody" ]
+          ] ],
           [ "Login", "d9/dd4/namespaceNookpostBackend_1_1ApiSchemas_1_1Authentication_1_1Login.html", [
             [ "AuthenticationLoginRequestBody", "d4/de6/classNookpostBackend_1_1ApiSchemas_1_1Authentication_1_1Login_1_1AuthenticationLoginRequestBody.html", "d4/de6/classNookpostBackend_1_1ApiSchemas_1_1Authentication_1_1Login_1_1AuthenticationLoginRequestBody" ],
             [ "AuthenticationLoginResponseBody", "de/d54/classNookpostBackend_1_1ApiSchemas_1_1Authentication_1_1Login_1_1AuthenticationLoginResponseBody.html", "de/d54/classNookpostBackend_1_1ApiSchemas_1_1Authentication_1_1Login_1_1AuthenticationLoginResponseBody" ]

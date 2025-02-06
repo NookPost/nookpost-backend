@@ -11,10 +11,10 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="da/dec/classNookpostBackend_1_1ApiEndpoints_1_1Authentication_1_1EndpointSetup.html" target="_top" xlink:title="Sets up the Authentication Endpoints.">
+<g id="a_Node000000"><a xlink:href="de/dbb/classNookpostBackend_1_1ApiEndpoints_1_1Authentication_1_1ChangePassword.html" target="_top" xlink:title="Handles the authentication login endpoint.">
 <polygon fill="white" stroke="#666666" points="174,-30 0,-30 0,0 174,0 174,-30"/>
 <text text-anchor="start" x="8" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">NookpostBackend.ApiEndpoints.</text>
-<text text-anchor="middle" x="87" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">Authentication.EndpointSetup</text>
+<text text-anchor="middle" x="87" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">Authentication.ChangePassword</text>
 </a>
 </g>
 </g>

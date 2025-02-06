@@ -11,9 +11,10 @@ var searchData=
   ['postuserresponsebody_2ecs_8',['PostUserResponseBody.cs',['../dc/d26/PostUserResponseBody_8cs.html',1,'']]],
   ['program_2ecs_9',['Program.cs',['../d8/d7a/Program_8cs.html',1,'']]],
   ['putcategoryrequestbody_2ecs_10',['PutCategoryRequestBody.cs',['../d4/df5/PutCategoryRequestBody_8cs.html',1,'']]],
-  ['putpost_2ecs_11',['PutPost.cs',['../d6/dbf/PutPost_8cs.html',1,'']]],
-  ['putpostrequestbody_2ecs_12',['PutPostRequestBody.cs',['../d2/d71/PutPostRequestBody_8cs.html',1,'']]],
-  ['putuserme_2ecs_13',['PutUserMe.cs',['../db/d00/PutUserMe_8cs.html',1,'']]],
-  ['putuserrequestbody_2ecs_14',['PutUserRequestBody.cs',['../d4/d70/PutUserRequestBody_8cs.html',1,'']]],
-  ['putusersettings_2ecs_15',['PutUserSettings.cs',['../d1/d9f/PutUserSettings_8cs.html',1,'']]]
+  ['putchangepasswordrequestbody_2ecs_11',['PutChangePasswordRequestBody.cs',['../dc/d09/PutChangePasswordRequestBody_8cs.html',1,'']]],
+  ['putpost_2ecs_12',['PutPost.cs',['../d6/dbf/PutPost_8cs.html',1,'']]],
+  ['putpostrequestbody_2ecs_13',['PutPostRequestBody.cs',['../d2/d71/PutPostRequestBody_8cs.html',1,'']]],
+  ['putuserme_2ecs_14',['PutUserMe.cs',['../db/d00/PutUserMe_8cs.html',1,'']]],
+  ['putuserrequestbody_2ecs_15',['PutUserRequestBody.cs',['../d4/d70/PutUserRequestBody_8cs.html',1,'']]],
+  ['putusersettings_2ecs_16',['PutUserSettings.cs',['../d1/d9f/PutUserSettings_8cs.html',1,'']]]
 ];

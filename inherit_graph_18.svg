@@ -11,10 +11,10 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="de/d32/classNookpostBackend_1_1ApiEndpoints_1_1Users_1_1PutUserMe.html" target="_top" xlink:title="Handles put requests for users.">
+<g id="a_Node000000"><a xlink:href="d6/df1/classNookpostBackend_1_1ApiEndpoints_1_1Users_1_1PostUser.html" target="_top" xlink:title="Handles the user create endpoint.">
 <polygon fill="white" stroke="#666666" points="174,-30 0,-30 0,0 174,0 174,-30"/>
 <text text-anchor="start" x="8" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">NookpostBackend.ApiEndpoints.</text>
-<text text-anchor="middle" x="87" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">Users.PutUserMe</text>
+<text text-anchor="middle" x="87" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">Users.PostUser</text>
 </a>
 </g>
 </g>

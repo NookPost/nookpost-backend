@@ -7,6 +7,7 @@ var hierarchy =
       [ "NookpostBackend.ApiSchemas.Categories.GetAllCategories.GetAllCategoriesCategory", "dc/d55/classNookpostBackend_1_1ApiSchemas_1_1Categories_1_1GetAllCategories_1_1GetAllCategoriesCategory.html", null ],
       [ "NookpostBackend.ApiSchemas.Categories.PutCategory.PutCategoryRequestBody", "d7/ded/classNookpostBackend_1_1ApiSchemas_1_1Categories_1_1PutCategory_1_1PutCategoryRequestBody.html", null ]
     ] ],
+    [ "NookpostBackend.ApiEndpoints.Authentication.ChangePassword", "de/dbb/classNookpostBackend_1_1ApiEndpoints_1_1Authentication_1_1ChangePassword.html", null ],
     [ "DbContext", null, [
       [ "NookpostBackend.Data.DatabaseHandle", "d6/dce/classNookpostBackend_1_1Data_1_1DatabaseHandle.html", null ]
     ] ],
@@ -40,6 +41,7 @@ var hierarchy =
     [ "NookpostBackend.ApiSchemas.Posts.PostPost.PostPostResponseBody", "de/d1a/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1PostPost_1_1PostPostResponseBody.html", null ],
     [ "NookpostBackend.ApiEndpoints.Users.PostUser", "d6/df1/classNookpostBackend_1_1ApiEndpoints_1_1Users_1_1PostUser.html", null ],
     [ "NookpostBackend.Program", "d8/dc6/classNookpostBackend_1_1Program.html", null ],
+    [ "NookpostBackend.ApiSchemas.Authentication.ChangePassword.PutChangePasswordRequestBody", "d9/d9d/classNookpostBackend_1_1ApiSchemas_1_1Authentication_1_1ChangePassword_1_1PutChangePasswordRequestBody.html", null ],
     [ "NookpostBackend.ApiEndpoints.Posts.PutPost", "d8/d19/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1PutPost.html", null ],
     [ "NookpostBackend.ApiEndpoints.Users.PutUserMe", "de/d32/classNookpostBackend_1_1ApiEndpoints_1_1Users_1_1PutUserMe.html", null ],
     [ "NookpostBackend.ApiEndpoints.UserSettings.PutUserSettings", "df/db7/classNookpostBackend_1_1ApiEndpoints_1_1UserSettings_1_1PutUserSettings.html", null ],

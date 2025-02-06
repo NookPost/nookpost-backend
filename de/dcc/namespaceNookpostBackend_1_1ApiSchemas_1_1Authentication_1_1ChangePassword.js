@@ -1,0 +1,4 @@
+var namespaceNookpostBackend_1_1ApiSchemas_1_1Authentication_1_1ChangePassword =
+[
+    [ "PutChangePasswordRequestBody", "d9/d9d/classNookpostBackend_1_1ApiSchemas_1_1Authentication_1_1ChangePassword_1_1PutChangePasswordRequestBody.html", "d9/d9d/classNookpostBackend_1_1ApiSchemas_1_1Authentication_1_1ChangePassword_1_1PutChangePasswordRequestBody" ]
+];
