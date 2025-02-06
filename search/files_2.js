@@ -9,6 +9,5 @@ var searchData=
   ['diagrams_5fc_2eh_6',['diagrams_c.h',['../db/da6/diagrams__c_8h.html',1,'']]],
   ['diagrams_5fd_2eh_7',['diagrams_d.h',['../df/dae/diagrams__d_8h.html',1,'']]],
   ['diagrams_5fe_2eh_8',['diagrams_e.h',['../de/d84/diagrams__e_8h.html',1,'']]],
-  ['docstring_2epy_9',['docstring.py',['../d1/dc9/docstring_8py.html',1,'']]],
-  ['dotnet_2emd_10',['dotnet.md',['../de/d0d/dotnet_8md.html',1,'']]]
+  ['docstring_2epy_9',['docstring.py',['../d1/dc9/docstring_8py.html',1,'']]]
 ];

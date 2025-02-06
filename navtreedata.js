@@ -26,12 +26,6 @@ var NAVTREE =
 [
   [ "AnonKey-Backend", "index.html", [
     [ "pag_example", "da/de8/pag_example.html", null ],
-    [ "AnonKey-Backend", "d6/d04/md_Licenses_2AnonKey-Backend.html", null ],
-    [ "dotnet", "dc/d13/md_Licenses_2dotnet.html", null ],
-    [ "konscious_argon2", "d6/dcf/md_Licenses_2konscious__argon2.html", null ],
-    [ "newtonsoft.json", "da/d61/md_Licenses_2newtonsoft_8json.html", null ],
-    [ "swashbuckle", "dd/db7/md_Licenses_2swashbuckle.html", null ],
-    [ "Readme", "d9/db8/md_Readme.html", null ],
     [ "Bug List", "de/da5/bug.html", null ],
     [ "Topics", "topics.html", "topics" ],
     [ "Namespaces", "namespaces.html", [
@@ -75,8 +69,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d6/df1/classNookpostBackend_1_1ApiEndpoints_1_1Users_1_1PostUser.html",
-"dd/df8/classNookpostBackend_1_1ApiSchemas_1_1Users_1_1PostUser_1_1UsersPostResponseBody.html#a02b6cb461eb1bec4c23bbf5439e2fc1c"
+"d6/df1/classNookpostBackend_1_1ApiEndpoints_1_1Users_1_1PostUser.html#a9f3f056050d7adf6dd07e6671928d306",
+"de/d1a/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1PostPost_1_1PostPostResponseBody.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

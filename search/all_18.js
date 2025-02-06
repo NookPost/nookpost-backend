@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['write_0',['write',['../d3/dd6/structcmd_8h.html#af2a3ea719b83f672637febdd87c36c36',1,'structcmd.h']]]
+  ['x_0',['x',['../de/db2/structCoordStruct.html#a183d7226fc5a8470ce9b9f04f9cb69bb',1,'CoordStruct']]]
 ];
