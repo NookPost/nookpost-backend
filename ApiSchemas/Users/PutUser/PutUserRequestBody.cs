@@ -5,8 +5,4 @@ namespace NookpostBackend.ApiSchemas.Users.PutUser;
 /// </summary>
 public sealed class UserPutRequestBody : NookpostBackend.ApiSchemas.Users.UserData
 {
-    /// <summary>
-    /// The users password
-    /// </summary>
-    public string? Password { get; set; }
 }

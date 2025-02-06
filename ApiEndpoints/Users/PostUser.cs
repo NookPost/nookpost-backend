@@ -22,13 +22,18 @@ public class PostUser
 
         if (databaseHandle.Users.Any(u => u.Username == requestBody.Username)) { return TypedResults.Conflict(); }
 
+        Models.UserSettings settings = new Models.UserSettings();
+
+        databaseHandle.UserSettings.Add(settings);
+
         string passwordSalt = Cryptography.Generators.NewRandomString(Configuration.Settings.UserPasswordSaltLength);
         Models.User newUser = new Models.User()
         {
             Uuid = Guid.NewGuid().ToString(),
             Username = requestBody.Username,
             PasswordSalt = passwordSalt,
-            PasswordHash = Cryptography.PasswordHashing.HashPassword(requestBody.Password, passwordSalt)
+            PasswordHash = Cryptography.PasswordHashing.HashPassword(requestBody.Password, passwordSalt),
+            UserSettingsUuid = settings.Uuid
         };
 
         databaseHandle.Users.Add(newUser);
