@@ -20,11 +20,11 @@ static class PutUserMe
 
         if (userFromDb is null) return TypedResults.Unauthorized();
 
-        userFromDb.Email ??= requestBody.Email;
-        userFromDb.ProfilePictureBase64 ??= requestBody.ProfilePictureBase64;
-        userFromDb.Bio ??= requestBody.Bio;
-        userFromDb.TagLine ??= requestBody.TagLine;
-        userFromDb.DisplayName ??= requestBody.DisplayName;
+        userFromDb.Email = requestBody.Email ?? userFromDb.Email;
+        userFromDb.ProfilePictureBase64 = requestBody.ProfilePictureBase64 ?? userFromDb.ProfilePictureBase64;
+        userFromDb.Bio = requestBody.Bio ?? userFromDb.Bio;
+        userFromDb.TagLine = requestBody.TagLine ?? userFromDb.TagLine;
+        userFromDb.DisplayName = requestBody.DisplayName ?? userFromDb.DisplayName;
 
         databaseHandle.SaveChanges();
         return TypedResults.Ok();
