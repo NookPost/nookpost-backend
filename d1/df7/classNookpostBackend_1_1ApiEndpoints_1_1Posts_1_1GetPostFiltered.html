@@ -106,18 +106,18 @@ $(function(){initNavTree('d1/df7/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1
 <div class="dynheader">
 Collaboration diagram for NookpostBackend.ApiEndpoints.Posts.GetPostFiltered:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d69/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1GetPostFiltered__coll__graph.svg" width="411" height="194"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d69/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1GetPostFiltered__coll__graph.svg" width="444" height="194"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a851fc8ec666222bb7b1ef45e286e5957" id="r_a851fc8ec666222bb7b1ef45e286e5957"><td class="memItemLeft" align="right" valign="top">static Microsoft.AspNetCore.Http.HttpResults.Results&lt; Ok&lt; <a class="el" href="../../d6/db5/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1GetPost_1_1GetPostResponseBody.html">NookpostBackend.ApiSchemas.Posts.GetPost.GetPostResponseBody</a> &gt;, BadRequest &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a851fc8ec666222bb7b1ef45e286e5957">HandleRequest</a> (string? uuid, string? categoryUuid, int? page, int? maxCount, <a class="el" href="../../d6/dce/classNookpostBackend_1_1Data_1_1DatabaseHandle.html">NookpostBackend.Data.DatabaseHandle</a> databaseHandle)</td></tr>
-<tr class="memdesc:a851fc8ec666222bb7b1ef45e286e5957"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a filtered set of posts.  <br /></td></tr>
-<tr class="separator:a851fc8ec666222bb7b1ef45e286e5957"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e6e200bd2e98410f29145d81affdd5e" id="r_a0e6e200bd2e98410f29145d81affdd5e"><td class="memItemLeft" align="right" valign="top">static Microsoft.AspNetCore.Http.HttpResults.Results&lt; Ok&lt; <a class="el" href="../../d2/d2d/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1GetPostFiltered_1_1GetPostFilteredResponseBody.html">NookpostBackend.ApiSchemas.Posts.GetPostFiltered.GetPostFilteredResponseBody</a> &gt;, BadRequest &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e6e200bd2e98410f29145d81affdd5e">HandleRequest</a> (string? uuid, string? categoryUuid, int? page, int? pageItemCount, <a class="el" href="../../d6/dce/classNookpostBackend_1_1Data_1_1DatabaseHandle.html">NookpostBackend.Data.DatabaseHandle</a> databaseHandle)</td></tr>
+<tr class="memdesc:a0e6e200bd2e98410f29145d81affdd5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a filtered set of posts.  <br /></td></tr>
+<tr class="separator:a0e6e200bd2e98410f29145d81affdd5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a851fc8ec666222bb7b1ef45e286e5957" name="a851fc8ec666222bb7b1ef45e286e5957"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a851fc8ec666222bb7b1ef45e286e5957">&#9670;&#160;</a></span>HandleRequest()</h2>
+<a id="a0e6e200bd2e98410f29145d81affdd5e" name="a0e6e200bd2e98410f29145d81affdd5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e6e200bd2e98410f29145d81affdd5e">&#9670;&#160;</a></span>HandleRequest()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -126,7 +126,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static Microsoft.AspNetCore.Http.HttpResults.Results&lt; Ok&lt; <a class="el" href="../../d6/db5/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1GetPost_1_1GetPostResponseBody.html">NookpostBackend.ApiSchemas.Posts.GetPost.GetPostResponseBody</a> &gt;, BadRequest &gt; NookpostBackend.ApiEndpoints.Posts.GetPostFiltered.HandleRequest </td>
+          <td class="memname">static Microsoft.AspNetCore.Http.HttpResults.Results&lt; Ok&lt; <a class="el" href="../../d2/d2d/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1GetPostFiltered_1_1GetPostFilteredResponseBody.html">NookpostBackend.ApiSchemas.Posts.GetPostFiltered.GetPostFilteredResponseBody</a> &gt;, BadRequest &gt; NookpostBackend.ApiEndpoints.Posts.GetPostFiltered.HandleRequest </td>
           <td>(</td>
           <td class="paramtype">string?</td>          <td class="paramname"><span class="paramname"><em>uuid</em></span>, </td>
         </tr>
@@ -143,7 +143,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int?</td>          <td class="paramname"><span class="paramname"><em>maxCount</em></span>, </td>
+          <td class="paramtype">int?</td>          <td class="paramname"><span class="paramname"><em>pageItemCount</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -159,10 +159,21 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Gets a filtered set of posts. </p>
+<p>The list will be ordered by date of creation</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">uuid</td><td>The UUID of the post to get</td></tr>
+    <tr><td class="paramname">categoryUuid</td><td>The uuid of the category the posts are in</td></tr>
+    <tr><td class="paramname">page</td><td>The page the posts should be on (requires pageItemCount)</td></tr>
+    <tr><td class="paramname">pageItemCount</td><td>The number of posts per page (requires page)</td></tr>
+    <tr><td class="paramname">databaseHandle</td><td>The database handle</td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/df7/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1GetPostFiltered_a851fc8ec666222bb7b1ef45e286e5957_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/df7/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1GetPostFiltered_a0e6e200bd2e98410f29145d81affdd5e_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -176,7 +187,7 @@ Here is the caller graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/de6/namespaceNookpostBackend.html">NookpostBackend</a></li><li class="navelem"><a class="el" href="../../d1/dcd/namespaceNookpostBackend_1_1ApiEndpoints.html">ApiEndpoints</a></li><li class="navelem"><a class="el" href="../../d5/d71/namespaceNookpostBackend_1_1ApiEndpoints_1_1Posts.html">Posts</a></li><li class="navelem"><a class="el" href="../../d1/df7/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1GetPostFiltered.html">GetPostFiltered</a></li>
-    <li class="footer">Generated on Thu Feb 6 2025 20:22:48 for AnonKey-Backend by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
+    <li class="footer">Generated on Thu Feb 6 2025 20:23:00 for AnonKey-Backend by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>
 </body>

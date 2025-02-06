@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="../../d8/dcc/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1DeletePost.html#aec4ba97b4ad288b8ecc4d1b61244da9f" target="_top" xlink:title="Deletes a post.">
+<g id="a_Node000002"><a xlink:href="../../d8/dcc/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1DeletePost.html#ac56bf91de4be2f970a018bddd2a2fbe7" target="_top" xlink:title="Deletes a post.">
 <polygon fill="white" stroke="#666666" points="397,-222 221,-222 221,-192 397,-192 397,-222"/>
 <text text-anchor="start" x="229" y="-210" font-family="Helvetica,sans-Serif" font-size="10.00">NookpostBackend.ApiEndpoints.</text>
 <text text-anchor="middle" x="309" y="-199" font-family="Helvetica,sans-Serif" font-size="10.00">Posts.DeletePost.HandleRequest</text>
@@ -59,7 +59,7 @@
 <!-- Node4 -->
 <g id="Node000004" class="node">
 <title>Node4</title>
-<g id="a_Node000004"><a xlink:href="../../d1/df7/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1GetPostFiltered.html#a851fc8ec666222bb7b1ef45e286e5957" target="_top" xlink:title="Gets a filtered set of posts.">
+<g id="a_Node000004"><a xlink:href="../../d1/df7/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1GetPostFiltered.html#a0e6e200bd2e98410f29145d81affdd5e" target="_top" xlink:title="Gets a filtered set of posts.">
 <polygon fill="white" stroke="#666666" points="408,-126 210,-126 210,-96 408,-96 408,-126"/>
 <text text-anchor="start" x="218" y="-114" font-family="Helvetica,sans-Serif" font-size="10.00">NookpostBackend.ApiEndpoints.</text>
 <text text-anchor="middle" x="309" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">Posts.GetPostFiltered.HandleRequest</text>
@@ -78,7 +78,7 @@
 <!-- Node5 -->
 <g id="Node000005" class="node">
 <title>Node5</title>
-<g id="a_Node000005"><a xlink:href="../../d9/d72/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1PostPost.html#a84d88a3574a77476de35fd8ad00dde3e" target="_top" xlink:title="Creates a post.">
+<g id="a_Node000005"><a xlink:href="../../d9/d72/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1PostPost.html#a1a3b94f025dd1d35853530139c4c1572" target="_top" xlink:title="Creates a post.">
 <polygon fill="white" stroke="#666666" points="396,-78 222,-78 222,-48 396,-48 396,-78"/>
 <text text-anchor="start" x="230" y="-66" font-family="Helvetica,sans-Serif" font-size="10.00">NookpostBackend.ApiEndpoints.</text>
 <text text-anchor="middle" x="309" y="-55" font-family="Helvetica,sans-Serif" font-size="10.00">Posts.PostPost.HandleRequest</text>
@@ -97,7 +97,7 @@
 <!-- Node6 -->
 <g id="Node000006" class="node">
 <title>Node6</title>
-<g id="a_Node000006"><a xlink:href="../../d8/d19/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1PutPost.html#a152ffc5dd937f07a8ff30ab4acd55e8e" target="_top" xlink:title="Modifies a post.">
+<g id="a_Node000006"><a xlink:href="../../d8/d19/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1PutPost.html#acdacbe6d57537381287795d5d43c7200" target="_top" xlink:title="Modifies a post.">
 <polygon fill="white" stroke="#666666" points="396,-30 222,-30 222,0 396,0 396,-30"/>
 <text text-anchor="start" x="230" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">NookpostBackend.ApiEndpoints.</text>
 <text text-anchor="middle" x="309" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">Posts.PutPost.HandleRequest</text>

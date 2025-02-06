@@ -25,6 +25,7 @@ var hierarchy =
     [ "NookpostBackend.ApiEndpoints.Categories.GetCategory", "d1/d03/classNookpostBackend_1_1ApiEndpoints_1_1Categories_1_1GetCategory.html", null ],
     [ "NookpostBackend.ApiEndpoints.Posts.GetPost", "da/dbd/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1GetPost.html", null ],
     [ "NookpostBackend.ApiEndpoints.Posts.GetPostFiltered", "d1/df7/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1GetPostFiltered.html", null ],
+    [ "NookpostBackend.ApiSchemas.Posts.GetPostFiltered.GetPostFilteredResponseBody", "d2/d2d/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1GetPostFiltered_1_1GetPostFilteredResponseBody.html", null ],
     [ "NookpostBackend.ApiEndpoints.Users.GetUser", "d9/dc5/classNookpostBackend_1_1ApiEndpoints_1_1Users_1_1GetUser.html", null ],
     [ "NookpostBackend.ApiEndpoints.Users.GetUserMe", "d5/dd1/classNookpostBackend_1_1ApiEndpoints_1_1Users_1_1GetUserMe.html", null ],
     [ "NookpostBackend.ApiEndpoints.UserSettings.GetUserSettings", "df/da2/classNookpostBackend_1_1ApiEndpoints_1_1UserSettings_1_1GetUserSettings.html", null ],
@@ -35,6 +36,7 @@ var hierarchy =
     [ "NookpostBackend.ApiSchemas.Categories.PostCategory.PostCategoryResponseBody", "d1/d14/classNookpostBackend_1_1ApiSchemas_1_1Categories_1_1PostCategory_1_1PostCategoryResponseBody.html", null ],
     [ "NookpostBackend.ApiSchemas.Posts.PostData", "d4/d64/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1PostData.html", [
       [ "NookpostBackend.ApiSchemas.Posts.GetPost.GetPostResponseBody", "d6/db5/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1GetPost_1_1GetPostResponseBody.html", null ],
+      [ "NookpostBackend.ApiSchemas.Posts.GetPostFiltered.GetPostFilteredPost", "d0/d1f/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1GetPostFiltered_1_1GetPostFilteredPost.html", null ],
       [ "NookpostBackend.ApiSchemas.Posts.PutPost.PutPostRequestBody", "d1/d89/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1PutPost_1_1PutPostRequestBody.html", null ]
     ] ],
     [ "NookpostBackend.ApiEndpoints.Posts.PostPost", "d9/d72/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1PostPost.html", null ],

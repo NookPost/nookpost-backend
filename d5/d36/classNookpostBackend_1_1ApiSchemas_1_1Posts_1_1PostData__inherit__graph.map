@@ -1,7 +1,9 @@
 <map id="NookpostBackend.ApiSchemas.Posts.PostData" name="NookpostBackend.ApiSchemas.Posts.PostData">
-<area shape="rect" id="Node000001" title="Represents a post created by a user." alt="" coords="159,5,378,125"/>
-<area shape="rect" id="Node000002" href="$d6/db5/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1GetPost_1_1GetPostResponseBody.html" title="Response to a post get request." alt="" coords="5,173,260,273"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="210,137,177,175,173,172,206,134"/>
-<area shape="rect" id="Node000003" href="$d1/d89/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1PutPost_1_1PutPostRequestBody.html" title="Response to a post get request." alt="" coords="284,183,525,263"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="331,134,372,181,368,185,327,137"/>
+<area shape="rect" id="Node000001" title="Represents a post created by a user." alt="" coords="318,5,537,125"/>
+<area shape="rect" id="Node000002" href="$d6/db5/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1GetPost_1_1GetPostResponseBody.html" title="Response to a post get request." alt="" coords="5,173,260,313"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="318,135,250,176,247,171,315,130"/>
+<area shape="rect" id="Node000003" href="$d0/d1f/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1GetPostFiltered_1_1GetPostFilteredPost.html" title="Response to a post get request." alt="" coords="285,173,570,313"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="430,139,430,173,425,173,425,139"/>
+<area shape="rect" id="Node000004" href="$d1/d89/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1PutPost_1_1PutPostRequestBody.html" title="Response to a post get request." alt="" coords="595,203,836,283"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="537,130,653,201,650,205,534,135"/>
 </map>

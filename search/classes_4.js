@@ -7,8 +7,10 @@ var searchData=
   ['getcategory_4',['GetCategory',['../d1/d03/classNookpostBackend_1_1ApiEndpoints_1_1Categories_1_1GetCategory.html',1,'NookpostBackend::ApiEndpoints::Categories']]],
   ['getpost_5',['GetPost',['../da/dbd/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1GetPost.html',1,'NookpostBackend::ApiEndpoints::Posts']]],
   ['getpostfiltered_6',['GetPostFiltered',['../d1/df7/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1GetPostFiltered.html',1,'NookpostBackend::ApiEndpoints::Posts']]],
-  ['getpostresponsebody_7',['GetPostResponseBody',['../d6/db5/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1GetPost_1_1GetPostResponseBody.html',1,'NookpostBackend::ApiSchemas::Posts::GetPost']]],
-  ['getuser_8',['GetUser',['../d9/dc5/classNookpostBackend_1_1ApiEndpoints_1_1Users_1_1GetUser.html',1,'NookpostBackend::ApiEndpoints::Users']]],
-  ['getuserme_9',['GetUserMe',['../d5/dd1/classNookpostBackend_1_1ApiEndpoints_1_1Users_1_1GetUserMe.html',1,'NookpostBackend::ApiEndpoints::Users']]],
-  ['getusersettings_10',['GetUserSettings',['../df/da2/classNookpostBackend_1_1ApiEndpoints_1_1UserSettings_1_1GetUserSettings.html',1,'NookpostBackend::ApiEndpoints::UserSettings']]]
+  ['getpostfilteredpost_7',['GetPostFilteredPost',['../d0/d1f/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1GetPostFiltered_1_1GetPostFilteredPost.html',1,'NookpostBackend::ApiSchemas::Posts::GetPostFiltered']]],
+  ['getpostfilteredresponsebody_8',['GetPostFilteredResponseBody',['../d2/d2d/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1GetPostFiltered_1_1GetPostFilteredResponseBody.html',1,'NookpostBackend::ApiSchemas::Posts::GetPostFiltered']]],
+  ['getpostresponsebody_9',['GetPostResponseBody',['../d6/db5/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1GetPost_1_1GetPostResponseBody.html',1,'NookpostBackend::ApiSchemas::Posts::GetPost']]],
+  ['getuser_10',['GetUser',['../d9/dc5/classNookpostBackend_1_1ApiEndpoints_1_1Users_1_1GetUser.html',1,'NookpostBackend::ApiEndpoints::Users']]],
+  ['getuserme_11',['GetUserMe',['../d5/dd1/classNookpostBackend_1_1ApiEndpoints_1_1Users_1_1GetUserMe.html',1,'NookpostBackend::ApiEndpoints::Users']]],
+  ['getusersettings_12',['GetUserSettings',['../df/da2/classNookpostBackend_1_1ApiEndpoints_1_1UserSettings_1_1GetUserSettings.html',1,'NookpostBackend::ApiEndpoints::UserSettings']]]
 ];

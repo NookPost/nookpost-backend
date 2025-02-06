@@ -62,6 +62,10 @@ var annotated_dup =
           [ "GetPost", "df/dd5/namespaceNookpostBackend_1_1ApiSchemas_1_1Posts_1_1GetPost.html", [
             [ "GetPostResponseBody", "d6/db5/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1GetPost_1_1GetPostResponseBody.html", "d6/db5/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1GetPost_1_1GetPostResponseBody" ]
           ] ],
+          [ "GetPostFiltered", "df/d4b/namespaceNookpostBackend_1_1ApiSchemas_1_1Posts_1_1GetPostFiltered.html", [
+            [ "GetPostFilteredPost", "d0/d1f/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1GetPostFiltered_1_1GetPostFilteredPost.html", "d0/d1f/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1GetPostFiltered_1_1GetPostFilteredPost" ],
+            [ "GetPostFilteredResponseBody", "d2/d2d/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1GetPostFiltered_1_1GetPostFilteredResponseBody.html", "d2/d2d/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1GetPostFiltered_1_1GetPostFilteredResponseBody" ]
+          ] ],
           [ "PostPost", "da/da0/namespaceNookpostBackend_1_1ApiSchemas_1_1Posts_1_1PostPost.html", [
             [ "PostPostResponseBody", "de/d1a/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1PostPost_1_1PostPostResponseBody.html", "de/d1a/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1PostPost_1_1PostPostResponseBody" ]
           ] ],

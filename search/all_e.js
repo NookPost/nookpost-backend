@@ -16,7 +16,7 @@ var searchData=
   ['postpost_2ecs_13',['PostPost.cs',['../de/de5/PostPost_8cs.html',1,'']]],
   ['postpostresponsebody_14',['PostPostResponseBody',['../de/d1a/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1PostPost_1_1PostPostResponseBody.html',1,'NookpostBackend::ApiSchemas::Posts::PostPost']]],
   ['postpostresponsebody_2ecs_15',['PostPostResponseBody.cs',['../db/d38/PostPostResponseBody_8cs.html',1,'']]],
-  ['posts_16',['Posts',['../d6/dce/classNookpostBackend_1_1Data_1_1DatabaseHandle.html#afa1aaef94a6e0e0b6faef040c34e5c63',1,'NookpostBackend::Data::DatabaseHandle']]],
+  ['posts_16',['Posts',['../d2/d2d/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1GetPostFiltered_1_1GetPostFilteredResponseBody.html#a63f0684b6dc9646ff00f963afd1da4f6',1,'NookpostBackend.ApiSchemas.Posts.GetPostFiltered.GetPostFilteredResponseBody.Posts'],['../d6/dce/classNookpostBackend_1_1Data_1_1DatabaseHandle.html#afa1aaef94a6e0e0b6faef040c34e5c63',1,'NookpostBackend.Data.DatabaseHandle.Posts']]],
   ['postuser_17',['PostUser',['../d6/df1/classNookpostBackend_1_1ApiEndpoints_1_1Users_1_1PostUser.html',1,'NookpostBackend::ApiEndpoints::Users']]],
   ['postuser_2ecs_18',['PostUser.cs',['../dc/df1/PostUser_8cs.html',1,'']]],
   ['postuserrequestbody_2ecs_19',['PostUserRequestBody.cs',['../dd/d0b/PostUserRequestBody_8cs.html',1,'']]],
