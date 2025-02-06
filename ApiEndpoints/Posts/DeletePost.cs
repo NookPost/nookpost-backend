@@ -19,7 +19,7 @@ static class DeletePost
         if (userFromDb is null) return TypedResults.Unauthorized();
 
         Models.Post? postToDelete = databaseHandle.Posts.FirstOrDefault(p => p.Uuid == uuid && p.AuthorUuid == userFromDb.Uuid);
-        if(postToDelete is null) return TypedResults.NotFound();
+        if (postToDelete is null) return TypedResults.NotFound();
 
         databaseHandle.Posts.Remove(postToDelete);
 
