@@ -1,0 +1,7 @@
+<map id="NookpostBackend.ApiEndpoints.UserSettings.EndpointSetup.Setup" name="NookpostBackend.ApiEndpoints.UserSettings.EndpointSetup.Setup">
+<area shape="rect" id="Node000001" title="Sets up the user settigns endpoints on the given Webapp" alt="" coords="5,53,249,93"/>
+<area shape="rect" id="Node000002" href="$df/da2/classNookpostBackend_1_1ApiEndpoints_1_1UserSettings_1_1GetUserSettings.html#aa366405fbc610d9f97f12515d60cc643" title="Gets the user&#39;s settings." alt="" coords="297,5,563,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="249,54,283,49,284,55,250,59"/>
+<area shape="rect" id="Node000003" href="$df/db7/classNookpostBackend_1_1ApiEndpoints_1_1UserSettings_1_1PutUserSettings.html#aa029e02f5547b89c2d3f354a9fd462fc" title="Updates the user&#39;s settings." alt="" coords="299,84,561,139"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="250,86,285,90,285,95,249,91"/>
+</map>

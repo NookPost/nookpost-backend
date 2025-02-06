@@ -1,0 +1,9 @@
+<map id="NookpostBackend.Data.ModelBuilderExtensions.SeedTestData" name="NookpostBackend.Data.ModelBuilderExtensions.SeedTestData">
+<area shape="rect" id="Node000001" title="Populates the database with the sample data for testing and development." alt="" coords="5,37,237,77"/>
+<area shape="rect" id="Node000002" href="$d3/da4/classNookpostBackend_1_1Data_1_1ModelBuilderExtensions.html#a8d2ffb833bf2db585cd87ae1a85b60cc" title=" " alt="" coords="285,37,504,77"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="237,55,272,55,272,60,237,60"/>
+<area shape="rect" id="Node000003" href="$d3/d34/classNookpostBackend_1_1Cryptography_1_1PasswordHashing.html#aeb943c5a3973106cc7405123255da371" title="Hash a password with the given salt and password. The Pepper will automatically be obtained from sett..." alt="" coords="552,5,787,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="504,42,538,38,539,43,505,47"/>
+<area shape="rect" id="Node000004" href="$d5/d04/classNookpostBackend_1_1Cryptography_1_1Generators.html#a3472fe1c61d5f1bc60d0af99a253be6b" title="Generate a new random hex string with the specified length." alt="" coords="553,69,786,109"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="505,67,539,72,539,77,504,73"/>
+</map>

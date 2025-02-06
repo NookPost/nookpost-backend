@@ -1,0 +1,5 @@
+<map id="NookpostBackend.ApiSchemas.Users.GetUser.UsersGetResponseBody" name="NookpostBackend.ApiSchemas.Users.GetUser.UsersGetResponseBody">
+<area shape="rect" id="Node000001" title="The response to a user get request if successful." alt="" coords="5,233,272,313"/>
+<area shape="rect" id="Node000002" href="$d8/d91/classNookpostBackend_1_1ApiSchemas_1_1Users_1_1UserData.html" title="Common data for the user object." alt="" coords="29,5,248,185"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="141,199,141,233,136,233,136,199"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="NookpostBackend.Configuration.Settings.isSettingsIntegrityOk" name="NookpostBackend.Configuration.Settings.isSettingsIntegrityOk">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,7,240,47"/>
+<area shape="rect" id="Node000002" href="$df/d2d/classNookpostBackend_1_1Configuration_1_1Settings.html#a7bfe8ba447a6f52cc93aa59d0de0cdfe" title="Initializes the settings on first access, and saves them again should they be newly generated." alt="" coords="288,35,523,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="241,36,274,39,274,44,240,41"/>
+<area shape="rect" id="Node000003" href="$df/d2d/classNookpostBackend_1_1Configuration_1_1Settings.html#a2967c1094bca506bc8e78ddf4ce8fc87" title="Read the settings from the settings.json file. Create a default instance if the file can&#39;t be read." alt="" coords="571,5,805,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="523,49,565,44,566,50,523,54"/>
+<area shape="rect" id="Node000004" href="$df/d2d/classNookpostBackend_1_1Configuration_1_1Settings.html#a746e745f21cd6a9165a77428593e3e90" title="Save settings to the settings.json file." alt="" coords="571,69,805,109"/>
+<area shape="poly" id="edge5_Node000002_Node000004" title=" " alt="" coords="523,66,557,71,557,76,523,72"/>
+<area shape="poly" id="edge3_Node000003_Node000001" title=" " alt="" coords="571,26,523,25,288,25,254,26,254,21,288,20,523,20,571,21"/>
+<area shape="poly" id="edge4_Node000003_Node000002" title=" " alt="" coords="571,31,528,36,527,30,570,26"/>
+</map>

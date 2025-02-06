@@ -1,0 +1,5 @@
+var namespaceNookpostBackend_1_1ApiSchemas_1_1Authentication_1_1Login =
+[
+    [ "AuthenticationLoginRequestBody", "d4/de6/classNookpostBackend_1_1ApiSchemas_1_1Authentication_1_1Login_1_1AuthenticationLoginRequestBody.html", "d4/de6/classNookpostBackend_1_1ApiSchemas_1_1Authentication_1_1Login_1_1AuthenticationLoginRequestBody" ],
+    [ "AuthenticationLoginResponseBody", "de/d54/classNookpostBackend_1_1ApiSchemas_1_1Authentication_1_1Login_1_1AuthenticationLoginResponseBody.html", "de/d54/classNookpostBackend_1_1ApiSchemas_1_1Authentication_1_1Login_1_1AuthenticationLoginResponseBody" ]
+];

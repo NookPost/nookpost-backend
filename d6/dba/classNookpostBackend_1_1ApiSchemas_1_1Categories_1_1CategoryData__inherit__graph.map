@@ -1,0 +1,7 @@
+<map id="NookpostBackend.ApiSchemas.Categories.CategoryData" name="NookpostBackend.ApiSchemas.Categories.CategoryData">
+<area shape="rect" id="Node000001" title=" " alt="" coords="139,5,358,105"/>
+<area shape="rect" id="Node000002" href="$dc/d55/classNookpostBackend_1_1ApiSchemas_1_1Categories_1_1GetAllCategories_1_1GetAllCategoriesCategory.html" title=" " alt="" coords="5,153,231,248"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="197,117,162,155,158,151,193,114"/>
+<area shape="rect" id="Node000003" href="$d7/ded/classNookpostBackend_1_1ApiSchemas_1_1Categories_1_1PutCategory_1_1PutCategoryRequestBody.html" title="The body of a PUT request to category." alt="" coords="255,153,506,248"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="305,114,340,151,336,155,301,117"/>
+</map>

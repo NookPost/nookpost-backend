@@ -1,0 +1,6 @@
+<map id="NookpostBackend.Configuration.Settings" name="NookpostBackend.Configuration.Settings">
+<area shape="rect" id="Node000001" title="Singleton that holds settings about the server. Automatically loaded and set up by static constructor..." alt="" coords="5,491,295,913"/>
+<area shape="rect" id="Node000002" href="$df/d2d/classNookpostBackend_1_1Configuration_1_1Settings.html" title="Singleton that holds settings about the server. Automatically loaded and set up by static constructor..." alt="" coords="5,5,295,428"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="153,428,153,474,147,474,147,428"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="297,178,315,193,321,217,318,233,311,245,306,242,313,231,316,217,310,196,293,182"/>
+</map>

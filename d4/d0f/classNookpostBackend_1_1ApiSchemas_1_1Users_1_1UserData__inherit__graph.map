@@ -1,0 +1,9 @@
+<map id="NookpostBackend.ApiSchemas.Users.UserData" name="NookpostBackend.ApiSchemas.Users.UserData">
+<area shape="rect" id="Node000001" title="Common data for the user object." alt="" coords="320,5,539,185"/>
+<area shape="rect" id="Node000002" href="$d7/db0/classNookpostBackend_1_1ApiSchemas_1_1Users_1_1GetUser_1_1UsersGetResponseBody.html" title="The response to a user get request if successful." alt="" coords="5,233,272,313"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="310,172,204,236,202,231,307,167"/>
+<area shape="rect" id="Node000003" href="$d6/d75/classNookpostBackend_1_1ApiSchemas_1_1Users_1_1PostUser_1_1UsersPostRequestBody.html" title="The request body of a user create request." alt="" coords="296,233,563,313"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="432,199,432,233,427,233,427,199"/>
+<area shape="rect" id="Node000004" href="$db/d04/classNookpostBackend_1_1ApiSchemas_1_1Users_1_1PutUser_1_1UserPutRequestBody.html" title="Request body of a user put request." alt="" coords="587,233,834,313"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="552,170,650,231,647,236,549,174"/>
+</map>

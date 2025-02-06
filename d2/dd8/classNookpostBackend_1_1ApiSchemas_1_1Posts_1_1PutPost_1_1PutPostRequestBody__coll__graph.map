@@ -1,0 +1,5 @@
+<map id="NookpostBackend.ApiSchemas.Posts.PutPost.PutPostRequestBody" name="NookpostBackend.ApiSchemas.Posts.PutPost.PutPostRequestBody">
+<area shape="rect" id="Node000001" title="Response to a post get request." alt="" coords="5,173,247,253"/>
+<area shape="rect" id="Node000002" href="$d4/d64/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1PostData.html" title="Represents a post created by a user." alt="" coords="17,5,235,125"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="129,139,129,173,123,173,123,139"/>
+</map>

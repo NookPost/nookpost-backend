@@ -1,0 +1,3 @@
+<map id="NookpostBackend.Authentication.TokenService" name="NookpostBackend.Authentication.TokenService">
+<area shape="rect" id="Node000001" title="The service provider for token generation. Initialized as singleton by the application builder." alt="" coords="5,5,240,115"/>
+</map>

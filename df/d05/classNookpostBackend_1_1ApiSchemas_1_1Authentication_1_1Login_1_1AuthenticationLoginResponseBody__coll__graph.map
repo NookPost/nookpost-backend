@@ -1,0 +1,3 @@
+<map id="NookpostBackend.ApiSchemas.Authentication.Login.AuthenticationLoginResponseBody" name="NookpostBackend.ApiSchemas.Authentication.Login.AuthenticationLoginResponseBody">
+<area shape="rect" id="Node000001" title="Represents a token object in the response to a Login request." alt="" coords="5,5,252,120"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="NookpostBackend.ApiSchemas.Users.PutUser.UserPutRequestBody" name="NookpostBackend.ApiSchemas.Users.PutUser.UserPutRequestBody">
+<area shape="rect" id="Node000001" title="Request body of a user put request." alt="" coords="5,233,252,313"/>
+<area shape="rect" id="Node000002" href="$d8/d91/classNookpostBackend_1_1ApiSchemas_1_1Users_1_1UserData.html" title="Common data for the user object." alt="" coords="19,5,238,185"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="131,199,131,233,126,233,126,199"/>
+</map>

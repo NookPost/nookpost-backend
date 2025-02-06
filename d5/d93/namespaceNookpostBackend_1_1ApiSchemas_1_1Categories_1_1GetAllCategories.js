@@ -1,0 +1,5 @@
+var namespaceNookpostBackend_1_1ApiSchemas_1_1Categories_1_1GetAllCategories =
+[
+    [ "GetAllCategoriesCategory", "dc/d55/classNookpostBackend_1_1ApiSchemas_1_1Categories_1_1GetAllCategories_1_1GetAllCategoriesCategory.html", "dc/d55/classNookpostBackend_1_1ApiSchemas_1_1Categories_1_1GetAllCategories_1_1GetAllCategoriesCategory" ],
+    [ "GetAllCategoriesResponseBody", "de/dd5/classNookpostBackend_1_1ApiSchemas_1_1Categories_1_1GetAllCategories_1_1GetAllCategoriesResponseBody.html", "de/dd5/classNookpostBackend_1_1ApiSchemas_1_1Categories_1_1GetAllCategories_1_1GetAllCategoriesResponseBody" ]
+];
