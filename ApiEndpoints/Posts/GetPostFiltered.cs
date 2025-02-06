@@ -9,11 +9,13 @@ static class GetPostFiltered
             Ok<NookpostBackend.ApiSchemas.Posts.GetPostFiltered.GetPostFilteredResponseBody>,
             BadRequest> HandleRequest(string? uuid, string? categoryUuid, int? page, int? maxCount, NookpostBackend.Data.DatabaseHandle databaseHandle)
     {
+        System.Console.WriteLine(uuid is null);
+        System.Console.WriteLine(categoryUuid is null);
         databaseHandle.Database.EnsureCreated();
 
         List<Models.Post> filteredPosts = databaseHandle.Posts.Where(p =>
-                    ((categoryUuid == null) ? p.CategoryUuid == categoryUuid : true) &&
-                    ((uuid == null) ? p.Uuid == uuid : true)
+                    ((categoryUuid == null) || p.CategoryUuid == categoryUuid) &&
+                    ((uuid == null) || p.Uuid == uuid)
                 ).ToList();
 
         List<NookpostBackend.ApiSchemas.Posts.GetPostFiltered.GetPostFilteredPost> returnedObjects = new();
