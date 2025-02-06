@@ -28,9 +28,9 @@ public static class ChangePassword
 
         if (String.IsNullOrEmpty(requestBody.OldPassword) || String.IsNullOrEmpty(requestBody.NewPassword)) return TypedResults.BadRequest();
 
-        if (!Cryptography.PasswordHashing.isPasswordValid(requestBody.OldPassword, userFromDb)) return TypedResults.Unauthorized();
-
         if (userFromDb.PasswordSalt is null) return TypedResults.StatusCode(StatusCodes.Status500InternalServerError);
+
+        if (!Cryptography.PasswordHashing.isPasswordValid(requestBody.OldPassword, userFromDb)) return TypedResults.Unauthorized();
 
         userFromDb.PasswordHash = Cryptography.PasswordHashing.HashPassword(requestBody.NewPassword, userFromDb.PasswordSalt);
 
