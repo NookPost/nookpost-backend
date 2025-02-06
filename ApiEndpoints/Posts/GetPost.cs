@@ -10,7 +10,24 @@ static class GetPost
             NotFound,
             BadRequest> HandleRequest(string uuid, NookpostBackend.Data.DatabaseHandle databaseHandle)
     {
-        throw new NotImplementedException();
+        databaseHandle.Database.EnsureCreated();
+
+        Models.Post? post = databaseHandle.Posts.FirstOrDefault(p => p.Uuid == uuid);
+
+        if (post is null) return TypedResults.NotFound();
+
+        Models.User author = databaseHandle.Users.First(u => u.Uuid == post.AuthorUuid);
+
+        return TypedResults.Ok(new NookpostBackend.ApiSchemas.Posts.GetPost.GetPostResponseBody()
+        {
+            Uuid = post.Uuid,
+            AuthorUsername = author.Username,
+            Title = post.Title,
+            Body = post.Body,
+            CategoryUuid = post.CategoryUuid,
+            ModifiedOn = post.ModifiedOn,
+            CreatedOn = post.CreatedOn
+        });
     }
 }
 

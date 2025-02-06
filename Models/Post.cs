@@ -31,9 +31,9 @@ public class Post
     /// <summary>
     /// Unix timestamp the object was created on
     /// </summary>
-    public long? CreatedOn { get; set; }
+    public long CreatedOn { get; set; }
     /// <summary>
     /// Unix timestamp the object was modified on
     /// </summary>
-    public long? ModifiedOn { get; set; }
+    public long ModifiedOn { get; set; }
 }

@@ -13,4 +13,13 @@ public sealed class GetPostResponseBody : NookpostBackend.ApiSchemas.Posts.PostD
     /// The username of the author
     /// </summary>
     public string? AuthorUsername { get; set; }
+    /// <summary>
+    /// Timestamp for the last modification of the post
+    /// </summary>
+    public long ModifiedOn { get; set; }
+    /// <summary>
+    /// Timestamp for the creation of the post
+    /// </summary>
+    public long CreatedOn { get; set; }
+
 }
