@@ -25,10 +25,11 @@ public class Settings
     /// Constructor used for JSON loading, takes all parameters and creates a new settings object.
     /// </summary>
     [JsonConstructor]
-    public Settings(byte[] _jwtIssuerSigningKey, string _serverUserPasswordPepper)
+    public Settings(byte[] _jwtIssuerSigningKey, string _serverUserPasswordPepper, long _maxAllowedPostStringSize)
     {
         this._jwtIssuerSigningKey = _jwtIssuerSigningKey;
         this._serverUserPasswordPepper = _serverUserPasswordPepper;
+        this._maxAllowedPostStringSize = _maxAllowedPostStringSize;
         _instance = this;
     }
 
@@ -39,6 +40,7 @@ public class Settings
     {
         _jwtIssuerSigningKey = Cryptography.Generators.NewRandomByteArray(JwtSigningKeyLength);
         _serverUserPasswordPepper = Cryptography.Generators.NewRandomString(ServerUserPasswordPepperLength);
+        _maxAllowedPostStringSize = 2500000L; // approximately 500k words.
         _instance = this;
     }
 
@@ -90,6 +92,17 @@ public class Settings
     /// Use <c cref="ServerUserPasswordPepper">Settings.ServerUserPasswordPepper</c> instead!
     /// </summary>
     public string _serverUserPasswordPepper { get; private set; }
+
+    /// <summary>
+    /// The maximum allowed size of strings contained in posts, like title, body, etc.
+    /// </summary>
+    public static long MaxAllowedPostStringSize { get => _instance._maxAllowedPostStringSize; set => _instance._maxAllowedPostStringSize = value; }
+    /// <summary>
+    /// The background property for the maximum allowed size of strings contained in posts, like title, body, etc.
+    /// Should not be directly accessed!
+    /// Use <c cref="MaxAllowedPostStringSize">Settings.MaxAllowedPostStringSize</c> instead!
+    /// </summary>
+    public long _maxAllowedPostStringSize { get; private set; }
 
 
     #endregion
@@ -146,7 +159,8 @@ public class Settings
             settings._jwtIssuerSigningKey != null &&
             settings._jwtIssuerSigningKey.Length == JwtSigningKeyLength &&
             settings._serverUserPasswordPepper != null &&
-            settings._serverUserPasswordPepper.Length == ServerUserPasswordPepperLength
+            settings._serverUserPasswordPepper.Length == ServerUserPasswordPepperLength &&
+            settings._maxAllowedPostStringSize != 0
             );
 
     }

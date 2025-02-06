@@ -1,9 +1,9 @@
-namespace NookpostBackend.ApiSchemas.Posts.GetPost;
+namespace NookpostBackend.ApiSchemas.Posts.GetPostFiltered;
 
 /// <summary>
 /// Response to a post get request
 /// </summary>
-public sealed class GetPostResponseBody : NookpostBackend.ApiSchemas.Posts.PostData
+public sealed class GetPostFilteredPost : NookpostBackend.ApiSchemas.Posts.PostData
 {
     /// <summary>
     /// The UUID of the post.
@@ -21,5 +21,4 @@ public sealed class GetPostResponseBody : NookpostBackend.ApiSchemas.Posts.PostD
     /// Timestamp for the creation of the post
     /// </summary>
     public long CreatedOn { get; set; }
-
 }
