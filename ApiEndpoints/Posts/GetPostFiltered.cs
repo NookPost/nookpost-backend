@@ -40,6 +40,7 @@ static class GetPostFiltered
                 AuthorUsername = databaseHandle.Users.First(u => u.Uuid == post.AuthorUuid).Username,
                 Title = post.Title,
                 Body = post.Body,
+                BannerImageBase64 = post.BannerImageBase64,
                 CategoryUuid = post.CategoryUuid,
                 CreatedOn = post.CreatedOn,
                 ModifiedOn = post.ModifiedOn

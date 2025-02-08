@@ -14,6 +14,10 @@ public class PostData
     /// </summary>
     public string? Body { get; set; }
     /// <summary>
+    /// The banner image of the post
+    /// </summary>
+    public string? BannerImageBase64 { get; set; }
+    /// <summary>
     /// UUID of the category of the post
     /// </summary>
     public string? CategoryUuid { get; set; }
