@@ -29,6 +29,10 @@ public class Post
     /// </summary>
     public string? CategoryUuid { get; set; }
     /// <summary>
+    /// The banner image of the post
+    /// </summary>
+    public string? BannerImageBase64 { get; set; }
+    /// <summary>
     /// Unix timestamp the object was created on
     /// </summary>
     public long CreatedOn { get; set; }

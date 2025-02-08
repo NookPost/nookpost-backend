@@ -24,6 +24,7 @@ static class PutPost
         postToEdit.CategoryUuid = requestBody.CategoryUuid ?? postToEdit.CategoryUuid;
         postToEdit.Title = requestBody.Title ?? postToEdit.Title;
         postToEdit.Body = requestBody.Body ?? postToEdit.Body;
+        postToEdit.BannerImageBase64 = requestBody.BannerImageBase64 ?? postToEdit.BannerImageBase64;
         postToEdit.ModifiedOn = (long)DateTime.UtcNow.Subtract(DateTime.UnixEpoch).TotalSeconds;
 
         databaseHandle.SaveChanges();

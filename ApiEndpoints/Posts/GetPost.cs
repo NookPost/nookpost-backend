@@ -24,6 +24,7 @@ static class GetPost
             AuthorUsername = author.Username,
             Title = post.Title,
             Body = post.Body,
+            BannerImageBase64 = post.BannerImageBase64,
             CategoryUuid = post.CategoryUuid,
             ModifiedOn = post.ModifiedOn,
             CreatedOn = post.CreatedOn

@@ -23,7 +23,8 @@ static class PostPost
         if (requestBody.Title is null || requestBody.Body is null || requestBody.CategoryUuid is null) return TypedResults.BadRequest();
 
         if (requestBody.Title.Length > NookpostBackend.Configuration.Settings.MaxAllowedPostStringSize ||
-            requestBody.Body.Length > NookpostBackend.Configuration.Settings.MaxAllowedPostStringSize)
+            requestBody.Body.Length > NookpostBackend.Configuration.Settings.MaxAllowedPostStringSize ||
+            requestBody.BannerImageBase64?.Length > NookpostBackend.Configuration.Settings.MaxAllowedPostStringSize)
             return TypedResults.StatusCode(StatusCodes.Status413PayloadTooLarge);
 
         if (!databaseHandle.Categories.Any(c => c.Uuid == requestBody.CategoryUuid)) return TypedResults.NotFound();
@@ -34,6 +35,7 @@ static class PostPost
             AuthorUuid = userFromDb.Uuid,
             Title = requestBody.Title,
             Body = requestBody.Body,
+            BannerImageBase64 = requestBody.BannerImageBase64,
             CategoryUuid = requestBody.CategoryUuid,
             Uuid = uuid,
             CreatedOn = (long)DateTime.UtcNow.Subtract(DateTime.UnixEpoch).TotalSeconds,
