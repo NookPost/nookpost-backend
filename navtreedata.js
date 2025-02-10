@@ -48,7 +48,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d9/dc5/classNookpostBackend_1_1ApiEndpoints_1_1Users_1_1GetUser.html"
+"d9/d9d/classNookpostBackend_1_1ApiSchemas_1_1Authentication_1_1ChangePassword_1_1PutChangePasswordRequestBody.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

@@ -5,12 +5,13 @@ var searchData=
   ['getallcategoriescategory_2',['GetAllCategoriesCategory',['../dc/d55/classNookpostBackend_1_1ApiSchemas_1_1Categories_1_1GetAllCategories_1_1GetAllCategoriesCategory.html',1,'NookpostBackend::ApiSchemas::Categories::GetAllCategories']]],
   ['getallcategoriesresponsebody_3',['GetAllCategoriesResponseBody',['../de/dd5/classNookpostBackend_1_1ApiSchemas_1_1Categories_1_1GetAllCategories_1_1GetAllCategoriesResponseBody.html',1,'NookpostBackend::ApiSchemas::Categories::GetAllCategories']]],
   ['getcategory_4',['GetCategory',['../d1/d03/classNookpostBackend_1_1ApiEndpoints_1_1Categories_1_1GetCategory.html',1,'NookpostBackend::ApiEndpoints::Categories']]],
-  ['getpost_5',['GetPost',['../da/dbd/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1GetPost.html',1,'NookpostBackend::ApiEndpoints::Posts']]],
-  ['getpostfiltered_6',['GetPostFiltered',['../d1/df7/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1GetPostFiltered.html',1,'NookpostBackend::ApiEndpoints::Posts']]],
-  ['getpostfilteredpost_7',['GetPostFilteredPost',['../d0/d1f/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1GetPostFiltered_1_1GetPostFilteredPost.html',1,'NookpostBackend::ApiSchemas::Posts::GetPostFiltered']]],
-  ['getpostfilteredresponsebody_8',['GetPostFilteredResponseBody',['../d2/d2d/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1GetPostFiltered_1_1GetPostFilteredResponseBody.html',1,'NookpostBackend::ApiSchemas::Posts::GetPostFiltered']]],
-  ['getpostresponsebody_9',['GetPostResponseBody',['../d6/db5/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1GetPost_1_1GetPostResponseBody.html',1,'NookpostBackend::ApiSchemas::Posts::GetPost']]],
-  ['getuser_10',['GetUser',['../d9/dc5/classNookpostBackend_1_1ApiEndpoints_1_1Users_1_1GetUser.html',1,'NookpostBackend::ApiEndpoints::Users']]],
-  ['getuserme_11',['GetUserMe',['../d5/dd1/classNookpostBackend_1_1ApiEndpoints_1_1Users_1_1GetUserMe.html',1,'NookpostBackend::ApiEndpoints::Users']]],
-  ['getusersettings_12',['GetUserSettings',['../df/da2/classNookpostBackend_1_1ApiEndpoints_1_1UserSettings_1_1GetUserSettings.html',1,'NookpostBackend::ApiEndpoints::UserSettings']]]
+  ['getcategoryresponsebody_5',['GetCategoryResponseBody',['../d9/d33/classNookpostBackend_1_1ApiSchemas_1_1Categories_1_1GetCategory_1_1GetCategoryResponseBody.html',1,'NookpostBackend::ApiSchemas::Categories::GetCategory']]],
+  ['getpost_6',['GetPost',['../da/dbd/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1GetPost.html',1,'NookpostBackend::ApiEndpoints::Posts']]],
+  ['getpostfiltered_7',['GetPostFiltered',['../d1/df7/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1GetPostFiltered.html',1,'NookpostBackend::ApiEndpoints::Posts']]],
+  ['getpostfilteredpost_8',['GetPostFilteredPost',['../d0/d1f/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1GetPostFiltered_1_1GetPostFilteredPost.html',1,'NookpostBackend::ApiSchemas::Posts::GetPostFiltered']]],
+  ['getpostfilteredresponsebody_9',['GetPostFilteredResponseBody',['../d2/d2d/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1GetPostFiltered_1_1GetPostFilteredResponseBody.html',1,'NookpostBackend::ApiSchemas::Posts::GetPostFiltered']]],
+  ['getpostresponsebody_10',['GetPostResponseBody',['../d6/db5/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1GetPost_1_1GetPostResponseBody.html',1,'NookpostBackend::ApiSchemas::Posts::GetPost']]],
+  ['getuser_11',['GetUser',['../d9/dc5/classNookpostBackend_1_1ApiEndpoints_1_1Users_1_1GetUser.html',1,'NookpostBackend::ApiEndpoints::Users']]],
+  ['getuserme_12',['GetUserMe',['../d5/dd1/classNookpostBackend_1_1ApiEndpoints_1_1Users_1_1GetUserMe.html',1,'NookpostBackend::ApiEndpoints::Users']]],
+  ['getusersettings_13',['GetUserSettings',['../df/da2/classNookpostBackend_1_1ApiEndpoints_1_1UserSettings_1_1GetUserSettings.html',1,'NookpostBackend::ApiEndpoints::UserSettings']]]
 ];

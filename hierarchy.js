@@ -5,6 +5,7 @@ var hierarchy =
     [ "NookpostBackend.Models.Category", "dc/d5d/classNookpostBackend_1_1Models_1_1Category.html", null ],
     [ "NookpostBackend.ApiSchemas.Categories.CategoryData", "d0/db2/classNookpostBackend_1_1ApiSchemas_1_1Categories_1_1CategoryData.html", [
       [ "NookpostBackend.ApiSchemas.Categories.GetAllCategories.GetAllCategoriesCategory", "dc/d55/classNookpostBackend_1_1ApiSchemas_1_1Categories_1_1GetAllCategories_1_1GetAllCategoriesCategory.html", null ],
+      [ "NookpostBackend.ApiSchemas.Categories.GetCategory.GetCategoryResponseBody", "d9/d33/classNookpostBackend_1_1ApiSchemas_1_1Categories_1_1GetCategory_1_1GetCategoryResponseBody.html", null ],
       [ "NookpostBackend.ApiSchemas.Categories.PutCategory.PutCategoryRequestBody", "d7/ded/classNookpostBackend_1_1ApiSchemas_1_1Categories_1_1PutCategory_1_1PutCategoryRequestBody.html", null ]
     ] ],
     [ "NookpostBackend.ApiEndpoints.Authentication.ChangePassword", "de/dbb/classNookpostBackend_1_1ApiEndpoints_1_1Authentication_1_1ChangePassword.html", null ],

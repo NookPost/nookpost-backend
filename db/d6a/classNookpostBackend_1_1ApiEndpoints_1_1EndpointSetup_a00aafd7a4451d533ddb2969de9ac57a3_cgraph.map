@@ -22,7 +22,7 @@
 <area shape="poly" id="edge7_Node000006_Node000005" title=" " alt="" coords="846,101,905,100,905,105,846,106"/>
 <area shape="rect" id="Node000008" href="$da/d57/classNookpostBackend_1_1ApiEndpoints_1_1Categories_1_1GetAllCategories.html#a36e796bcfd7fa5da82d9b48f4aacf17c" title="Gets all categories." alt="" coords="602,149,858,204"/>
 <area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="502,226,596,204,597,210,503,231"/>
-<area shape="rect" id="Node000009" href="$d1/d03/classNookpostBackend_1_1ApiEndpoints_1_1Categories_1_1GetCategory.html#ab26aea39bfa0116227341c1ae6abefa2" title="Gets a category." alt="" coords="591,229,869,269"/>
+<area shape="rect" id="Node000009" href="$d1/d03/classNookpostBackend_1_1ApiEndpoints_1_1Categories_1_1GetCategory.html#aab4933583ea240f4aa8139282030f82b" title="Gets a category." alt="" coords="591,229,869,269"/>
 <area shape="poly" id="edge10_Node000007_Node000009" title=" " alt="" coords="529,246,577,246,577,251,529,251"/>
 <area shape="rect" id="Node000011" href="$d8/dcc/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1DeletePost.html#ac56bf91de4be2f970a018bddd2a2fbe7" title="Deletes a post." alt="" coords="613,293,847,333"/>
 <area shape="poly" id="edge12_Node000010_Node000011" title=" " alt="" coords="444,418,509,380,588,342,613,334,614,339,590,347,511,385,446,423"/>

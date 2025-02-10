@@ -50,6 +50,9 @@ var annotated_dup =
             [ "GetAllCategoriesCategory", "dc/d55/classNookpostBackend_1_1ApiSchemas_1_1Categories_1_1GetAllCategories_1_1GetAllCategoriesCategory.html", "dc/d55/classNookpostBackend_1_1ApiSchemas_1_1Categories_1_1GetAllCategories_1_1GetAllCategoriesCategory" ],
             [ "GetAllCategoriesResponseBody", "de/dd5/classNookpostBackend_1_1ApiSchemas_1_1Categories_1_1GetAllCategories_1_1GetAllCategoriesResponseBody.html", "de/dd5/classNookpostBackend_1_1ApiSchemas_1_1Categories_1_1GetAllCategories_1_1GetAllCategoriesResponseBody" ]
           ] ],
+          [ "GetCategory", "dd/d11/namespaceNookpostBackend_1_1ApiSchemas_1_1Categories_1_1GetCategory.html", [
+            [ "GetCategoryResponseBody", "d9/d33/classNookpostBackend_1_1ApiSchemas_1_1Categories_1_1GetCategory_1_1GetCategoryResponseBody.html", "d9/d33/classNookpostBackend_1_1ApiSchemas_1_1Categories_1_1GetCategory_1_1GetCategoryResponseBody" ]
+          ] ],
           [ "PostCategory", "da/df4/namespaceNookpostBackend_1_1ApiSchemas_1_1Categories_1_1PostCategory.html", [
             [ "PostCategoryResponseBody", "d1/d14/classNookpostBackend_1_1ApiSchemas_1_1Categories_1_1PostCategory_1_1PostCategoryResponseBody.html", "d1/d14/classNookpostBackend_1_1ApiSchemas_1_1Categories_1_1PostCategory_1_1PostCategoryResponseBody" ]
           ] ],
