@@ -28,7 +28,7 @@
 <area shape="poly" id="edge12_Node000010_Node000011" title=" " alt="" coords="444,418,509,380,588,342,613,334,614,339,590,347,511,385,446,423"/>
 <area shape="rect" id="Node000012" href="$da/dbd/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1GetPost.html#ae9af24ab2b8d507826b031e3c37324c1" title="Gets a post." alt="" coords="614,357,846,397"/>
 <area shape="poly" id="edge13_Node000010_Node000012" title=" " alt="" coords="513,418,617,397,618,402,514,423"/>
-<area shape="rect" id="Node000013" href="$d1/df7/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1GetPostFiltered.html#a0e6e200bd2e98410f29145d81affdd5e" title="Gets a filtered set of posts." alt="" coords="598,421,862,461"/>
+<area shape="rect" id="Node000013" href="$d1/df7/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1GetPostFiltered.html#a26df947aba00b94a78631764b2cebd16" title="Gets a filtered set of posts." alt="" coords="598,421,862,461"/>
 <area shape="poly" id="edge14_Node000010_Node000013" title=" " alt="" coords="529,438,584,438,584,443,529,443"/>
 <area shape="rect" id="Node000014" href="$d9/d72/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1PostPost.html#a1a3b94f025dd1d35853530139c4c1572" title="Creates a post." alt="" coords="614,485,846,525"/>
 <area shape="poly" id="edge15_Node000010_Node000014" title=" " alt="" coords="514,458,618,479,617,485,513,463"/>

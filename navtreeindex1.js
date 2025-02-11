@@ -1,5 +1,7 @@
 var NAVTREEINDEX1 =
 {
+"d9/d72/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1PostPost.html#a1a3b94f025dd1d35853530139c4c1572":[1,0,0,0,2,4,0],
+"d9/d9d/classNookpostBackend_1_1ApiSchemas_1_1Authentication_1_1ChangePassword_1_1PutChangePasswordRequestBody.html":[0,0,0,1,0,0,0],
 "d9/d9d/classNookpostBackend_1_1ApiSchemas_1_1Authentication_1_1ChangePassword_1_1PutChangePasswordRequestBody.html":[1,0,0,1,0,0,0],
 "d9/d9d/classNookpostBackend_1_1ApiSchemas_1_1Authentication_1_1ChangePassword_1_1PutChangePasswordRequestBody.html#a1fa155d495346569993ebdf9680de9ec":[0,0,0,1,0,0,0,0],
 "d9/d9d/classNookpostBackend_1_1ApiSchemas_1_1Authentication_1_1ChangePassword_1_1PutChangePasswordRequestBody.html#a1fa155d495346569993ebdf9680de9ec":[1,0,0,1,0,0,0,0],
