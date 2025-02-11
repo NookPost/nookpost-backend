@@ -8,18 +8,20 @@ static class GetPostFiltered
     /// <remarks>The list will be ordered by date of creation</remarks>
     /// <param name="uuid">The UUID of the post to get</param>
     /// <param name="categoryUuid">The uuid of the category the posts are in</param>
+    /// <param name="textSearch">Text to search for in articles (body and title)</param>
     /// <param name="page">The page the posts should be on (requires pageItemCount)</param>
     /// <param name="pageItemCount">The number of posts per page (requires page)</param>
     /// <param name="databaseHandle">The database handle</param>
     public static Microsoft.AspNetCore.Http.HttpResults.Results<
             Ok<NookpostBackend.ApiSchemas.Posts.GetPostFiltered.GetPostFilteredResponseBody>,
-            BadRequest> HandleRequest(string? uuid, string? categoryUuid, int? page, int? pageItemCount, NookpostBackend.Data.DatabaseHandle databaseHandle)
+            BadRequest> HandleRequest(string? uuid, string? categoryUuid, string? textSearch, int? page, int? pageItemCount, NookpostBackend.Data.DatabaseHandle databaseHandle)
     {
         databaseHandle.Database.EnsureCreated();
 
         IQueryable<Models.Post> filteredPosts = databaseHandle.Posts.Where(p =>
                     ((categoryUuid == null) || p.CategoryUuid == categoryUuid) &&
-                    ((uuid == null) || p.Uuid == uuid)
+                    ((uuid == null) || p.Uuid == uuid) &&
+                    ((textSearch == null) || (((p.Body != null) && p.Body.Contains(textSearch)) || ((p.Title != null) && p.Title.Contains(textSearch))))
                 ).OrderByDescending(p => p.CreatedOn);
 
         int returnedCount = filteredPosts.Count();
