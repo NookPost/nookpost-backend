@@ -11,7 +11,7 @@ public static class EndpointSetup
     /// </summary>
     public static void Setup(WebApplication app)
     {
-        app.MapGet("/category", GetCategory.HandleRequest).WithTags("Categories").WithOpenApi();
-        app.MapGet("/category/all", GetAllCategories.HandleRequest).WithTags("Categories").WithOpenApi();
+        app.MapGet("/categories/{uuid}", GetCategory.HandleRequest).WithTags("Categories").WithOpenApi();
+        app.MapGet("/categories", GetAllCategories.HandleRequest).WithTags("Categories").WithOpenApi();
     }
 }

@@ -11,10 +11,10 @@ public static class EndpointSetup
     /// </summary>
     public static void Setup(WebApplication app)
     {
-        app.MapGet("/posts", GetPost.HandleRequest).WithTags("Posts").WithOpenApi();
-        app.MapPost("/posts", PostPost.HandleRequest).WithTags("Posts").WithOpenApi().RequireAuthorization("user");
-        app.MapPut("/posts", PutPost.HandleRequest).WithTags("Posts").WithOpenApi().RequireAuthorization("user");
-        app.MapDelete("/posts", DeletePost.HandleRequest).WithTags("Posts").WithOpenApi().RequireAuthorization("user");
-        app.MapGet("/posts/filter", GetPostFiltered.HandleRequest).WithTags("Posts").WithOpenApi();
+        app.MapGet("/posts/{uuid}", GetPost.HandleRequest).WithTags("Posts").WithOpenApi();
+        app.MapPost("/posts/{uuid}", PostPost.HandleRequest).WithTags("Posts").WithOpenApi().RequireAuthorization("user");
+        app.MapPut("/posts/{uuid}", PutPost.HandleRequest).WithTags("Posts").WithOpenApi().RequireAuthorization("user");
+        app.MapDelete("/posts/{uuid}", DeletePost.HandleRequest).WithTags("Posts").WithOpenApi().RequireAuthorization("user");
+        app.MapGet("/posts", GetPostFiltered.HandleRequest).WithTags("Posts").WithOpenApi();
     }
 }
