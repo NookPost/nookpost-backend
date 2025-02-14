@@ -83,7 +83,7 @@ This is a text for testing the search.
             CategoryUuid = "56a1fa66-afde-4041-8e80-96b794bafdef",
             CreatedOn = (long)DateTime.UtcNow.Subtract(DateTime.UnixEpoch).TotalSeconds,
             ModifiedOn = (long)DateTime.UtcNow.Subtract(DateTime.UnixEpoch).TotalSeconds,
-            AuthorUuid = "110b9079-a902-4e6c-9544-15a7ce7e01dc",
+            AuthorUuid = "ad66bda0-89aa-4361-8299-3692b001792e",
             BannerImageBase64 = null
         });
     }
@@ -92,7 +92,6 @@ This is a text for testing the search.
     {
         Models.UserSettings userSettings = new();
         userSettings.Uuid = "4663d82b-fd14-4e6c-8e94-2e5c821f7e16";
-
         modelBuilder.Entity<NookpostBackend.Models.UserSettings>().HasData(userSettings);
 
         string passwordSalt = Cryptography.Generators.NewRandomString(Configuration.Settings.UserPasswordSaltLength);
@@ -104,8 +103,21 @@ This is a text for testing the search.
             PasswordHash = Cryptography.PasswordHashing.HashPassword("Test123", passwordSalt),
             UserSettingsUuid = userSettings.Uuid
         };
-
         modelBuilder.Entity<NookpostBackend.Models.User>().HasData(user);
+
+        Models.UserSettings userSettings2 = new();
+        userSettings2.Uuid = "2073a5bd-9cc7-4f54-b1db-66c1b2e9bb4a";
+        modelBuilder.Entity<NookpostBackend.Models.UserSettings>().HasData(userSettings2);
+
+        passwordSalt = Cryptography.Generators.NewRandomString(Configuration.Settings.UserPasswordSaltLength);
+        Models.User user2 = new Models.User(){
+            Uuid = "ad66bda0-89aa-4361-8299-3692b001792e",
+            Username = "Test321",
+            PasswordSalt = passwordSalt,
+            PasswordHash = Cryptography.PasswordHashing.HashPassword("Test321", passwordSalt),
+            UserSettingsUuid = userSettings2.Uuid
+        };
+        modelBuilder.Entity<NookpostBackend.Models.User>().HasData(user2);
     }
 
     private static void SeedCategories(this ModelBuilder modelBuilder)
