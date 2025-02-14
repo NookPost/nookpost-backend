@@ -6,7 +6,7 @@ static class GetPostFiltered
     /// Gets a filtered set of posts
     /// </summary>
     /// <remarks>The list will be ordered by date of creation</remarks>
-    /// <param name="uuid">The UUID of the post to get</param>
+    /// <param name="username">The username of the author that created the post</param>
     /// <param name="categoryUuid">The uuid of the category the posts are in</param>
     /// <param name="textSearch">Text to search for in articles (body and title)</param>
     /// <param name="page">The page the posts should be on (requires pageItemCount)</param>
@@ -14,13 +14,21 @@ static class GetPostFiltered
     /// <param name="databaseHandle">The database handle</param>
     public static Microsoft.AspNetCore.Http.HttpResults.Results<
             Ok<NookpostBackend.ApiSchemas.Posts.GetPostFiltered.GetPostFilteredResponseBody>,
-            BadRequest> HandleRequest(string? uuid, string? categoryUuid, string? textSearch, int? page, int? pageItemCount, NookpostBackend.Data.DatabaseHandle databaseHandle)
+            BadRequest> HandleRequest(string? username, string? categoryUuid, string? textSearch, int? page, int? pageItemCount, NookpostBackend.Data.DatabaseHandle databaseHandle)
     {
         databaseHandle.Database.EnsureCreated();
 
+        Models.User? author = null;
+        if (!String.IsNullOrEmpty(username))
+        {
+            author = databaseHandle.Users.FirstOrDefault(u => u.Username == username);
+            // return an empty list if no matching user is found
+            if (author is null) return TypedResults.Ok(new NookpostBackend.ApiSchemas.Posts.GetPostFiltered.GetPostFilteredResponseBody() { Posts = new() });
+        }
+
         IQueryable<Models.Post> filteredPosts = databaseHandle.Posts.Where(p =>
+                    ((author == null) || p.AuthorUuid == author.Uuid) &&
                     ((categoryUuid == null) || p.CategoryUuid == categoryUuid) &&
-                    ((uuid == null) || p.Uuid == uuid) &&
                     ((textSearch == null) || (((p.Body != null) && p.Body.Contains(textSearch)) || ((p.Title != null) && p.Title.Contains(textSearch))))
                 ).OrderByDescending(p => p.CreatedOn);
 
