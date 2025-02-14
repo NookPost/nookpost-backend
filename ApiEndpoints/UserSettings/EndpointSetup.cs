@@ -11,7 +11,7 @@ public static class EndpointSetup
     /// </summary>
     public static void Setup(WebApplication app)
     {
-        app.MapGet("/userSettings", GetUserSettings.HandleRequest).WithTags("UserSettings").WithOpenApi().RequireAuthorization("user");
-        app.MapPut("/userSettings", PutUserSettings.HandleRequest).WithTags("UserSettings").WithOpenApi().RequireAuthorization("user");
+        app.MapGet("/user/me/settings", GetUserSettings.HandleRequest).WithTags("Users Settings").WithOpenApi().RequireAuthorization("user");
+        app.MapPut("/user/me/settings", PutUserSettings.HandleRequest).WithTags("Users Settings").WithOpenApi().RequireAuthorization("user");
     }
 }
