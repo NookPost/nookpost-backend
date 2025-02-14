@@ -110,7 +110,8 @@ This is a text for testing the search.
         modelBuilder.Entity<NookpostBackend.Models.UserSettings>().HasData(userSettings2);
 
         passwordSalt = Cryptography.Generators.NewRandomString(Configuration.Settings.UserPasswordSaltLength);
-        Models.User user2 = new Models.User(){
+        Models.User user2 = new Models.User()
+        {
             Uuid = "ad66bda0-89aa-4361-8299-3692b001792e",
             Username = "Test321",
             PasswordSalt = passwordSalt,
