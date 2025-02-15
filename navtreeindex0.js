@@ -24,6 +24,7 @@ var NAVTREEINDEX0 =
 "d0/db2/classNookpostBackend_1_1ApiSchemas_1_1Categories_1_1CategoryData.html#ad91c26ef13a1069cba038fb06a40649e":[0,0,0,1,1,4,1],
 "d0/db2/classNookpostBackend_1_1ApiSchemas_1_1Categories_1_1CategoryData.html#ad91c26ef13a1069cba038fb06a40649e":[1,0,0,1,1,4,1],
 "d0/db6/GetAllCategoriesCategory_8cs.html":[2,0,1,1,0,0],
+"d0/de1/PostGetData_8cs.html":[2,0,1,2,5],
 "d1/d03/classNookpostBackend_1_1ApiEndpoints_1_1Categories_1_1GetCategory.html":[0,0,0,0,1,2],
 "d1/d03/classNookpostBackend_1_1ApiEndpoints_1_1Categories_1_1GetCategory.html":[1,0,0,0,1,2],
 "d1/d03/classNookpostBackend_1_1ApiEndpoints_1_1Categories_1_1GetCategory.html#aab4933583ea240f4aa8139282030f82b":[0,0,0,0,1,2,0],
@@ -225,6 +226,10 @@ var NAVTREEINDEX0 =
 "d8/d91/classNookpostBackend_1_1ApiSchemas_1_1Users_1_1UserData.html#ae8d24c605cbdcc55369619f9001af9c6":[1,0,0,1,3,3,4],
 "d8/d91/classNookpostBackend_1_1ApiSchemas_1_1Users_1_1UserData.html#af9675ebbbf352b50425706c5b1fad403":[0,0,0,1,3,3,3],
 "d8/d91/classNookpostBackend_1_1ApiSchemas_1_1Users_1_1UserData.html#af9675ebbbf352b50425706c5b1fad403":[1,0,0,1,3,3,3],
+"d8/d95/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1PostGetData.html":[0,0,0,1,2,5],
+"d8/d95/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1PostGetData.html":[1,0,0,1,2,5],
+"d8/d95/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1PostGetData.html#a42fcbe0abbbb3cb67a7451e251d20d4b":[0,0,0,1,2,5,0],
+"d8/d95/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1PostGetData.html#a42fcbe0abbbb3cb67a7451e251d20d4b":[1,0,0,1,2,5,0],
 "d8/daa/Categories_2EndpointSetup_8cs.html":[2,0,0,1,0],
 "d8/db2/GetUser_8cs.html":[2,0,0,3,2],
 "d8/dc6/classNookpostBackend_1_1Program.html":[0,0,0,7],
@@ -244,10 +249,5 @@ var NAVTREEINDEX0 =
 "d8/dfb/classNookpostBackend_1_1ApiSchemas_1_1UserSettings_1_1UserSettingsData.html#ada0d3cb42861e093e388a44b77bb89de":[1,0,0,1,4,0,0],
 "d9/d33/classNookpostBackend_1_1ApiSchemas_1_1Categories_1_1GetCategory_1_1GetCategoryResponseBody.html":[0,0,0,1,1,1,0],
 "d9/d33/classNookpostBackend_1_1ApiSchemas_1_1Categories_1_1GetCategory_1_1GetCategoryResponseBody.html":[1,0,0,1,1,1,0],
-"d9/d33/classNookpostBackend_1_1ApiSchemas_1_1Categories_1_1GetCategory_1_1GetCategoryResponseBody.html#a01460f1bc6a9b04c664e3dabf4763cbc":[0,0,0,1,1,1,0,0],
-"d9/d33/classNookpostBackend_1_1ApiSchemas_1_1Categories_1_1GetCategory_1_1GetCategoryResponseBody.html#a01460f1bc6a9b04c664e3dabf4763cbc":[1,0,0,1,1,1,0,0],
-"d9/d67/GetPostFilteredResponseBody_8cs.html":[2,0,1,2,1,1],
-"d9/d72/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1PostPost.html":[0,0,0,0,2,4],
-"d9/d72/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1PostPost.html":[1,0,0,0,2,4],
-"d9/d72/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1PostPost.html#a1a3b94f025dd1d35853530139c4c1572":[0,0,0,0,2,4,0]
+"d9/d33/classNookpostBackend_1_1ApiSchemas_1_1Categories_1_1GetCategory_1_1GetCategoryResponseBody.html#a01460f1bc6a9b04c664e3dabf4763cbc":[0,0,0,1,1,1,0,0]
 };

@@ -36,8 +36,10 @@ var hierarchy =
     [ "NookpostBackend.Models.Post", "df/d30/classNookpostBackend_1_1Models_1_1Post.html", null ],
     [ "NookpostBackend.ApiSchemas.Categories.PostCategory.PostCategoryResponseBody", "d1/d14/classNookpostBackend_1_1ApiSchemas_1_1Categories_1_1PostCategory_1_1PostCategoryResponseBody.html", null ],
     [ "NookpostBackend.ApiSchemas.Posts.PostData", "d4/d64/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1PostData.html", [
-      [ "NookpostBackend.ApiSchemas.Posts.GetPost.GetPostResponseBody", "d6/db5/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1GetPost_1_1GetPostResponseBody.html", null ],
-      [ "NookpostBackend.ApiSchemas.Posts.GetPostFiltered.GetPostFilteredPost", "d0/d1f/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1GetPostFiltered_1_1GetPostFilteredPost.html", null ],
+      [ "NookpostBackend.ApiSchemas.Posts.PostGetData", "d8/d95/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1PostGetData.html", [
+        [ "NookpostBackend.ApiSchemas.Posts.GetPost.GetPostResponseBody", "d6/db5/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1GetPost_1_1GetPostResponseBody.html", null ],
+        [ "NookpostBackend.ApiSchemas.Posts.GetPostFiltered.GetPostFilteredPost", "d0/d1f/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1GetPostFiltered_1_1GetPostFilteredPost.html", null ]
+      ] ],
       [ "NookpostBackend.ApiSchemas.Posts.PutPost.PutPostRequestBody", "d1/d89/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1PutPost_1_1PutPostRequestBody.html", null ]
     ] ],
     [ "NookpostBackend.ApiEndpoints.Posts.PostPost", "d9/d72/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1PostPost.html", null ],

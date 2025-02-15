@@ -1,5 +1,7 @@
 <map id="NookpostBackend.ApiSchemas.Posts.GetPost.GetPostResponseBody" name="NookpostBackend.ApiSchemas.Posts.GetPost.GetPostResponseBody">
-<area shape="rect" id="Node000001" title="Response to a post get request." alt="" coords="5,193,260,333"/>
-<area shape="rect" id="Node000002" href="$d4/d64/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1PostData.html" title="Represents a post created by a user." alt="" coords="23,5,242,145"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="135,159,135,193,130,193,130,159"/>
+<area shape="rect" id="Node000001" title="Response to a post get request." alt="" coords="5,321,260,461"/>
+<area shape="rect" id="Node000002" href="$d8/d95/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1PostGetData.html" title="Common data for a psot get response." alt="" coords="23,193,242,273"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="135,287,135,321,130,321,130,287"/>
+<area shape="rect" id="Node000003" href="$d4/d64/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1PostData.html" title="Represents a post created by a user." alt="" coords="23,5,242,145"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="135,159,135,193,130,193,130,159"/>
 </map>

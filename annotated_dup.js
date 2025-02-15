@@ -75,7 +75,8 @@ var annotated_dup =
           [ "PutPost", "d2/d1d/namespaceNookpostBackend_1_1ApiSchemas_1_1Posts_1_1PutPost.html", [
             [ "PutPostRequestBody", "d1/d89/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1PutPost_1_1PutPostRequestBody.html", "d1/d89/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1PutPost_1_1PutPostRequestBody" ]
           ] ],
-          [ "PostData", "d4/d64/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1PostData.html", "d4/d64/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1PostData" ]
+          [ "PostData", "d4/d64/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1PostData.html", "d4/d64/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1PostData" ],
+          [ "PostGetData", "d8/d95/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1PostGetData.html", "d8/d95/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1PostGetData" ]
         ] ],
         [ "Users", "d3/d7d/namespaceNookpostBackend_1_1ApiSchemas_1_1Users.html", [
           [ "GetUser", "d1/dc2/namespaceNookpostBackend_1_1ApiSchemas_1_1Users_1_1GetUser.html", [

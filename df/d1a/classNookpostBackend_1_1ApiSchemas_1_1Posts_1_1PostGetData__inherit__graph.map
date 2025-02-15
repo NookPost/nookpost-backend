@@ -1,0 +1,9 @@
+<map id="NookpostBackend.ApiSchemas.Posts.PostGetData" name="NookpostBackend.ApiSchemas.Posts.PostGetData">
+<area shape="rect" id="Node000001" title="Common data for a psot get response." alt="" coords="170,193,389,273"/>
+<area shape="rect" id="Node000003" href="$d6/db5/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1GetPost_1_1GetPostResponseBody.html" title="Response to a post get request." alt="" coords="5,321,260,461"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="235,285,200,323,196,319,232,281"/>
+<area shape="rect" id="Node000004" href="$d0/d1f/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1GetPostFiltered_1_1GetPostFilteredPost.html" title="Response to a post get request." alt="" coords="285,321,570,461"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="328,281,363,319,360,323,324,285"/>
+<area shape="rect" id="Node000002" href="$d4/d64/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1PostData.html" title="Represents a post created by a user." alt="" coords="170,5,389,145"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="282,159,282,193,277,193,277,159"/>
+</map>
