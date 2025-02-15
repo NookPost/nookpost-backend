@@ -23,6 +23,7 @@ static class GetUserMe
 
         return TypedResults.Ok(new NookpostBackend.ApiSchemas.Users.GetUser.UsersGetResponseBody()
         {
+            Uuid = userFromDb.Uuid,
             Username = userFromDb.Username,
             DisplayName = userFromDb.DisplayName,
             TagLine = userFromDb.TagLine,

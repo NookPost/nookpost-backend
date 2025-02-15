@@ -5,5 +5,9 @@ namespace NookpostBackend.ApiSchemas.Users.GetUser;
 /// </summary>
 public sealed class UsersGetResponseBody : NookpostBackend.ApiSchemas.Users.UserData
 {
+    /// <summary>
+    /// The UUID of the user
+    /// </summary>
+    public string? Uuid { get; set; }
 
 }
