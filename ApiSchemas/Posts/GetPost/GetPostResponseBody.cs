@@ -3,7 +3,7 @@ namespace NookpostBackend.ApiSchemas.Posts.GetPost;
 /// <summary>
 /// Response to a post get request
 /// </summary>
-public sealed class GetPostResponseBody : NookpostBackend.ApiSchemas.Posts.PostData
+public sealed class GetPostResponseBody : NookpostBackend.ApiSchemas.Posts.PostGetData
 {
     /// <summary>
     /// The UUID of the post.

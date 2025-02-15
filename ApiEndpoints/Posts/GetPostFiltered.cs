@@ -44,10 +44,12 @@ static class GetPostFiltered
 
         foreach (Models.Post post in filteredPosts.ToList())
         {
+            Models.User currentPostAuthor = databaseHandle.Users.First(u => u.Uuid == post.AuthorUuid);
             returnedObjects.Add(new()
             {
                 Uuid = post.Uuid,
-                AuthorUsername = databaseHandle.Users.First(u => u.Uuid == post.AuthorUuid).Username,
+                AuthorUsername = currentPostAuthor.Username,
+                AuthorDisplayName = currentPostAuthor.DisplayName,
                 Title = post.Title,
                 Body = post.Body,
                 BannerImageBase64 = post.BannerImageBase64,

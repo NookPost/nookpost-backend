@@ -22,6 +22,7 @@ static class GetPost
         {
             Uuid = post.Uuid,
             AuthorUsername = author.Username,
+            AuthorDisplayName = author.DisplayName,
             Title = post.Title,
             Body = post.Body,
             BannerImageBase64 = post.BannerImageBase64,
