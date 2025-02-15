@@ -21,6 +21,7 @@ public class PostUser
         }
 
         if (databaseHandle.Users.Any(u => u.Username == requestBody.Username)) { return TypedResults.Conflict(); }
+        if (requestBody.Username.ToLower() == "me") { return TypedResults.Conflict(); }
 
         Models.UserSettings settings = new Models.UserSettings();
 
