@@ -99,6 +99,7 @@ This is a text for testing the search.
         {
             Uuid = "110b9079-a902-4e6c-9544-15a7ce7e01dc",
             Username = "Test123",
+            DisplayName = "Testi",
             PasswordSalt = passwordSalt,
             PasswordHash = Cryptography.PasswordHashing.HashPassword("Test123", passwordSalt),
             UserSettingsUuid = userSettings.Uuid
@@ -114,6 +115,7 @@ This is a text for testing the search.
         {
             Uuid = "ad66bda0-89aa-4361-8299-3692b001792e",
             Username = "Test321",
+            DisplayName = "Testomatisch",
             PasswordSalt = passwordSalt,
             PasswordHash = Cryptography.PasswordHashing.HashPassword("Test321", passwordSalt),
             UserSettingsUuid = userSettings2.Uuid
