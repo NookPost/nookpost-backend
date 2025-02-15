@@ -43,7 +43,7 @@ static class GetPostFiltered
         List<NookpostBackend.ApiSchemas.Posts.GetPostFiltered.GetPostFilteredPost> returnedObjects = new();
 
         foreach (Models.Post post in filteredPosts.ToList())
-        { 
+        {
             Models.User currentPostAuthor = databaseHandle.Users.First(u => u.Uuid == post.AuthorUuid);
             returnedObjects.Add(new()
             {
