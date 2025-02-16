@@ -15,12 +15,10 @@
 <polygon fill="#999999" stroke="transparent" points="181,-60 0,-60 0,0 181,0 181,-60"/>
 <text text-anchor="start" x="5.5" y="-48" font-family="Helvetica,sans-Serif" font-size="10.00">NookpostBackend.ApiSchemas.</text>
 <text text-anchor="start" x="5.5" y="-37" font-family="Helvetica,sans-Serif" font-size="10.00">Posts.PutPost.PutPostRequestBody</text>
-<text text-anchor="start" x="29.5" y="-22" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="67.5" y="-22" font-family="Helvetica,sans-Serif" font-size="10.00">string? Uuid</text>
+<text text-anchor="start" x="89" y="-22" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 <text text-anchor="start" x="89" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 <polygon fill="#666666" stroke="#666666" points="0.5,-32 0.5,-32 181.5,-32 181.5,-32 0.5,-32"/>
-<polygon fill="#666666" stroke="#666666" points="0.5,-17 0.5,-17 65.5,-17 65.5,-17 0.5,-17"/>
-<polygon fill="#666666" stroke="#666666" points="65.5,-17 65.5,-17 181.5,-17 181.5,-17 65.5,-17"/>
+<polygon fill="#666666" stroke="#666666" points="0.5,-17 0.5,-17 181.5,-17 181.5,-17 0.5,-17"/>
 <polygon fill="none" stroke="#666666" points="0,0 0,-60 181,-60 181,0 0,0"/>
 </a>
 </g>

@@ -32,7 +32,7 @@
 <area shape="poly" id="edge14_Node000010_Node000013" title=" " alt="" coords="529,438,584,438,584,443,529,443"/>
 <area shape="rect" id="Node000014" href="$d9/d72/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1PostPost.html#a1a3b94f025dd1d35853530139c4c1572" title="Creates a post." alt="" coords="614,485,846,525"/>
 <area shape="poly" id="edge15_Node000010_Node000014" title=" " alt="" coords="514,458,618,479,617,485,513,463"/>
-<area shape="rect" id="Node000015" href="$d8/d19/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1PutPost.html#acdacbe6d57537381287795d5d43c7200" title="Modifies a post." alt="" coords="614,549,846,589"/>
+<area shape="rect" id="Node000015" href="$d8/d19/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1PutPost.html#a8b14da49acaba479450ade9858d9a4a1" title="Modifies a post." alt="" coords="614,549,846,589"/>
 <area shape="poly" id="edge16_Node000010_Node000015" title=" " alt="" coords="446,458,511,497,590,534,614,542,613,547,588,539,509,502,444,463"/>
 <area shape="rect" id="Node000017" href="$db/d18/classNookpostBackend_1_1ApiEndpoints_1_1Users_1_1DeleteUserMe.html#aae42f13191e9d45986c2b7b38ff59f6f" title="Deletes a user." alt="" coords="601,613,859,653"/>
 <area shape="poly" id="edge18_Node000016_Node000017" title=" " alt="" coords="463,706,589,662,620,653,622,659,590,667,465,711"/>

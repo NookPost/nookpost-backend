@@ -75,12 +75,10 @@
 <polygon fill="white" stroke="transparent" points="487,-201 306,-201 306,-141 487,-141 487,-201"/>
 <text text-anchor="start" x="311.5" y="-189" font-family="Helvetica,sans-Serif" font-size="10.00">NookpostBackend.ApiSchemas.</text>
 <text text-anchor="start" x="311.5" y="-178" font-family="Helvetica,sans-Serif" font-size="10.00">Posts.PutPost.PutPostRequestBody</text>
-<text text-anchor="start" x="335.5" y="-163" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
-<text text-anchor="start" x="373.5" y="-163" font-family="Helvetica,sans-Serif" font-size="10.00">string? Uuid</text>
+<text text-anchor="start" x="395" y="-163" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 <text text-anchor="start" x="395" y="-148" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 <polygon fill="#666666" stroke="#666666" points="306.5,-173 306.5,-173 487.5,-173 487.5,-173 306.5,-173"/>
-<polygon fill="#666666" stroke="#666666" points="306.5,-158 306.5,-158 371.5,-158 371.5,-158 306.5,-158"/>
-<polygon fill="#666666" stroke="#666666" points="371.5,-158 371.5,-158 487.5,-158 487.5,-158 371.5,-158"/>
+<polygon fill="#666666" stroke="#666666" points="306.5,-158 306.5,-158 487.5,-158 487.5,-158 306.5,-158"/>
 <polygon fill="none" stroke="#666666" points="306,-141 306,-201 487,-201 487,-141 306,-141"/>
 </a>
 </g>

@@ -37,8 +37,6 @@ var NAVTREEINDEX0 =
 "d1/d66/Login_8cs.html":[2,0,0,0,2],
 "d1/d89/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1PutPost_1_1PutPostRequestBody.html":[0,0,0,1,2,3,0],
 "d1/d89/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1PutPost_1_1PutPostRequestBody.html":[1,0,0,1,2,3,0],
-"d1/d89/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1PutPost_1_1PutPostRequestBody.html#afb621d8de3645fb805e29b48487b889d":[0,0,0,1,2,3,0,0],
-"d1/d89/classNookpostBackend_1_1ApiSchemas_1_1Posts_1_1PutPost_1_1PutPostRequestBody.html#afb621d8de3645fb805e29b48487b889d":[1,0,0,1,2,3,0,0],
 "d1/d9f/PutUserSettings_8cs.html":[2,0,0,4,2],
 "d1/dc2/namespaceNookpostBackend_1_1ApiSchemas_1_1Users_1_1GetUser.html":[0,0,0,1,3,0],
 "d1/dcd/namespaceNookpostBackend_1_1ApiEndpoints.html":[0,0,0,0],
@@ -210,8 +208,8 @@ var NAVTREEINDEX0 =
 "d7/ded/classNookpostBackend_1_1ApiSchemas_1_1Categories_1_1PutCategory_1_1PutCategoryRequestBody.html#ae28d2b723de1b01f29f11e04d25c0877":[1,0,0,1,1,3,0,0],
 "d8/d19/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1PutPost.html":[0,0,0,0,2,5],
 "d8/d19/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1PutPost.html":[1,0,0,0,2,5],
-"d8/d19/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1PutPost.html#acdacbe6d57537381287795d5d43c7200":[0,0,0,0,2,5,0],
-"d8/d19/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1PutPost.html#acdacbe6d57537381287795d5d43c7200":[1,0,0,0,2,5,0],
+"d8/d19/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1PutPost.html#a8b14da49acaba479450ade9858d9a4a1":[0,0,0,0,2,5,0],
+"d8/d19/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1PutPost.html#a8b14da49acaba479450ade9858d9a4a1":[1,0,0,0,2,5,0],
 "d8/d5d/namespaceNookpostBackend_1_1ApiEndpoints_1_1Categories.html":[0,0,0,0,1],
 "d8/d7a/Program_8cs.html":[2,0,8],
 "d8/d91/classNookpostBackend_1_1ApiSchemas_1_1Users_1_1UserData.html":[0,0,0,1,3,3],
@@ -249,5 +247,7 @@ var NAVTREEINDEX0 =
 "d8/dfb/classNookpostBackend_1_1ApiSchemas_1_1UserSettings_1_1UserSettingsData.html#a17bda6c3e7bde1547abdd3bc2f384c7f":[1,0,0,1,4,0,1],
 "d8/dfb/classNookpostBackend_1_1ApiSchemas_1_1UserSettings_1_1UserSettingsData.html#ada0d3cb42861e093e388a44b77bb89de":[0,0,0,1,4,0,0],
 "d8/dfb/classNookpostBackend_1_1ApiSchemas_1_1UserSettings_1_1UserSettingsData.html#ada0d3cb42861e093e388a44b77bb89de":[1,0,0,1,4,0,0],
-"d9/d33/classNookpostBackend_1_1ApiSchemas_1_1Categories_1_1GetCategory_1_1GetCategoryResponseBody.html":[0,0,0,1,1,1,0]
+"d9/d33/classNookpostBackend_1_1ApiSchemas_1_1Categories_1_1GetCategory_1_1GetCategoryResponseBody.html":[0,0,0,1,1,1,0],
+"d9/d33/classNookpostBackend_1_1ApiSchemas_1_1Categories_1_1GetCategory_1_1GetCategoryResponseBody.html":[1,0,0,1,1,1,0],
+"d9/d33/classNookpostBackend_1_1ApiSchemas_1_1Categories_1_1GetCategory_1_1GetCategoryResponseBody.html#a01460f1bc6a9b04c664e3dabf4763cbc":[0,0,0,1,1,1,0,0]
 };

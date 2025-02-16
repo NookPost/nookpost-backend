@@ -326,7 +326,7 @@
 <!-- Node15 -->
 <g id="Node000015" class="node">
 <title>Node15</title>
-<g id="a_Node000015"><a xlink:href="../../d8/d19/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1PutPost.html#acdacbe6d57537381287795d5d43c7200" target="_top" xlink:title="Modifies a post.">
+<g id="a_Node000015"><a xlink:href="../../d8/d19/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1PutPost.html#a8b14da49acaba479450ade9858d9a4a1" target="_top" xlink:title="Modifies a post.">
 <polygon fill="white" stroke="#666666" points="630.5,-388.5 456.5,-388.5 456.5,-358.5 630.5,-358.5 630.5,-388.5"/>
 <text text-anchor="start" x="464.5" y="-376.5" font-family="Helvetica,sans-Serif" font-size="10.00">NookpostBackend.ApiEndpoints.</text>
 <text text-anchor="middle" x="543.5" y="-365.5" font-family="Helvetica,sans-Serif" font-size="10.00">Posts.PutPost.HandleRequest</text>
