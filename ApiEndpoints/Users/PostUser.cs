@@ -1,3 +1,5 @@
+using System.Globalization;
+
 namespace NookpostBackend.ApiEndpoints.Users;
 
 
@@ -21,6 +23,7 @@ public class PostUser
         }
 
         if (databaseHandle.Users.Any(u => u.Username == requestBody.Username)) { return TypedResults.Conflict(); }
+        if (requestBody.Username.Equals("me", StringComparison.OrdinalIgnoreCase)) { return TypedResults.Conflict(); }
 
         Models.UserSettings settings = new Models.UserSettings();
 
