@@ -80,7 +80,7 @@ var annotated_dup =
         ] ],
         [ "Users", "d3/d7d/namespaceNookpostBackend_1_1ApiSchemas_1_1Users.html", [
           [ "GetUser", "d1/dc2/namespaceNookpostBackend_1_1ApiSchemas_1_1Users_1_1GetUser.html", [
-            [ "UsersGetResponseBody", "d7/db0/classNookpostBackend_1_1ApiSchemas_1_1Users_1_1GetUser_1_1UsersGetResponseBody.html", null ]
+            [ "UsersGetResponseBody", "d7/db0/classNookpostBackend_1_1ApiSchemas_1_1Users_1_1GetUser_1_1UsersGetResponseBody.html", "d7/db0/classNookpostBackend_1_1ApiSchemas_1_1Users_1_1GetUser_1_1UsersGetResponseBody" ]
           ] ],
           [ "PostUser", "dc/df0/namespaceNookpostBackend_1_1ApiSchemas_1_1Users_1_1PostUser.html", [
             [ "UsersPostRequestBody", "d6/d75/classNookpostBackend_1_1ApiSchemas_1_1Users_1_1PostUser_1_1UsersPostRequestBody.html", "d6/d75/classNookpostBackend_1_1ApiSchemas_1_1Users_1_1PostUser_1_1UsersPostRequestBody" ],

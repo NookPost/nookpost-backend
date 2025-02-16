@@ -1,5 +1,7 @@
 var NAVTREEINDEX1 =
 {
+"d9/d33/classNookpostBackend_1_1ApiSchemas_1_1Categories_1_1GetCategory_1_1GetCategoryResponseBody.html":[1,0,0,1,1,1,0],
+"d9/d33/classNookpostBackend_1_1ApiSchemas_1_1Categories_1_1GetCategory_1_1GetCategoryResponseBody.html#a01460f1bc6a9b04c664e3dabf4763cbc":[0,0,0,1,1,1,0,0],
 "d9/d33/classNookpostBackend_1_1ApiSchemas_1_1Categories_1_1GetCategory_1_1GetCategoryResponseBody.html#a01460f1bc6a9b04c664e3dabf4763cbc":[1,0,0,1,1,1,0,0],
 "d9/d67/GetPostFilteredResponseBody_8cs.html":[2,0,1,2,1,1],
 "d9/d72/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1PostPost.html":[0,0,0,0,2,4],

@@ -42,10 +42,12 @@
 <polygon fill="white" stroke="transparent" points="200,-60 0,-60 0,0 200,0 200,-60"/>
 <text text-anchor="start" x="5" y="-48" font-family="Helvetica,sans-Serif" font-size="10.00">NookpostBackend.ApiSchemas.</text>
 <text text-anchor="start" x="5" y="-37" font-family="Helvetica,sans-Serif" font-size="10.00">Users.GetUser.UsersGetResponseBody</text>
-<text text-anchor="start" x="98" y="-22" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<text text-anchor="start" x="34" y="-22" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
+<text text-anchor="start" x="77" y="-22" font-family="Helvetica,sans-Serif" font-size="10.00">string? Uuid</text>
 <text text-anchor="start" x="98" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 <polygon fill="#666666" stroke="#666666" points="0,-32 0,-32 200,-32 200,-32 0,-32"/>
-<polygon fill="#666666" stroke="#666666" points="0,-17 0,-17 200,-17 200,-17 0,-17"/>
+<polygon fill="#666666" stroke="#666666" points="0,-17 0,-17 75,-17 75,-17 0,-17"/>
+<polygon fill="#666666" stroke="#666666" points="75,-17 75,-17 200,-17 200,-17 75,-17"/>
 <polygon fill="none" stroke="#666666" points="0,0 0,-60 200,-60 200,0 0,0"/>
 </a>
 </g>

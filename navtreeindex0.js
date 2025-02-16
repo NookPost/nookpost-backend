@@ -201,6 +201,8 @@ var NAVTREEINDEX0 =
 "d7/d95/ModelBuilderExtensions_8cs.html":[2,0,5,1],
 "d7/db0/classNookpostBackend_1_1ApiSchemas_1_1Users_1_1GetUser_1_1UsersGetResponseBody.html":[0,0,0,1,3,0,0],
 "d7/db0/classNookpostBackend_1_1ApiSchemas_1_1Users_1_1GetUser_1_1UsersGetResponseBody.html":[1,0,0,1,3,0,0],
+"d7/db0/classNookpostBackend_1_1ApiSchemas_1_1Users_1_1GetUser_1_1UsersGetResponseBody.html#a22c3d2ed6c83e2fb1461657cfca453e4":[0,0,0,1,3,0,0,0],
+"d7/db0/classNookpostBackend_1_1ApiSchemas_1_1Users_1_1GetUser_1_1UsersGetResponseBody.html#a22c3d2ed6c83e2fb1461657cfca453e4":[1,0,0,1,3,0,0,0],
 "d7/dc4/UserSettings_2EndpointSetup_8cs.html":[2,0,0,4,0],
 "d7/ded/classNookpostBackend_1_1ApiSchemas_1_1Categories_1_1PutCategory_1_1PutCategoryRequestBody.html":[0,0,0,1,1,3,0],
 "d7/ded/classNookpostBackend_1_1ApiSchemas_1_1Categories_1_1PutCategory_1_1PutCategoryRequestBody.html":[1,0,0,1,1,3,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX0 =
 "d8/dfb/classNookpostBackend_1_1ApiSchemas_1_1UserSettings_1_1UserSettingsData.html#a17bda6c3e7bde1547abdd3bc2f384c7f":[1,0,0,1,4,0,1],
 "d8/dfb/classNookpostBackend_1_1ApiSchemas_1_1UserSettings_1_1UserSettingsData.html#ada0d3cb42861e093e388a44b77bb89de":[0,0,0,1,4,0,0],
 "d8/dfb/classNookpostBackend_1_1ApiSchemas_1_1UserSettings_1_1UserSettingsData.html#ada0d3cb42861e093e388a44b77bb89de":[1,0,0,1,4,0,0],
-"d9/d33/classNookpostBackend_1_1ApiSchemas_1_1Categories_1_1GetCategory_1_1GetCategoryResponseBody.html":[0,0,0,1,1,1,0],
-"d9/d33/classNookpostBackend_1_1ApiSchemas_1_1Categories_1_1GetCategory_1_1GetCategoryResponseBody.html":[1,0,0,1,1,1,0],
-"d9/d33/classNookpostBackend_1_1ApiSchemas_1_1Categories_1_1GetCategory_1_1GetCategoryResponseBody.html#a01460f1bc6a9b04c664e3dabf4763cbc":[0,0,0,1,1,1,0,0]
+"d9/d33/classNookpostBackend_1_1ApiSchemas_1_1Categories_1_1GetCategory_1_1GetCategoryResponseBody.html":[0,0,0,1,1,1,0]
 };
