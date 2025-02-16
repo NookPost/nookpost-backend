@@ -9,7 +9,7 @@ static class PutPost
             Ok,
             NotFound,
             UnauthorizedHttpResult,
-            BadRequest> HandleRequest(NookpostBackend.ApiSchemas.Posts.PutPost.PutPostRequestBody requestBody, ClaimsPrincipal user, NookpostBackend.Data.DatabaseHandle databaseHandle)
+            BadRequest> HandleRequest(string uuid, NookpostBackend.ApiSchemas.Posts.PutPost.PutPostRequestBody requestBody, ClaimsPrincipal user, NookpostBackend.Data.DatabaseHandle databaseHandle)
     {
         databaseHandle.Database.EnsureCreated();
 
@@ -18,7 +18,7 @@ static class PutPost
         Models.User? userFromDb = databaseHandle.Users.FirstOrDefault(u => u.Username == user.Identity.Name);
         if (userFromDb is null) return TypedResults.Unauthorized();
 
-        Models.Post? postToEdit = databaseHandle.Posts.FirstOrDefault(p => p.Uuid == requestBody.Uuid);
+        Models.Post? postToEdit = databaseHandle.Posts.FirstOrDefault(p => p.Uuid == uuid);
         if (postToEdit is null) return TypedResults.NotFound();
 
         postToEdit.CategoryUuid = requestBody.CategoryUuid ?? postToEdit.CategoryUuid;
