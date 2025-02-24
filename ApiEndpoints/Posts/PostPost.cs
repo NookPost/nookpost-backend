@@ -6,7 +6,7 @@ static class PostPost
     /// Creates a post
     /// </summary>
     public static Microsoft.AspNetCore.Http.HttpResults.Results<
-            Ok<ApiSchemas.Posts.PostPost.PostPostResponseBody>,
+            Created<ApiSchemas.Posts.PostPost.PostPostResponseBody>,
             NotFound,
             UnauthorizedHttpResult,
             StatusCodeHttpResult,
@@ -44,7 +44,7 @@ static class PostPost
 
         databaseHandle.SaveChanges();
 
-        return TypedResults.Ok(new NookpostBackend.ApiSchemas.Posts.PostPost.PostPostResponseBody()
+        return TypedResults.Created("/posts/" + uuid, new NookpostBackend.ApiSchemas.Posts.PostPost.PostPostResponseBody()
         {
             Uuid = uuid
         });

@@ -1,5 +1,3 @@
-using NookpostBackend.Models;
-
 namespace NookpostBackend.ApiEndpoints.Authentication;
 
 /// <summary>
@@ -12,7 +10,7 @@ public static class ChangePassword
     /// Changes the password of a user
     /// </summary>
     public static Microsoft.AspNetCore.Http.HttpResults.Results<
-        Ok,
+        NoContent,
         NotFound,
         UnauthorizedHttpResult,
         StatusCodeHttpResult,
@@ -36,7 +34,7 @@ public static class ChangePassword
 
         databaseHandle.SaveChanges();
 
-        return TypedResults.Ok();
+        return TypedResults.NoContent();
 
 
     }

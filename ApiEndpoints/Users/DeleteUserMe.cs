@@ -9,7 +9,7 @@ static class DeleteUserMe
     /// Deletes a user
     /// </summary>
     public static Microsoft.AspNetCore.Http.HttpResults.Results<
-            Ok,
+            NoContent,
             UnauthorizedHttpResult,
             BadRequest> HandleRequest(ClaimsPrincipal user, NookpostBackend.Data.DatabaseHandle databaseHandle)
     {
@@ -29,6 +29,6 @@ static class DeleteUserMe
         databaseHandle.Users.Remove(userFromDb);
 
         databaseHandle.SaveChanges();
-        return TypedResults.Ok();
+        return TypedResults.NoContent();
     }
 }

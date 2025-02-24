@@ -6,7 +6,7 @@ static class PutPost
     /// Modifies a post
     /// </summary>
     public static Microsoft.AspNetCore.Http.HttpResults.Results<
-            Ok,
+            NoContent,
             NotFound,
             UnauthorizedHttpResult,
             BadRequest> HandleRequest(string uuid, NookpostBackend.ApiSchemas.Posts.PutPost.PutPostRequestBody requestBody, ClaimsPrincipal user, NookpostBackend.Data.DatabaseHandle databaseHandle)
@@ -29,7 +29,7 @@ static class PutPost
 
         databaseHandle.SaveChanges();
 
-        return TypedResults.Ok();
+        return TypedResults.NoContent();
     }
 }
 

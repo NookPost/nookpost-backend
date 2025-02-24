@@ -6,7 +6,7 @@ static class DeletePost
     /// Deletes a post
     /// </summary>
     public static Microsoft.AspNetCore.Http.HttpResults.Results<
-            Ok,
+            NoContent,
             NotFound,
             UnauthorizedHttpResult,
             BadRequest> HandleRequest(string uuid, ClaimsPrincipal user, NookpostBackend.Data.DatabaseHandle databaseHandle)
@@ -24,6 +24,6 @@ static class DeletePost
         databaseHandle.Posts.Remove(postToDelete);
 
         databaseHandle.SaveChanges();
-        return TypedResults.Ok();
+        return TypedResults.NoContent();
     }
 }
