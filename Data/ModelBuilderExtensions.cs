@@ -102,7 +102,9 @@ This is a text for testing the search.
             DisplayName = "Testi",
             PasswordSalt = passwordSalt,
             PasswordHash = Cryptography.PasswordHashing.HashPassword("Test123", passwordSalt),
-            UserSettingsUuid = userSettings.Uuid
+            UserSettingsUuid = userSettings.Uuid,
+            TagLine = "The greatest person on the planet!",
+            Bio = "Totally not lying in the tagline!"
         };
         modelBuilder.Entity<NookpostBackend.Models.User>().HasData(user);
 
@@ -118,7 +120,9 @@ This is a text for testing the search.
             DisplayName = "Testomatisch",
             PasswordSalt = passwordSalt,
             PasswordHash = Cryptography.PasswordHashing.HashPassword("Test321", passwordSalt),
-            UserSettingsUuid = userSettings2.Uuid
+            UserSettingsUuid = userSettings2.Uuid,
+            TagLine = "The worst person on the planet!",
+            Bio = "Totally lying in the tagline!"
         };
         modelBuilder.Entity<NookpostBackend.Models.User>().HasData(user2);
     }
