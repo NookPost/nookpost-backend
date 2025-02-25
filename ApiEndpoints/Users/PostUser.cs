@@ -34,6 +34,7 @@ public class PostUser
         {
             Uuid = Guid.NewGuid().ToString(),
             Username = requestBody.Username,
+            DisplayName = requestBody.DisplayName ?? "",
             PasswordSalt = passwordSalt,
             PasswordHash = Cryptography.PasswordHashing.HashPassword(requestBody.Password, passwordSalt),
             UserSettingsUuid = settings.Uuid
