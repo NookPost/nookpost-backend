@@ -7,7 +7,7 @@ public static class EndpointSetup
 {
     /// <summary>
     /// Initialize the Authentication Endpoints on the WebApp object.
-    /// <param name="app">The app to initialize the endpoint on.</param>
+    /// <param name="parentGroup">The parent group which contains the endpoints.</param>
     /// </summary>
     public static void Setup(RouteGroupBuilder parentGroup)
     {

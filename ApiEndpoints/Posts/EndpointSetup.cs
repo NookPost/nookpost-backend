@@ -7,7 +7,7 @@ public static class EndpointSetup
 {
     /// <summary>
     /// Sets up the post endpoints on the given Webapp
-    /// <param name="app">The app to initialize the endpoint on.</param>
+    /// <param name="parentGroup">The parent group which contains the endpoints.</param>
     /// </summary>
     public static void Setup(RouteGroupBuilder parentGroup)
     {
