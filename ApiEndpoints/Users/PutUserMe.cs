@@ -10,7 +10,7 @@ static class PutUserMe
     /// </summary>
     /// <remarks>Null values are ignored.</remarks>
     public static Microsoft.AspNetCore.Http.HttpResults.Results<
-            Ok,
+            NoContent,
             UnauthorizedHttpResult,
             BadRequest> HandleRequest(NookpostBackend.ApiSchemas.Users.PutUser.UserPutRequestBody requestBody, ClaimsPrincipal user, NookpostBackend.Data.DatabaseHandle databaseHandle)
     {
@@ -27,6 +27,6 @@ static class PutUserMe
         userFromDb.DisplayName = requestBody.DisplayName ?? userFromDb.DisplayName;
 
         databaseHandle.SaveChanges();
-        return TypedResults.Ok();
+        return TypedResults.NoContent();
     }
 }

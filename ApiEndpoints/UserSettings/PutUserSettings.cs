@@ -6,7 +6,7 @@ static class PutUserSettings
     /// Updates the user's settings
     /// </summary>
     public static Microsoft.AspNetCore.Http.HttpResults.Results<
-            Ok,
+            NoContent,
             UnauthorizedHttpResult,
             ProblemHttpResult,
             BadRequest> HandleRequest(NookpostBackend.ApiSchemas.UserSettings.UserSettingsData requestBody, ClaimsPrincipal user, NookpostBackend.Data.DatabaseHandle databaseHandle)
@@ -25,6 +25,6 @@ static class PutUserSettings
         userSettings.UseDarkMode = requestBody.UseDarkMode;
 
         databaseHandle.SaveChanges();
-        return TypedResults.Ok();
+        return TypedResults.NoContent();
     }
 }

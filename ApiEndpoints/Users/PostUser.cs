@@ -1,5 +1,3 @@
-using System.Globalization;
-
 namespace NookpostBackend.ApiEndpoints.Users;
 
 
@@ -12,7 +10,7 @@ public class PostUser
     /// Creates a new user
     /// </summary>
     public static Microsoft.AspNetCore.Http.HttpResults.Results<
-            Ok<ApiSchemas.Users.PostUser.UsersPostResponseBody>,
+            Created<ApiSchemas.Users.PostUser.UsersPostResponseBody>,
             Conflict,
             BadRequest> HandleRequest(NookpostBackend.ApiSchemas.Users.PostUser.UsersPostRequestBody requestBody, ClaimsPrincipal user, NookpostBackend.Data.DatabaseHandle databaseHandle, NookpostBackend.Authentication.TokenService tokenService)
     {
@@ -43,7 +41,7 @@ public class PostUser
         databaseHandle.Users.Add(newUser);
         databaseHandle.SaveChanges();
 
-        return TypedResults.Ok(new ApiSchemas.Users.PostUser.UsersPostResponseBody()
+        return TypedResults.Created("/users/" + newUser.Username, new ApiSchemas.Users.PostUser.UsersPostResponseBody()
         {
             Token = tokenService.GenerateNewToken(newUser),
             ExpiryTimestamp = (long)DateTime.UtcNow.Subtract(DateTime.UnixEpoch).TotalSeconds + NookpostBackend.Authentication.TokenService.AccessTokenExpiryTimeInSeconds
