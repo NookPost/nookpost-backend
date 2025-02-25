@@ -11,14 +11,14 @@ public static class EndpointSetup
     /// </summary>
     public static void Setup(WebApplication app)
     {
-		// Create a route group with the prefix "/api/v1"
-    var apiGroup = app.MapGroup("/api/v1");
+        // Create a route group with the prefix "/api/v1"
+        var apiGroup = app.MapGroup("/api/v1");
 
-    // Pass the group to each feature's setup
-    Authentication.EndpointSetup.Setup(apiGroup);
-    Users.EndpointSetup.Setup(apiGroup);
-    Posts.EndpointSetup.Setup(apiGroup);
-    UserSettings.EndpointSetup.Setup(apiGroup);
-    Categories.EndpointSetup.Setup(apiGroup);
+        // Pass the group to each feature's setup
+        Authentication.EndpointSetup.Setup(apiGroup);
+        Users.EndpointSetup.Setup(apiGroup);
+        Posts.EndpointSetup.Setup(apiGroup);
+        UserSettings.EndpointSetup.Setup(apiGroup);
+        Categories.EndpointSetup.Setup(apiGroup);
     }
 }
