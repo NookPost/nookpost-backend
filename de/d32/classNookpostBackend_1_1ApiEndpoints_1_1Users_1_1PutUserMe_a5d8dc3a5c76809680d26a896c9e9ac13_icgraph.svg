@@ -68,7 +68,7 @@ var sectionId = 'dynsection-1';
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="../../d3/dd0/classNookpostBackend_1_1ApiEndpoints_1_1Users_1_1EndpointSetup.html#a4dbfdc6339578aaf6762795e71dbe9dd" target="_top" xlink:title="Sets up the user endpoints on the given Webapp">
+<g id="a_Node000002"><a xlink:href="../../d3/dd0/classNookpostBackend_1_1ApiEndpoints_1_1Users_1_1EndpointSetup.html#a676597125ea860c4be862c26004f1eb0" target="_top" xlink:title="Sets up the user endpoints on the given Webapp">
 <polygon fill="white" stroke="#666666" points="596,-30 422,-30 422,0 596,0 596,-30"/>
 <text text-anchor="start" x="430" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">NookpostBackend.ApiEndpoints.</text>
 <text text-anchor="middle" x="509" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">Users.EndpointSetup.Setup</text>

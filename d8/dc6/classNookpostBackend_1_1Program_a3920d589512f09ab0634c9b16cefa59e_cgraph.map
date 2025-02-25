@@ -2,15 +2,15 @@
 <area shape="rect" id="Node000001" title=" " alt="" coords="5,428,240,453"/>
 <area shape="rect" id="Node000002" href="$db/d6a/classNookpostBackend_1_1ApiEndpoints_1_1EndpointSetup.html#a00aafd7a4451d533ddb2969de9ac57a3" title="Sets up all API Endpints on the given webapp" alt="" coords="288,421,520,461"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="240,438,274,438,274,443,240,443"/>
-<area shape="rect" id="Node000003" href="$da/dec/classNookpostBackend_1_1ApiEndpoints_1_1Authentication_1_1EndpointSetup.html#a8392c3a12fa78c0464e385e38fb3e4c1" title="Initialize the Authentication Endpoints on the WebApp object." alt="" coords="568,85,824,125"/>
+<area shape="rect" id="Node000003" href="$da/dec/classNookpostBackend_1_1ApiEndpoints_1_1Authentication_1_1EndpointSetup.html#a1ce02f35f787186f930949cddfb0a906" title="Initialize the Authentication Endpoints on the WebApp object." alt="" coords="568,85,824,125"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="416,419,477,328,519,270,566,215,612,170,656,132,659,136,615,174,570,218,524,274,481,331,420,422"/>
-<area shape="rect" id="Node000008" href="$d9/de7/classNookpostBackend_1_1ApiEndpoints_1_1Categories_1_1EndpointSetup.html#a86d3e18e54302732e5eebb32bdb6ad57" title="Sets up the post endpoints on the given Webapp" alt="" coords="580,229,812,269"/>
+<area shape="rect" id="Node000008" href="$d9/de7/classNookpostBackend_1_1ApiEndpoints_1_1Categories_1_1EndpointSetup.html#aacb25ada7f3efec9e4cc8c58a8539259" title="Sets up the post endpoints on the given Webapp" alt="" coords="580,229,812,269"/>
 <area shape="poly" id="edge9_Node000002_Node000008" title=" " alt="" coords="434,418,652,274,655,278,437,423"/>
-<area shape="rect" id="Node000011" href="$dd/d3d/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1EndpointSetup.html#a464305357459e2d7e611f4e1fb258cf8" title="Sets up the post endpoints on the given Webapp" alt="" coords="580,421,812,461"/>
+<area shape="rect" id="Node000011" href="$dd/d3d/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1EndpointSetup.html#a103e8bd9436f02dd9538df0df4f845e8" title="Sets up the post endpoints on the given Webapp" alt="" coords="580,421,812,461"/>
 <area shape="poly" id="edge12_Node000002_Node000011" title=" " alt="" coords="520,438,566,438,566,443,520,443"/>
-<area shape="rect" id="Node000017" href="$d3/dd0/classNookpostBackend_1_1ApiEndpoints_1_1Users_1_1EndpointSetup.html#a4dbfdc6339578aaf6762795e71dbe9dd" title="Sets up the user endpoints on the given Webapp" alt="" coords="580,709,812,749"/>
+<area shape="rect" id="Node000017" href="$d3/dd0/classNookpostBackend_1_1ApiEndpoints_1_1Users_1_1EndpointSetup.html#a676597125ea860c4be862c26004f1eb0" title="Sets up the user endpoints on the given Webapp" alt="" coords="580,709,812,749"/>
 <area shape="poly" id="edge18_Node000002_Node000017" title=" " alt="" coords="428,459,667,697,663,701,424,463"/>
-<area shape="rect" id="Node000024" href="$d2/d5d/classNookpostBackend_1_1ApiEndpoints_1_1UserSettings_1_1EndpointSetup.html#aa202c3a7566b9d1591d3b894013cbc42" title="Sets up the user settigns endpoints on the given Webapp" alt="" coords="574,941,818,981"/>
+<area shape="rect" id="Node000024" href="$d2/d5d/classNookpostBackend_1_1ApiEndpoints_1_1UserSettings_1_1EndpointSetup.html#a3a95720b985443f2506ff318db7eec2c" title="Sets up the user settigns endpoints on the given Webapp" alt="" coords="574,941,818,981"/>
 <area shape="poly" id="edge26_Node000002_Node000024" title=" " alt="" coords="417,460,479,587,570,759,626,852,676,928,671,931,622,855,566,762,474,590,412,462"/>
 <area shape="rect" id="Node000004" href="$de/dbb/classNookpostBackend_1_1ApiEndpoints_1_1Authentication_1_1ChangePassword.html#a07692ff1a9588157d49b26df8228f381" title="Changes the password of a user." alt="" coords="872,5,1153,60"/>
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="784,82,878,60,880,66,785,87"/>

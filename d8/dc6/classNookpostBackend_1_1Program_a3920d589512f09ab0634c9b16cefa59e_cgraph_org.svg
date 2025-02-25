@@ -39,7 +39,7 @@
 <!-- Node3 -->
 <g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_Node000003"><a xlink:href="../../da/dec/classNookpostBackend_1_1ApiEndpoints_1_1Authentication_1_1EndpointSetup.html#a8392c3a12fa78c0464e385e38fb3e4c1" target="_top" xlink:title="Initialize the Authentication Endpoints on the WebApp object.">
+<g id="a_Node000003"><a xlink:href="../../da/dec/classNookpostBackend_1_1ApiEndpoints_1_1Authentication_1_1EndpointSetup.html#a1ce02f35f787186f930949cddfb0a906" target="_top" xlink:title="Initialize the Authentication Endpoints on the WebApp object.">
 <polygon fill="white" stroke="#666666" points="614,-736.5 422,-736.5 422,-706.5 614,-706.5 614,-736.5"/>
 <text text-anchor="start" x="430" y="-724.5" font-family="Helvetica,sans-Serif" font-size="10.00">NookpostBackend.ApiEndpoints.</text>
 <text text-anchor="middle" x="518" y="-713.5" font-family="Helvetica,sans-Serif" font-size="10.00">Authentication.EndpointSetup.Setup</text>
@@ -58,7 +58,7 @@
 <!-- Node8 -->
 <g id="Node000008" class="node">
 <title>Node8</title>
-<g id="a_Node000008"><a xlink:href="../../d9/de7/classNookpostBackend_1_1ApiEndpoints_1_1Categories_1_1EndpointSetup.html#a86d3e18e54302732e5eebb32bdb6ad57" target="_top" xlink:title="Sets up the post endpoints on the given Webapp">
+<g id="a_Node000008"><a xlink:href="../../d9/de7/classNookpostBackend_1_1ApiEndpoints_1_1Categories_1_1EndpointSetup.html#aacb25ada7f3efec9e4cc8c58a8539259" target="_top" xlink:title="Sets up the post endpoints on the given Webapp">
 <polygon fill="white" stroke="#666666" points="605,-628.5 431,-628.5 431,-598.5 605,-598.5 605,-628.5"/>
 <text text-anchor="start" x="439" y="-616.5" font-family="Helvetica,sans-Serif" font-size="10.00">NookpostBackend.ApiEndpoints.</text>
 <text text-anchor="middle" x="518" y="-605.5" font-family="Helvetica,sans-Serif" font-size="10.00">Categories.EndpointSetup.Setup</text>
@@ -77,7 +77,7 @@
 <!-- Node11 -->
 <g id="Node000011" class="node">
 <title>Node11</title>
-<g id="a_Node000011"><a xlink:href="../../dd/d3d/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1EndpointSetup.html#a464305357459e2d7e611f4e1fb258cf8" target="_top" xlink:title="Sets up the post endpoints on the given Webapp">
+<g id="a_Node000011"><a xlink:href="../../dd/d3d/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1EndpointSetup.html#a103e8bd9436f02dd9538df0df4f845e8" target="_top" xlink:title="Sets up the post endpoints on the given Webapp">
 <polygon fill="white" stroke="#666666" points="605,-484.5 431,-484.5 431,-454.5 605,-454.5 605,-484.5"/>
 <text text-anchor="start" x="439" y="-472.5" font-family="Helvetica,sans-Serif" font-size="10.00">NookpostBackend.ApiEndpoints.</text>
 <text text-anchor="middle" x="518" y="-461.5" font-family="Helvetica,sans-Serif" font-size="10.00">Posts.EndpointSetup.Setup</text>
@@ -96,7 +96,7 @@
 <!-- Node17 -->
 <g id="Node000017" class="node">
 <title>Node17</title>
-<g id="a_Node000017"><a xlink:href="../../d3/dd0/classNookpostBackend_1_1ApiEndpoints_1_1Users_1_1EndpointSetup.html#a4dbfdc6339578aaf6762795e71dbe9dd" target="_top" xlink:title="Sets up the user endpoints on the given Webapp">
+<g id="a_Node000017"><a xlink:href="../../d3/dd0/classNookpostBackend_1_1ApiEndpoints_1_1Users_1_1EndpointSetup.html#a676597125ea860c4be862c26004f1eb0" target="_top" xlink:title="Sets up the user endpoints on the given Webapp">
 <polygon fill="white" stroke="#666666" points="605,-268.5 431,-268.5 431,-238.5 605,-238.5 605,-268.5"/>
 <text text-anchor="start" x="439" y="-256.5" font-family="Helvetica,sans-Serif" font-size="10.00">NookpostBackend.ApiEndpoints.</text>
 <text text-anchor="middle" x="518" y="-245.5" font-family="Helvetica,sans-Serif" font-size="10.00">Users.EndpointSetup.Setup</text>
@@ -115,7 +115,7 @@
 <!-- Node24 -->
 <g id="Node000024" class="node">
 <title>Node24</title>
-<g id="a_Node000024"><a xlink:href="../../d2/d5d/classNookpostBackend_1_1ApiEndpoints_1_1UserSettings_1_1EndpointSetup.html#aa202c3a7566b9d1591d3b894013cbc42" target="_top" xlink:title="Sets up the user settigns endpoints on the given Webapp">
+<g id="a_Node000024"><a xlink:href="../../d2/d5d/classNookpostBackend_1_1ApiEndpoints_1_1UserSettings_1_1EndpointSetup.html#a3a95720b985443f2506ff318db7eec2c" target="_top" xlink:title="Sets up the user settigns endpoints on the given Webapp">
 <polygon fill="white" stroke="#666666" points="609.5,-94.5 426.5,-94.5 426.5,-64.5 609.5,-64.5 609.5,-94.5"/>
 <text text-anchor="start" x="434.5" y="-82.5" font-family="Helvetica,sans-Serif" font-size="10.00">NookpostBackend.ApiEndpoints.</text>
 <text text-anchor="middle" x="518" y="-71.5" font-family="Helvetica,sans-Serif" font-size="10.00">UserSettings.EndpointSetup.Setup</text>

@@ -1,6 +1,6 @@
 <map id="NookpostBackend.ApiEndpoints.Categories.GetCategory.HandleRequest" name="NookpostBackend.ApiEndpoints.Categories.GetCategory.HandleRequest">
 <area shape="rect" id="Node000001" title="Gets a category." alt="" coords="848,5,1127,45"/>
-<area shape="rect" id="Node000002" href="$d9/de7/classNookpostBackend_1_1ApiEndpoints_1_1Categories_1_1EndpointSetup.html#a86d3e18e54302732e5eebb32bdb6ad57" title="Sets up the post endpoints on the given Webapp" alt="" coords="568,5,800,45"/>
+<area shape="rect" id="Node000002" href="$d9/de7/classNookpostBackend_1_1ApiEndpoints_1_1Categories_1_1EndpointSetup.html#aacb25ada7f3efec9e4cc8c58a8539259" title="Sets up the post endpoints on the given Webapp" alt="" coords="568,5,800,45"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="835,28,800,28,800,23,835,23"/>
 <area shape="rect" id="Node000003" href="$db/d6a/classNookpostBackend_1_1ApiEndpoints_1_1EndpointSetup.html#a00aafd7a4451d533ddb2969de9ac57a3" title="Sets up all API Endpints on the given webapp" alt="" coords="288,5,520,45"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="554,28,520,28,520,23,554,23"/>

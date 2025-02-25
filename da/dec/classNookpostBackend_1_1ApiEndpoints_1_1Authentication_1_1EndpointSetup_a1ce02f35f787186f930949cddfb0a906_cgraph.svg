@@ -175,7 +175,7 @@ var sectionId = 'dynsection-1';
 </g>
 <svg viewBox="0 0 15 15" width="100%" height="30px" preserveAspectRatio="xMaxYMin meet">
  <g id="arrow_out" transform="scale(0.3 0.3)">
-  <a xlink:href="classNookpostBackend_1_1ApiEndpoints_1_1Authentication_1_1EndpointSetup_a8392c3a12fa78c0464e385e38fb3e4c1_cgraph_org.svg" target="_base">
+  <a xlink:href="classNookpostBackend_1_1ApiEndpoints_1_1Authentication_1_1EndpointSetup_a1ce02f35f787186f930949cddfb0a906_cgraph_org.svg" target="_base">
    <rect id="button" ry="5" rx="5" y="6" x="6" height="38" width="38"
         fill="#f2f5e9" fill-opacity="0.5" stroke="#606060" stroke-width="1.0"/>
    <path id="arrow"

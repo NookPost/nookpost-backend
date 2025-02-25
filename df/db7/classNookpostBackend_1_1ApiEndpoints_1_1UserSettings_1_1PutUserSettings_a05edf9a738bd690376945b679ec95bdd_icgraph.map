@@ -1,6 +1,6 @@
 <map id="NookpostBackend.ApiEndpoints.UserSettings.PutUserSettings.HandleRequest" name="NookpostBackend.ApiEndpoints.UserSettings.PutUserSettings.HandleRequest">
 <area shape="rect" id="Node000001" title="Updates the user&#39;s settings." alt="" coords="860,5,1123,60"/>
-<area shape="rect" id="Node000002" href="$d2/d5d/classNookpostBackend_1_1ApiEndpoints_1_1UserSettings_1_1EndpointSetup.html#aa202c3a7566b9d1591d3b894013cbc42" title="Sets up the user settigns endpoints on the given Webapp" alt="" coords="568,13,812,53"/>
+<area shape="rect" id="Node000002" href="$d2/d5d/classNookpostBackend_1_1ApiEndpoints_1_1UserSettings_1_1EndpointSetup.html#a3a95720b985443f2506ff318db7eec2c" title="Sets up the user settigns endpoints on the given Webapp" alt="" coords="568,13,812,53"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="846,35,812,35,812,30,846,30"/>
 <area shape="rect" id="Node000003" href="$db/d6a/classNookpostBackend_1_1ApiEndpoints_1_1EndpointSetup.html#a00aafd7a4451d533ddb2969de9ac57a3" title="Sets up all API Endpints on the given webapp" alt="" coords="288,13,520,53"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="554,35,520,35,520,30,554,30"/>

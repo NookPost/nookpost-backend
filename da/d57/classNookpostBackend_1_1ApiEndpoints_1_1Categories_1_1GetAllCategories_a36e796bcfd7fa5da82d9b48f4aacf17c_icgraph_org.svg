@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="../../d9/de7/classNookpostBackend_1_1ApiEndpoints_1_1Categories_1_1EndpointSetup.html#a86d3e18e54302732e5eebb32bdb6ad57" target="_top" xlink:title="Sets up the post endpoints on the given Webapp">
+<g id="a_Node000002"><a xlink:href="../../d9/de7/classNookpostBackend_1_1ApiEndpoints_1_1Categories_1_1EndpointSetup.html#aacb25ada7f3efec9e4cc8c58a8539259" target="_top" xlink:title="Sets up the post endpoints on the given Webapp">
 <polygon fill="white" stroke="#666666" points="596,-35.5 422,-35.5 422,-5.5 596,-5.5 596,-35.5"/>
 <text text-anchor="start" x="430" y="-23.5" font-family="Helvetica,sans-Serif" font-size="10.00">NookpostBackend.ApiEndpoints.</text>
 <text text-anchor="middle" x="509" y="-12.5" font-family="Helvetica,sans-Serif" font-size="10.00">Categories.EndpointSetup.Setup</text>
