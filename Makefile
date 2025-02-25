@@ -4,7 +4,7 @@ publishDirectory := ./publish/
 defaultOptions := 
 compiler := dotnet
 projectName := Nookpost-Backend
-SHELL := /bin/bash
+SHELL := /usr/bin/env bash
 
 
 

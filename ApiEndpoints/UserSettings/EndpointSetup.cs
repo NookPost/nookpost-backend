@@ -7,11 +7,11 @@ public static class EndpointSetup
 {
     /// <summary>
     /// Sets up the user settigns endpoints on the given Webapp
-    /// <param name="app">The app to initialize the endpoint on.</param>
+    /// <param name="parentGroup">The parent group which contains the endpoints.</param>
     /// </summary>
-    public static void Setup(WebApplication app)
+    public static void Setup(RouteGroupBuilder parentGroup)
     {
-        app.MapGet("/user/me/settings", GetUserSettings.HandleRequest).WithTags("Users Settings").WithOpenApi().RequireAuthorization("user");
-        app.MapPut("/user/me/settings", PutUserSettings.HandleRequest).WithTags("Users Settings").WithOpenApi().RequireAuthorization("user");
+        parentGroup.MapGet("/user/me/settings", GetUserSettings.HandleRequest).WithTags("Users Settings").WithOpenApi().RequireAuthorization("user");
+        parentGroup.MapPut("/user/me/settings", PutUserSettings.HandleRequest).WithTags("Users Settings").WithOpenApi().RequireAuthorization("user");
     }
 }
