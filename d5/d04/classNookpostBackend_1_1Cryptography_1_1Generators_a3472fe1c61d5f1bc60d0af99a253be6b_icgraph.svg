@@ -68,7 +68,7 @@ var sectionId = 'dynsection-2';
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="../../d6/df1/classNookpostBackend_1_1ApiEndpoints_1_1Users_1_1PostUser.html#a9f3f056050d7adf6dd07e6671928d306" target="_top" xlink:title="Creates a new user.">
+<g id="a_Node000002"><a xlink:href="../../d6/df1/classNookpostBackend_1_1ApiEndpoints_1_1Users_1_1PostUser.html#a8700a486b1505274c3477371788540ed" target="_top" xlink:title="Creates a new user.">
 <polygon fill="white" stroke="#666666" points="807,-126 633,-126 633,-96 807,-96 807,-126"/>
 <text text-anchor="start" x="641" y="-114" font-family="Helvetica,sans-Serif" font-size="10.00">NookpostBackend.ApiEndpoints.</text>
 <text text-anchor="middle" x="720" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">Users.PostUser.HandleRequest</text>

@@ -134,7 +134,7 @@
 <!-- Node4 -->
 <g id="Node000004" class="node">
 <title>Node4</title>
-<g id="a_Node000004"><a xlink:href="../../de/dbb/classNookpostBackend_1_1ApiEndpoints_1_1Authentication_1_1ChangePassword.html#abd3c4e5b346311d2d9d92063e1e0aa2e" target="_top" xlink:title="Changes the password of a user.">
+<g id="a_Node000004"><a xlink:href="../../de/dbb/classNookpostBackend_1_1ApiEndpoints_1_1Authentication_1_1ChangePassword.html#a07692ff1a9588157d49b26df8228f381" target="_top" xlink:title="Changes the password of a user.">
 <polygon fill="white" stroke="#666666" points="861,-796 650,-796 650,-755 861,-755 861,-796"/>
 <text text-anchor="start" x="658" y="-784" font-family="Helvetica,sans-Serif" font-size="10.00">NookpostBackend.ApiEndpoints.</text>
 <text text-anchor="start" x="658" y="-773" font-family="Helvetica,sans-Serif" font-size="10.00">Authentication.ChangePassword.Handle</text>
@@ -268,7 +268,7 @@
 <!-- Node12 -->
 <g id="Node000012" class="node">
 <title>Node12</title>
-<g id="a_Node000012"><a xlink:href="../../d8/dcc/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1DeletePost.html#ac56bf91de4be2f970a018bddd2a2fbe7" target="_top" xlink:title="Deletes a post.">
+<g id="a_Node000012"><a xlink:href="../../d8/dcc/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1DeletePost.html#aafb2cb6c66e36704201b1226837e3740" target="_top" xlink:title="Deletes a post.">
 <polygon fill="white" stroke="#666666" points="843.5,-580.5 667.5,-580.5 667.5,-550.5 843.5,-550.5 843.5,-580.5"/>
 <text text-anchor="start" x="675.5" y="-568.5" font-family="Helvetica,sans-Serif" font-size="10.00">NookpostBackend.ApiEndpoints.</text>
 <text text-anchor="middle" x="755.5" y="-557.5" font-family="Helvetica,sans-Serif" font-size="10.00">Posts.DeletePost.HandleRequest</text>
@@ -325,7 +325,7 @@
 <!-- Node15 -->
 <g id="Node000015" class="node">
 <title>Node15</title>
-<g id="a_Node000015"><a xlink:href="../../d9/d72/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1PostPost.html#a1a3b94f025dd1d35853530139c4c1572" target="_top" xlink:title="Creates a post.">
+<g id="a_Node000015"><a xlink:href="../../d9/d72/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1PostPost.html#ab6761b9fcefc2fe1e724b9be8e7c2224" target="_top" xlink:title="Creates a post.">
 <polygon fill="white" stroke="#666666" points="842.5,-436.5 668.5,-436.5 668.5,-406.5 842.5,-406.5 842.5,-436.5"/>
 <text text-anchor="start" x="676.5" y="-424.5" font-family="Helvetica,sans-Serif" font-size="10.00">NookpostBackend.ApiEndpoints.</text>
 <text text-anchor="middle" x="755.5" y="-413.5" font-family="Helvetica,sans-Serif" font-size="10.00">Posts.PostPost.HandleRequest</text>
@@ -344,7 +344,7 @@
 <!-- Node16 -->
 <g id="Node000016" class="node">
 <title>Node16</title>
-<g id="a_Node000016"><a xlink:href="../../d8/d19/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1PutPost.html#a8b14da49acaba479450ade9858d9a4a1" target="_top" xlink:title="Modifies a post.">
+<g id="a_Node000016"><a xlink:href="../../d8/d19/classNookpostBackend_1_1ApiEndpoints_1_1Posts_1_1PutPost.html#a4aafa9ec932f88a404ffccae46d19c24" target="_top" xlink:title="Modifies a post.">
 <polygon fill="white" stroke="#666666" points="842.5,-388.5 668.5,-388.5 668.5,-358.5 842.5,-358.5 842.5,-388.5"/>
 <text text-anchor="start" x="676.5" y="-376.5" font-family="Helvetica,sans-Serif" font-size="10.00">NookpostBackend.ApiEndpoints.</text>
 <text text-anchor="middle" x="755.5" y="-365.5" font-family="Helvetica,sans-Serif" font-size="10.00">Posts.PutPost.HandleRequest</text>
@@ -363,7 +363,7 @@
 <!-- Node18 -->
 <g id="Node000018" class="node">
 <title>Node18</title>
-<g id="a_Node000018"><a xlink:href="../../db/d18/classNookpostBackend_1_1ApiEndpoints_1_1Users_1_1DeleteUserMe.html#aae42f13191e9d45986c2b7b38ff59f6f" target="_top" xlink:title="Deletes a user.">
+<g id="a_Node000018"><a xlink:href="../../db/d18/classNookpostBackend_1_1ApiEndpoints_1_1Users_1_1DeleteUserMe.html#a25526844b67839083164fb8c1c857476" target="_top" xlink:title="Deletes a user.">
 <polygon fill="white" stroke="#666666" points="852.5,-340.5 658.5,-340.5 658.5,-310.5 852.5,-310.5 852.5,-340.5"/>
 <text text-anchor="start" x="666.5" y="-328.5" font-family="Helvetica,sans-Serif" font-size="10.00">NookpostBackend.ApiEndpoints.</text>
 <text text-anchor="middle" x="755.5" y="-317.5" font-family="Helvetica,sans-Serif" font-size="10.00">Users.DeleteUserMe.HandleRequest</text>
@@ -420,7 +420,7 @@
 <!-- Node21 -->
 <g id="Node000021" class="node">
 <title>Node21</title>
-<g id="a_Node000021"><a xlink:href="../../d6/df1/classNookpostBackend_1_1ApiEndpoints_1_1Users_1_1PostUser.html#a9f3f056050d7adf6dd07e6671928d306" target="_top" xlink:title="Creates a new user.">
+<g id="a_Node000021"><a xlink:href="../../d6/df1/classNookpostBackend_1_1ApiEndpoints_1_1Users_1_1PostUser.html#a8700a486b1505274c3477371788540ed" target="_top" xlink:title="Creates a new user.">
 <polygon fill="white" stroke="#666666" points="842.5,-196.5 668.5,-196.5 668.5,-166.5 842.5,-166.5 842.5,-196.5"/>
 <text text-anchor="start" x="676.5" y="-184.5" font-family="Helvetica,sans-Serif" font-size="10.00">NookpostBackend.ApiEndpoints.</text>
 <text text-anchor="middle" x="755.5" y="-173.5" font-family="Helvetica,sans-Serif" font-size="10.00">Users.PostUser.HandleRequest</text>
@@ -439,7 +439,7 @@
 <!-- Node23 -->
 <g id="Node000023" class="node">
 <title>Node23</title>
-<g id="a_Node000023"><a xlink:href="../../de/d32/classNookpostBackend_1_1ApiEndpoints_1_1Users_1_1PutUserMe.html#a3f88a9d10120a42efb3e0c2ef3e6430b" target="_top" xlink:title="Modifies a user.">
+<g id="a_Node000023"><a xlink:href="../../de/d32/classNookpostBackend_1_1ApiEndpoints_1_1Users_1_1PutUserMe.html#a5d8dc3a5c76809680d26a896c9e9ac13" target="_top" xlink:title="Modifies a user.">
 <polygon fill="white" stroke="#666666" points="844.5,-148.5 666.5,-148.5 666.5,-118.5 844.5,-118.5 844.5,-148.5"/>
 <text text-anchor="start" x="674.5" y="-136.5" font-family="Helvetica,sans-Serif" font-size="10.00">NookpostBackend.ApiEndpoints.</text>
 <text text-anchor="middle" x="755.5" y="-125.5" font-family="Helvetica,sans-Serif" font-size="10.00">Users.PutUserMe.HandleRequest</text>
@@ -506,7 +506,7 @@
 <!-- Node26 -->
 <g id="Node000026" class="node">
 <title>Node26</title>
-<g id="a_Node000026"><a xlink:href="../../df/db7/classNookpostBackend_1_1ApiEndpoints_1_1UserSettings_1_1PutUserSettings.html#aa029e02f5547b89c2d3f354a9fd462fc" target="_top" xlink:title="Updates the user&#39;s settings.">
+<g id="a_Node000026"><a xlink:href="../../df/db7/classNookpostBackend_1_1ApiEndpoints_1_1UserSettings_1_1PutUserSettings.html#a05edf9a738bd690376945b679ec95bdd" target="_top" xlink:title="Updates the user&#39;s settings.">
 <polygon fill="white" stroke="#666666" points="854,-41 657,-41 657,0 854,0 854,-41"/>
 <text text-anchor="start" x="665" y="-29" font-family="Helvetica,sans-Serif" font-size="10.00">NookpostBackend.ApiEndpoints.</text>
 <text text-anchor="start" x="665" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">UserSettings.PutUserSettings.Handle</text>

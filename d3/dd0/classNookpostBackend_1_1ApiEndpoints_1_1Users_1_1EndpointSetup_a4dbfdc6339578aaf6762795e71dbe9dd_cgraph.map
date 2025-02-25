@@ -1,14 +1,14 @@
 <map id="NookpostBackend.ApiEndpoints.Users.EndpointSetup.Setup" name="NookpostBackend.ApiEndpoints.Users.EndpointSetup.Setup">
 <area shape="rect" id="Node000001" title="Sets up the user endpoints on the given Webapp" alt="" coords="5,133,237,173"/>
-<area shape="rect" id="Node000002" href="$db/d18/classNookpostBackend_1_1ApiEndpoints_1_1Users_1_1DeleteUserMe.html#aae42f13191e9d45986c2b7b38ff59f6f" title="Deletes a user." alt="" coords="285,5,544,45"/>
+<area shape="rect" id="Node000002" href="$db/d18/classNookpostBackend_1_1ApiEndpoints_1_1Users_1_1DeleteUserMe.html#a25526844b67839083164fb8c1c857476" title="Deletes a user." alt="" coords="285,5,544,45"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="150,131,210,92,284,55,306,47,307,52,286,60,213,97,153,135"/>
 <area shape="rect" id="Node000003" href="$d9/dc5/classNookpostBackend_1_1ApiEndpoints_1_1Users_1_1GetUser.html#aafe1f7a8c5753df2bd92177a685b5d69" title="Gets a user." alt="" coords="299,69,531,109"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="213,131,309,110,310,115,214,136"/>
 <area shape="rect" id="Node000004" href="$d5/dd1/classNookpostBackend_1_1ApiEndpoints_1_1Users_1_1GetUserMe.html#ab0714f7a75f23d54d5e96a7af1da3c37" title="Gets a user." alt="" coords="295,133,534,173"/>
 <area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="238,151,282,151,282,156,238,156"/>
-<area shape="rect" id="Node000005" href="$d6/df1/classNookpostBackend_1_1ApiEndpoints_1_1Users_1_1PostUser.html#a9f3f056050d7adf6dd07e6671928d306" title="Creates a new user." alt="" coords="299,197,531,237"/>
+<area shape="rect" id="Node000005" href="$d6/df1/classNookpostBackend_1_1ApiEndpoints_1_1Users_1_1PostUser.html#a8700a486b1505274c3477371788540ed" title="Creates a new user." alt="" coords="299,197,531,237"/>
 <area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="214,171,310,192,309,197,213,176"/>
-<area shape="rect" id="Node000008" href="$de/d32/classNookpostBackend_1_1ApiEndpoints_1_1Users_1_1PutUserMe.html#a3f88a9d10120a42efb3e0c2ef3e6430b" title="Modifies a user." alt="" coords="296,261,533,301"/>
+<area shape="rect" id="Node000008" href="$de/d32/classNookpostBackend_1_1ApiEndpoints_1_1Users_1_1PutUserMe.html#a5d8dc3a5c76809680d26a896c9e9ac13" title="Modifies a user." alt="" coords="296,261,533,301"/>
 <area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="153,171,213,210,286,247,307,255,306,260,284,252,210,214,150,176"/>
 <area shape="rect" id="Node000006" href="$d3/d34/classNookpostBackend_1_1Cryptography_1_1PasswordHashing.html#aeb943c5a3973106cc7405123255da371" title="Hash a password with the given salt and password. The Pepper will automatically be obtained from sett..." alt="" coords="592,165,827,205"/>
 <area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="531,202,578,197,578,202,531,207"/>

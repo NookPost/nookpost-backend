@@ -68,7 +68,7 @@ var sectionId = 'dynsection-1';
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="../../db/d18/classNookpostBackend_1_1ApiEndpoints_1_1Users_1_1DeleteUserMe.html#aae42f13191e9d45986c2b7b38ff59f6f" target="_top" xlink:title="Deletes a user.">
+<g id="a_Node000002"><a xlink:href="../../db/d18/classNookpostBackend_1_1ApiEndpoints_1_1Users_1_1DeleteUserMe.html#a25526844b67839083164fb8c1c857476" target="_top" xlink:title="Deletes a user.">
 <polygon fill="white" stroke="#666666" points="404,-222 210,-222 210,-192 404,-192 404,-222"/>
 <text text-anchor="start" x="218" y="-210" font-family="Helvetica,sans-Serif" font-size="10.00">NookpostBackend.ApiEndpoints.</text>
 <text text-anchor="middle" x="307" y="-199" font-family="Helvetica,sans-Serif" font-size="10.00">Users.DeleteUserMe.HandleRequest</text>
@@ -125,7 +125,7 @@ var sectionId = 'dynsection-1';
 <!-- Node5 -->
 <g id="Node000005" class="node">
 <title>Node5</title>
-<g id="a_Node000005"><a xlink:href="../../d6/df1/classNookpostBackend_1_1ApiEndpoints_1_1Users_1_1PostUser.html#a9f3f056050d7adf6dd07e6671928d306" target="_top" xlink:title="Creates a new user.">
+<g id="a_Node000005"><a xlink:href="../../d6/df1/classNookpostBackend_1_1ApiEndpoints_1_1Users_1_1PostUser.html#a8700a486b1505274c3477371788540ed" target="_top" xlink:title="Creates a new user.">
 <polygon fill="white" stroke="#666666" points="394,-78 220,-78 220,-48 394,-48 394,-78"/>
 <text text-anchor="start" x="228" y="-66" font-family="Helvetica,sans-Serif" font-size="10.00">NookpostBackend.ApiEndpoints.</text>
 <text text-anchor="middle" x="307" y="-55" font-family="Helvetica,sans-Serif" font-size="10.00">Users.PostUser.HandleRequest</text>
@@ -144,7 +144,7 @@ var sectionId = 'dynsection-1';
 <!-- Node8 -->
 <g id="Node000008" class="node">
 <title>Node8</title>
-<g id="a_Node000008"><a xlink:href="../../de/d32/classNookpostBackend_1_1ApiEndpoints_1_1Users_1_1PutUserMe.html#a3f88a9d10120a42efb3e0c2ef3e6430b" target="_top" xlink:title="Modifies a user.">
+<g id="a_Node000008"><a xlink:href="../../de/d32/classNookpostBackend_1_1ApiEndpoints_1_1Users_1_1PutUserMe.html#a5d8dc3a5c76809680d26a896c9e9ac13" target="_top" xlink:title="Modifies a user.">
 <polygon fill="white" stroke="#666666" points="396,-30 218,-30 218,0 396,0 396,-30"/>
 <text text-anchor="start" x="226" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">NookpostBackend.ApiEndpoints.</text>
 <text text-anchor="middle" x="307" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">Users.PutUserMe.HandleRequest</text>

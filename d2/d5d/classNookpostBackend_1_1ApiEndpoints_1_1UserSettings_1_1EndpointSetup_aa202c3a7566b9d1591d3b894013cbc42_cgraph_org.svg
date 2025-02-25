@@ -41,7 +41,7 @@
 <!-- Node3 -->
 <g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_Node000003"><a xlink:href="../../df/db7/classNookpostBackend_1_1ApiEndpoints_1_1UserSettings_1_1PutUserSettings.html#aa029e02f5547b89c2d3f354a9fd462fc" target="_top" xlink:title="Updates the user&#39;s settings.">
+<g id="a_Node000003"><a xlink:href="../../df/db7/classNookpostBackend_1_1ApiEndpoints_1_1UserSettings_1_1PutUserSettings.html#a05edf9a738bd690376945b679ec95bdd" target="_top" xlink:title="Updates the user&#39;s settings.">
 <polygon fill="white" stroke="#666666" points="417,-41 220,-41 220,0 417,0 417,-41"/>
 <text text-anchor="start" x="228" y="-29" font-family="Helvetica,sans-Serif" font-size="10.00">NookpostBackend.ApiEndpoints.</text>
 <text text-anchor="start" x="228" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">UserSettings.PutUserSettings.Handle</text>

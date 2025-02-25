@@ -30,7 +30,7 @@
 <text text-anchor="start" x="4" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
 <text text-anchor="start" x="17" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">static Microsoft.AspNetCore.</text>
 <text text-anchor="start" x="17" y="-72.5" font-family="Helvetica,sans-Serif" font-size="10.00">Http.HttpResults.Results</text>
-<text text-anchor="start" x="17" y="-61.5" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; Ok, UnauthorizedHttpResult,</text>
+<text text-anchor="start" x="17" y="-61.5" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; NoContent, UnauthorizedHttpResult,</text>
 <text text-anchor="start" x="17" y="-50.5" font-family="Helvetica,sans-Serif" font-size="10.00"> ProblemHttpResult, BadRequest</text>
 <text text-anchor="start" x="17" y="-39.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &gt; HandleRequest(NookpostBackend.ApiSchemas.</text>
 <text text-anchor="start" x="17" y="-28.5" font-family="Helvetica,sans-Serif" font-size="10.00">UserSettings.UserSettingsData requestBody,</text>

@@ -19,8 +19,8 @@
 <text text-anchor="start" x="4" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">+</text>
 <text text-anchor="start" x="17" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">static Microsoft.AspNetCore.</text>
 <text text-anchor="start" x="17" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">Http.HttpResults.Results</text>
-<text text-anchor="start" x="17" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; Ok, NotFound, UnauthorizedHttp</text>
-<text text-anchor="start" x="17" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00">Result, BadRequest &gt; HandleRequest</text>
+<text text-anchor="start" x="17" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; NoContent, NotFound, Unauthorized</text>
+<text text-anchor="start" x="17" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00">HttpResult, BadRequest &gt; HandleRequest</text>
 <text text-anchor="start" x="17" y="-29" font-family="Helvetica,sans-Serif" font-size="10.00">(string uuid, NookpostBackend.ApiSchemas.Posts.</text>
 <text text-anchor="start" x="17" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">PutPost.PutPostRequestBody requestBody, ClaimsPrincipal</text>
 <text text-anchor="start" x="17" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00"> user, NookpostBackend.Data.DatabaseHandle databaseHandle)</text>

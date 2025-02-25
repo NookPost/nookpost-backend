@@ -1,6 +1,6 @@
 <map id="NookpostBackend.ApiEndpoints.Authentication.EndpointSetup.Setup" name="NookpostBackend.ApiEndpoints.Authentication.EndpointSetup.Setup">
 <area shape="rect" id="Node000001" title="Initialize the Authentication Endpoints on the WebApp object." alt="" coords="5,49,261,89"/>
-<area shape="rect" id="Node000002" href="$de/dbb/classNookpostBackend_1_1ApiEndpoints_1_1Authentication_1_1ChangePassword.html#abd3c4e5b346311d2d9d92063e1e0aa2e" title="Changes the password of a user." alt="" coords="309,5,591,60"/>
+<area shape="rect" id="Node000002" href="$de/dbb/classNookpostBackend_1_1ApiEndpoints_1_1Authentication_1_1ChangePassword.html#a07692ff1a9588157d49b26df8228f381" title="Changes the password of a user." alt="" coords="309,5,591,60"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="261,51,295,48,296,53,262,57"/>
 <area shape="rect" id="Node000005" href="$d0/d93/classNookpostBackend_1_1ApiEndpoints_1_1Authentication_1_1Login.html#a918444cedb461f353b4f3a00642ba169" title="Authenticates the user and returns an access token." alt="" coords="334,85,566,125"/>
 <area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="262,81,321,87,320,93,261,86"/>
