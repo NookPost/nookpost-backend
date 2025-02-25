@@ -410,3 +410,5 @@ database.db
 docs/html/
 docs/latex/
 
+# Direnv specific
+.direnv
