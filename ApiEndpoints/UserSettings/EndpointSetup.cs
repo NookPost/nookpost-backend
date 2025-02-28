@@ -11,7 +11,7 @@ public static class EndpointSetup
     /// </summary>
     public static void Setup(RouteGroupBuilder parentGroup)
     {
-        parentGroup.MapGet("/user/me/settings", GetUserSettings.HandleRequest).WithTags("Users Settings").WithOpenApi().RequireAuthorization("user");
-        parentGroup.MapPut("/user/me/settings", PutUserSettings.HandleRequest).WithTags("Users Settings").WithOpenApi().RequireAuthorization("user");
+        parentGroup.MapGet("/users/me/settings", GetUserSettings.HandleRequest).WithTags("Users Settings").WithOpenApi().RequireAuthorization("user");
+        parentGroup.MapPut("/users/me/settings", PutUserSettings.HandleRequest).WithTags("Users Settings").WithOpenApi().RequireAuthorization("user");
     }
 }
